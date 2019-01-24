@@ -1,0 +1,418 @@
+▒$ ▒*خ▒▒A&p9▒ME▒J▒-3▒▒e▒c▒▒B`Kĥ+▒▒Yz4▒▒'86▒(j4▒F▒▒h4▒F▒▒h4▒3▒B▒([root@ip-172-31-56colorxterm-256colorwq!colorxterm-256colorxterm-256colorxterm-2
+-bash: xterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorwq!: command not found
+[root@ip-172-31-20-70 backup]# clear
+[root@ip-172-31-20-70 backup]# ls
+archive_files  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 backup]# tar -xvzf ip-172-31-20-70-TEST-Thursday.tgz
+root/python/
+root/python/for.py
+root/python/forloop.py
+root/python/forfun.py
+root/python/backup.sh
+[root@ip-172-31-20-70 backup]# ls
+archive_files  ip-172-31-20-70-TEST-Thursday.tgz  root
+[root@ip-172-31-20-70 backup]# cd root/
+[root@ip-172-31-20-70 root]# ls
+python
+[root@ip-172-31-20-70 root]# cd python/
+[root@ip-172-31-20-70 python]# ls
+backup.sh  forfun.py  forloop.py  for.py
+[root@ip-172-31-20-70 python]# rm -rf .
+rm: refusing to remove ‘.’ or ‘..’ directory: skipping ‘.’
+[root@ip-172-31-20-70 python]# ls
+backup.sh  forfun.py  forloop.py  for.py
+[root@ip-172-31-20-70 python]# cd
+[root@ip-172-31-20-70 ~]# cd /root/python/
+[root@ip-172-31-20-70 python]# ls
+backup.sh  forfun.py  forloop.py  for.py
+[root@ip-172-31-20-70 python]# cp backup.sh /root
+[root@ip-172-31-20-70 python]# cd ..
+[root@ip-172-31-20-70 ~]# ls
+backup  backup-date  backup-date+%b-%d-%y.tar.gz  backup.sh  python
+[root@ip-172-31-20-70 ~]# rm -rf backup
+[root@ip-172-31-20-70 ~]# rm -rf backup-date
+[root@ip-172-31-20-70 ~]# rm -rf backup-date+%b-%d-%y.tar.gz
+[root@ip-172-31-20-70 ~]# rm -rf python/
+[root@ip-172-31-20-70 ~]# ls
+backup.sh
+[root@ip-172-31-20-70 ~]# ls
+backup.sh
+[root@ip-172-31-20-70 ~]# mkdir python
+[root@ip-172-31-20-70 ~]# mkdir backup
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  python
+[root@ip-172-31-20-70 ~]# . backup.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 09:53:50 UTC 2019
+
+
+backup finished
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  python
+[root@ip-172-31-20-70 ~]# cd backup/
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# cd ..
+[root@ip-172-31-20-70 ~]# cat backup.sh
+#!/bin/bash
+BACKUPTIME='date+%b-%d-%y' #get the current date of an instance
+#DESTINATION=/root/backup #creates backup file
+
+#SOURCEFOLDER=/root/python #taking backup of this folder
+#tar -cpzf $DESTINATION $SOURCEFOLDER #create backup tar file
+dest="/root/backup"
+files="/root/python"
+day=$(date +%A)
+hostname=$(hostname -s)
+archive_files="$hostname-TEST-$day.tgz"
+
+for i in "${files[@]}"
+do
+echo  "backing up $i to $dest/$archive_files"
+date
+echo
+tar czf $dest/archive_files $i --absolute-names
+done
+echo
+echo "backup finished"
+[root@ip-172-31-20-70 ~]# cd python/
+[root@ip-172-31-20-70 python]# ls
+[root@ip-172-31-20-70 python]# touch raja{1,2,3,4,5,6,7,8}.txt
+[root@ip-172-31-20-70 python]# ls
+raja1.txt  raja3.txt  raja5.txt  raja7.txt
+raja2.txt  raja4.txt  raja6.txt  raja8.txt
+[root@ip-172-31-20-70 python]# cat>>raja5
+sfsdfsdfs
+[root@ip-172-31-20-70 python]# cd ..
+[root@ip-172-31-20-70 ~]# . backup.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 09:57:08 UTC 2019
+
+
+backup finished
+[root@ip-172-31-20-70 ~]# cd backup/
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# cd ..
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  python
+[root@ip-172-31-20-70 ~]# vi backup.sh
+[root@ip-172-31-20-70 ~]# . backup.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 09:58:48 UTC 2019
+
+tar: Removing leading `/' from member names
+
+backup finished
+[root@ip-172-31-20-70 ~]# cd backup/
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# ls -a
+.  ..  archive_files
+[root@ip-172-31-20-70 backup]# cat archive_files
+X▒I\▒▒▒
+▒0▒▒w▒▒ܾ▒▒v▒▒▒ c.▒▒oy▒▒▒▒k▒▒A▒▒▒▒{ 3v]jN״X▒ʂsØ▒▒p▒▒%2▒KBiR▒▒tKMh▒ܧ6J)b~▒▒▒l▒^▒▒▒▒▒▒~▒_▒▒▒x▒▒T3▒▒-▒O▒▒'▒▒P▒7▒▒7▒ϡ▒ok▒oџC▒▒▒▒ߡ?▒▒▒▒▒▒e▒PK▒▒▒▒▒▒J▒/▒▒▒1▒?o▒콿R▒▒▒▒w▒v8V▒▒ ▒▒▒▒i>([root@ip-172-31-20-70 backup]# xterm-256colorxterm-256color
+-bash: xterm-256colorxterm-256color: command not found
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# cd ..
+[root@ip-172-31-20-70 ~]# vi backup.sh
+[root@ip-172-31-20-70 ~]# . backup.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 10:01:00 UTC 2019
+
+tar: Removing leading `/' from member names
+
+backup finished
+[root@ip-172-31-20-70 ~]# cd backup/
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# cd ..
+[root@ip-172-31-20-70 ~]# cd python/
+[root@ip-172-31-20-70 python]# ls
+raja1.txt  raja3.txt  raja5      raja6.txt  raja8.txt
+raja2.txt  raja4.txt  raja5.txt  raja7.txt
+[root@ip-172-31-20-70 python]# cd
+[root@ip-172-31-20-70 ~]# vi backup.sh
+[root@ip-172-31-20-70 ~]# . backup.sh
+tar: Removing leading `/' from member names
+tar (child): /root/backup: Cannot open: Is a directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Thu Jan 24 10:03:02 UTC 2019
+
+
+backup finished
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  python
+[root@ip-172-31-20-70 ~]# cd backup/
+[root@ip-172-31-20-70 backup]# ls
+archive_files
+[root@ip-172-31-20-70 backup]# cd
+[root@ip-172-31-20-70 ~]# vi backup.sh
+[root@ip-172-31-20-70 ~]# . backup.sh
+tar: Removing leading `/' from member names
+tar (child): /root/backup: Cannot open: Is a directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+Thu Jan 24 10:04:19 UTC 2019
+
+
+backup finished
+[root@ip-172-31-20-70 ~]# cat backup
+cat: backup: Is a directory
+[root@ip-172-31-20-70 ~]# cat backup/
+cat: backup/: Is a directory
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files
+[root@ip-172-31-20-70 ~]# vi backup.sh
+[root@ip-172-31-20-70 ~]# top
+top - 10:07:05 up  1:14,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  86 total,   1 running,  50 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.0 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1009388 total,   726128 free,    63948 used,   219312 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   787468 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+ 3144 root      20   0  112924   7788   6748 S  0.3  0.8   0:00.38 sshd
+    1 root      20   0   43596   5168   3888 S  0.0  0.5   0:01.54 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:0H
+    5 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u30+
+    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 S  0.0  0.0   0:00.14 ksoftirqd/0
+    8 root      20   0       0      0      0 I  0.0  0.0   0:00.18 rcu_sched
+    9 root      20   0       0      0      0 I  0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0
+   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns
+   15 root      20   0       0      0      0 I  0.0  0.0   0:00.07 kworker/u30+
+   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   21 root      20   0       0      0      0 S  0.0  0.0   0:00.01 xenwatch
+  170 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd
+  171 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper
+[root@ip-172-31-20-70 ~]# vi bp.sh
+[root@ip-172-31-20-70 ~]# . bp.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 10:07:43 UTC 2019
+
+tar: Removing leading `/' from member names
+
+backup finished
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files
+[root@ip-172-31-20-70 ~]# vi bp.sh
+[root@ip-172-31-20-70 ~]# . bp.sh
+backing up /root/python to /root/backup/ip-172-31-20-70-TEST-Thursday.tgz
+Thu Jan 24 10:08:53 UTC 2019
+
+tar: Removing leading `/' from member names
+
+backup finished
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# top
+top - 10:15:43 up  1:23,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  86 total,   1 running,  50 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1009388 total,   725788 free,    64088 used,   219512 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   787256 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   43596   5168   3888 S  0.0  0.5   0:01.54 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:0H
+    5 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u30+
+    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 S  0.0  0.0   0:00.14 ksoftirqd/0
+    8 root      20   0       0      0      0 I  0.0  0.0   0:00.18 rcu_sched
+    9 root      20   0       0      0      0 I  0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0
+   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns
+   15 root      20   0       0      0      0 I  0.0  0.0   0:00.08 kworker/u30+
+   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   21 root      20   0       0      0      0 S  0.0  0.0   0:00.01 xenwatch
+  170 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd
+  171 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper
+  172 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback
+[root@ip-172-31-20-70 ~]# vi bf.sh
+[root@ip-172-31-20-70 ~]# . bf.sh
+tar: Removing leading `/' from member names
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  bf.sh  bp.sh  python
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# cat bf.sh
+
+#!/bin/bash
+BACKUPTIME='date+%b-%d-%y' #get the current date of an instance
+DESTINATION="/root/backup" #creates backup file
+
+SOURCEFOLDER="/root/python" #taking backup of this folder
+tar -cpzf $DESTINATION/$BACKUPTIME.tar.gz $SOURCEFOLDER #create backup tar file
+[root@ip-172-31-20-70 ~]# cat bp.sh
+dest="/root/backup"
+files="/root/python"
+day=$(date +%A)
+hostname=$(hostname -s)
+archive_files="$hostname-TEST-$day.tgz"
+
+for i in "${files[@]}"
+do
+echo  "backing up $i to $dest/$archive_files"
+date
+echo
+tar czf $dest/$archive_files $i  #--absolute-names
+done
+echo
+echo "backup finished"
+[root@ip-172-31-20-70 ~]# crontab -e
+no crontab for root - using an empty one
+crontab: installing new crontab
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# top
+top - 10:31:21 up  1:38,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  90 total,   3 running,  51 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1009388 total,   719116 free,    68104 used,   222168 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   782980 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   43596   5168   3888 S  0.0  0.5   0:01.58 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:0H
+    5 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u30+
+    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 S  0.0  0.0   0:00.16 ksoftirqd/0
+    8 root      20   0       0      0      0 I  0.0  0.0   0:00.19 rcu_sched
+    9 root      20   0       0      0      0 I  0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0
+   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns
+   15 root      20   0       0      0      0 I  0.0  0.0   0:00.09 kworker/u30+
+   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   21 root      20   0       0      0      0 S  0.0  0.0   0:00.01 xenwatch
+  170 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd
+  171 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper
+  172 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback
+You have new mail in /var/spool/mail/root
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  bf.sh  bp.sh  python
+[root@ip-172-31-20-70 ~]# vi bf.sh
+You have new mail in /var/spool/mail/root
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]#
+[root@ip-172-31-20-70 ~]#
+[root@ip-172-31-20-70 ~]#
+[root@ip-172-31-20-70 ~]#
+[root@ip-172-31-20-70 ~]# vi bp.sh
+You have new mail in /var/spool/mail/root
+[root@ip-172-31-20-70 ~]# ls
+backup  backup.sh  bf.sh  bp.sh  python
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# top
+top - 10:36:00 up  1:43,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  90 total,   1 running,  53 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.3 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1009388 total,   718876 free,    68136 used,   222376 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   782956 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+31265 root      20   0  170956   4216   3688 R  0.3  0.4   0:00.06 top
+    1 root      20   0   43596   5168   3888 S  0.0  0.5   0:01.60 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:0H
+    5 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u30+
+    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_wq
+    7 root      20   0       0      0      0 S  0.0  0.0   0:00.17 ksoftirqd/0
+    8 root      20   0       0      0      0 I  0.0  0.0   0:00.20 rcu_sched
+    9 root      20   0       0      0      0 I  0.0  0.0   0:00.00 rcu_bh
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0
+   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0
+   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns
+   15 root      20   0       0      0      0 I  0.0  0.0   0:00.10 kworker/u30+
+   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   21 root      20   0       0      0      0 S  0.0  0.0   0:00.01 xenwatch
+  170 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd
+  171 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper
+You have new mail in /var/spool/mail/root
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]# crontab --help
+crontab: invalid option -- '-'
+crontab: usage error: unrecognized option
+Usage:
+ crontab [options] file
+ crontab [options]
+ crontab -n [hostname]
+
+Options:
+ -u <user>  define user
+ -e         edit user's crontab
+ -l         list user's crontab
+ -r         delete user's crontab
+ -i         prompt before deleting
+ -n <host>  set host in cluster to run users' crontabs
+ -c         get host in cluster to run users' crontabs
+ -s         selinux context
+ -x <mask>  enable debugging
+
+Default operation is replace, per 1003.2
+You have new mail in /var/spool/mail/root
+[root@ip-172-31-20-70 ~]# corntab -l
+-bash: corntab: command not found
+[root@ip-172-31-20-70 ~]# corntab -c
+-bash: corntab: command not found
+[root@ip-172-31-20-70 ~]# ls backup
+archive_files  date+%b-%d-%y.tar.gz  ip-172-31-20-70-TEST-Thursday.tgz
+[root@ip-172-31-20-70 ~]#
