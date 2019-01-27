@@ -1,0 +1,18 @@
+1: How will I insert a line "ABCDEF" at every 100th line of a file?
+
+sed '100i\ABCDEF' file1
+
+2: Write a command sequence to find all the files modified in less than 2 days and print the record count of each.
+
+find . –mtime -2 –exec wc –l {} \;
+
+3: How can I set the default rwx permission to all users on every file which is created in the current shell?
+
+We can use:
+
+umask 777
+This will set default rwx permission for every file which is created for every user.
+
+4: How can we find the process name from its process id?
+
+We can use "ps –p ProcessId"
