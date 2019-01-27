@@ -1,0 +1,15 @@
+# cd /var/log
+# less /var/log/messages
+# more -f /var/log/messages
+# cat /var/log/messages
+# tail -f /var/log/messages
+# grep -i error /var/log/messages
+A note about rsyslogd
+All of the above logs are generated using rsyslogd service. It is a system utility providing support for message logging.
+Support of both internet and unix domain sockets enables this utility to support both local and remote logging. 
+You can view its config file by tying the following command:
+# vi /etc/rsyslog.conf
+# ls /etc/rsyslog.d/
+In short /var/log is the location where you should find all Linux logs file.
+However, some applications such as httpd have a directory within /var/log/ for their own log files.
+You can rotate log file using logrotate software and monitor logs files using logwatch software.
