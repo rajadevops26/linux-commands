@@ -1,0 +1,466 @@
+
+    PROGRAM MENU
+    1 - display free disk space
+    2 - display free memory
+
+    0 - exit program
+
+Enter selection: 2
+
+              total        used        free      shared  buff/cache   available
+Mem:        1013100       78448      157712      234768      776940      680832
+Swap:       1211252           0     1211252
+
+Press Enter to continue
+
+    PROGRAM MENU
+    1 - display free disk space
+    2 - display free memory
+
+    0 - exit program
+
+Enter selection: 0
+
+docker@boot2docker:~$ docker attach ubuntu_18.04.1
+You cannot attach to a stopped container, start it first
+docker@boot2docker:~$ docker start ubuntu_18.04.1
+ubuntu_18.04.1
+docker@boot2docker:~$ docker attach ubuntu_18.04.1
+root@3b1aa3d1ac52:/# cd
+root@3b1aa3d1ac52:~# cat free.sh
+#!/bin/bash
+
+press_enter()
+{
+    echo -en "\nPress Enter to continue"
+    read
+    clear
+}
+
+selection=
+until [ "$selection" = "0" ]; do
+    echo "
+    PROGRAM MENU
+    1 - display free disk space
+    2 - display free memory
+
+    0 - exit program
+"
+    echo -n "Enter selection: "
+    read selection
+    echo ""
+    case $selection in
+        1 ) df ; press_enter ;;
+        2 ) free ; press_enter ;;
+        0 ) exit ;;
+        * ) echo "Please enter 1, 2, or 0"; press_enter
+    esac
+done
+
+root@3b1aa3d1ac52:~# head -n 1 /etc/*release
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+
+==> /etc/os-release <==
+NAME="Ubuntu"
+root@3b1aa3d1ac52:~# sed -n '10p' free.sh
+selection=
+root@3b1aa3d1ac52:~# tail +11 free.sh|head-1
+bash: head-1: command not found
+root@3b1aa3d1ac52:~# tail+11 free.sh|head-1
+bash: head-1: command not found
+bash: tail+11: command not found
+root@3b1aa3d1ac52:~# $$
+bash: 1: command not found
+root@3b1aa3d1ac52:~# ftp hostname
+bash: ftp: command not found
+root@3b1aa3d1ac52:~# FTP hostname
+bash: FTP: command not found
+root@3b1aa3d1ac52:~# FTP 192.168.01.201
+bash: FTP: command not found
+root@3b1aa3d1ac52:~# grep -c "selection" free.sh
+5
+root@3b1aa3d1ac52:~# cat /etc/shadow
+root:*:17822:0:99999:7:::
+daemon:*:17822:0:99999:7:::
+bin:*:17822:0:99999:7:::
+sys:*:17822:0:99999:7:::
+sync:*:17822:0:99999:7:::
+games:*:17822:0:99999:7:::
+man:*:17822:0:99999:7:::
+lp:*:17822:0:99999:7:::
+mail:*:17822:0:99999:7:::
+news:*:17822:0:99999:7:::
+uucp:*:17822:0:99999:7:::
+proxy:*:17822:0:99999:7:::
+www-data:*:17822:0:99999:7:::
+backup:*:17822:0:99999:7:::
+list:*:17822:0:99999:7:::
+irc:*:17822:0:99999:7:::
+gnats:*:17822:0:99999:7:::
+nobody:*:17822:0:99999:7:::
+_apt:*:17822:0:99999:7:::
+root@3b1aa3d1ac52:~# awk –F ':' '{print $1} /etc/shadow'|uniq -u
+awk: 1: unexpected character 0xe2
+root@3b1aa3d1ac52:~#
+root@3b1aa3d1ac52:~# find . –mtime -2 –exec wc –l {} \;
+find: unknown predicate `-2'
+root@3b1aa3d1ac52:~#
+root@3b1aa3d1ac52:~# find . –mtime -2 –exec wc –l {} \;
+find: unknown predicate `-2'
+root@3b1aa3d1ac52:~# vmstat
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0      0 160860  50196 724124    0    0     6   159   78  211  1  1 97  1  0
+root@3b1aa3d1ac52:~# htop
+bash: htop: command not found
+root@3b1aa3d1ac52:~# du -sh /opt
+8.0K    /opt
+root@3b1aa3d1ac52:~# ps ux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3  18508  3552 pts/0    Ss   05:54   0:00 /bin/bash
+root        35  0.0  0.2  34400  2796 pts/0    R+   06:17   0:00 ps ux
+root@3b1aa3d1ac52:~# free -m
+              total        used        free      shared  buff/cache   available
+Mem:            989          76         156         229         756         665
+Swap:          1182           0        1182
+root@3b1aa3d1ac52:~# free -g
+              total        used        free      shared  buff/cache   available
+Mem:              0           0           0           0           0           0
+Swap:             1           0           1
+root@3b1aa3d1ac52:~#  git config—global color.ui auto.
+git: 'config—global' is not a git command. See 'git --help'.
+root@3b1aa3d1ac52:~# git --version
+git version 2.17.1
+root@3b1aa3d1ac52:~#  git config—global color.ui auto
+git: 'config—global' is not a git command. See 'git --help'.
+root@3b1aa3d1ac52:~# find -name "free.sh"
+./free.sh
+root@3b1aa3d1ac52:~# ls -l --color
+total 28
+-rw-r--r-- 1 root root  242 Jan 27 05:47 arbitarynum.sh
+-rw-r--r-- 1 root root  540 Jan 27 05:49 case.sh
+-rw-r--r-- 1 root root  491 Jan 27 05:53 free.sh
+-rw-r--r-- 1 root root    0 Jan 27 05:26 lastwatch
+-rw-r--r-- 1 root root  122 Jan 27 05:23 lastwatch.sh
+-rw-r--r-- 1 root root  374 Jan 27 05:52 menu.sh
+-rw-r--r-- 1 root root  183 Jan 27 05:45 num.sh
+drwxr-xr-x 2 root root 4096 Jan 27 05:20 softwares
+root@3b1aa3d1ac52:~# ps1= 'raja'
+bash: raja: command not found
+root@3b1aa3d1ac52:~# ps1= 'raja:'
+bash: raja:: command not found
+root@3b1aa3d1ac52:~# . /free.sh
+bash: /free.sh: No such file or directory
+root@3b1aa3d1ac52:~# ./free.sh
+bash: ./free.sh: Permission denied
+root@3b1aa3d1ac52:~# grep -i error /var/log/message
+grep: /var/log/message: No such file or directory
+root@3b1aa3d1ac52:~# grep -i error /var/log/messages
+grep: /var/log/messages: No such file or directory
+root@3b1aa3d1ac52:~# cd /var/log
+root@3b1aa3d1ac52:/var/log# ls
+alternatives.log  bootstrap.log  dpkg.log  lastlog   wtmp
+apt               btmp           faillog   tallylog
+root@3b1aa3d1ac52:/var/log# grep -i error /var/log/faillog
+root@3b1aa3d1ac52:/var/log# find . -name log -type d
+root@3b1aa3d1ac52:/var/log# find / -xdev -type f -size +10M
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_universe_binary-amd64_Packages.lz4
+root@3b1aa3d1ac52:/var/log# find / -xdev -type f -size +5M
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_universe_binary-amd64_Packages.lz4
+root@3b1aa3d1ac52:/var/log# find / -xdev -type f -size +1M
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_binary-amd64_Packages.lz4
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_universe_binary-amd64_Packages.lz4
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic-updates_universe_binary-amd64_Packages.lz4
+/lib/x86_64-linux-gnu/libc-2.27.so
+/lib/x86_64-linux-gnu/libgcrypt.so.20.2.1
+/lib/x86_64-linux-gnu/libm-2.27.so
+/bin/bash
+/usr/share/ieee-data/iab.txt
+/usr/share/ieee-data/oui.txt
+/usr/share/ieee-data/oui.csv
+/usr/share/perl/5.26.1/Locale/Codes/Language_Codes.pm
+/usr/share/perl/5.26.1/Unicode/Collate/allkeys.txt
+/usr/lib/locale/C.UTF-8/LC_COLLATE
+/usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.10
+/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/TW/TW.so
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/KR/KR.so
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/CN/CN.so
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/JP/JP.so
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Unicode/Collate/Collate.so
+/usr/lib/x86_64-linux-gnu/libdb-5.3.so
+/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0
+/usr/lib/x86_64-linux-gnu/libapt-pkg.so.5.0.2
+/usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0
+/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+/usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+/usr/lib/x86_64-linux-gnu/libperl.so.5.26.1
+/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+/usr/lib/git-core/git-http-fetch
+/usr/lib/git-core/git-shell
+/usr/lib/git-core/git-http-push
+/usr/lib/git-core/git-credential-cache--daemon
+/usr/lib/git-core/git-upload-pack
+/usr/lib/git-core/git-credential-store
+/usr/lib/git-core/git
+/usr/lib/git-core/git-show-index
+/usr/lib/git-core/git-remote-testsvn
+/usr/lib/git-core/git-remote-http
+/usr/lib/git-core/git-credential-cache
+/usr/lib/git-core/git-http-backend
+/usr/lib/git-core/git-daemon
+/usr/lib/git-core/git-fast-import
+/usr/lib/git-core/git-imap-send
+/usr/lib/git-core/git-sh-i18n--envsubst
+/usr/lib/file/magic.mgc
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure_arm/_subscriptions_99999999_providers_Microsoft_Commerce_RateCard.json
+/usr/bin/perl
+/usr/bin/perl5.26.1
+/usr/bin/git-shell
+/usr/bin/git-upload-pack
+/usr/bin/vim.basic
+/usr/bin/git
+/usr/bin/python2.7
+root@3b1aa3d1ac52:/var/log# find / -xdev -type f -size +2M
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_main_binary-amd64_Packages.lz4
+/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_universe_binary-amd64_Packages.lz4
+/usr/share/ieee-data/iab.txt
+/usr/share/ieee-data/oui.txt
+/usr/share/ieee-data/oui.csv
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/KR/KR.so
+/usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/JP/JP.so
+/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0
+/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+/usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+/usr/lib/git-core/git
+/usr/lib/file/magic.mgc
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure_arm/_subscriptions_99999999_providers_Microsoft_Commerce_RateCard.json
+/usr/bin/perl
+/usr/bin/perl5.26.1
+/usr/bin/vim.basic
+/usr/bin/git
+/usr/bin/python2.7
+root@3b1aa3d1ac52:/var/log# # find /usr -type f -printf "%s %p\n" | sort -rn | head -n 10
+root@3b1aa3d1ac52:/var/log#
+root@3b1aa3d1ac52:/var/log#
+root@3b1aa3d1ac52:/var/log# # find /usr -type f -printf "%s %p\n" | sort -rn | head -n 10
+root@3b1aa3d1ac52:/var/log# find /usr -type f -printf "%s %p\n" | sort -rn | head -n 10
+4961856 /usr/lib/file/magic.mgc
+4687760 /usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0
+3825412 /usr/share/ieee-data/oui.txt
+3670448 /usr/bin/python2.7
+2954892 /usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure_arm/_subscriptions_99999999_providers_Microsoft_Commerce_RateCard.json
+2746440 /usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/JP/JP.so
+2671240 /usr/bin/vim.basic
+2575848 /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+2453287 /usr/share/ieee-data/iab.txt
+2410568 /usr/lib/x86_64-linux-gnu/perl/5.26.1/auto/Encode/KR/KR.so
+root@3b1aa3d1ac52:/var/log# find /var/log -type f -printf "%s %p\n" | sort -rn | head -n 10
+230444 /var/log/dpkg.log
+37998 /var/log/apt/term.log
+35330 /var/log/bootstrap.log
+29492 /var/log/lastlog
+11377 /var/log/apt/history.log
+10072 /var/log/alternatives.log
+9928 /var/log/apt/eipp.log.xz
+6464 /var/log/tallylog
+3232 /var/log/faillog
+0 /var/log/wtmp
+root@3b1aa3d1ac52:/var/log# ls -lhtr
+total 328K
+-rw-rw-r-- 1 root utmp    0 Oct 18 21:02 wtmp
+-rw-rw---- 1 root utmp    0 Oct 18 21:02 btmp
+-rw------- 1 root root 6.4K Oct 18 21:02 tallylog
+-rw-rw-r-- 1 root utmp  29K Oct 18 21:02 lastlog
+-rw-r--r-- 1 root root 3.2K Oct 18 21:02 faillog
+-rw-r--r-- 1 root root  35K Oct 18 21:02 bootstrap.log
+drwxr-xr-x 1 root root 4.0K Jan 26 07:24 apt
+-rw-r--r-- 1 root root 9.9K Jan 26 07:24 alternatives.log
+-rw-r--r-- 1 root root 226K Jan 26 07:24 dpkg.log
+root@3b1aa3d1ac52:/var/log# ls -lhtr /root
+total 28K
+drwxr-xr-x 2 root root 4.0K Jan 27 05:20 softwares
+-rw-r--r-- 1 root root  122 Jan 27 05:23 lastwatch.sh
+-rw-r--r-- 1 root root    0 Jan 27 05:26 lastwatch
+-rw-r--r-- 1 root root  183 Jan 27 05:45 num.sh
+-rw-r--r-- 1 root root  242 Jan 27 05:47 arbitarynum.sh
+-rw-r--r-- 1 root root  540 Jan 27 05:49 case.sh
+-rw-r--r-- 1 root root  374 Jan 27 05:52 menu.sh
+-rw-r--r-- 1 root root  491 Jan 27 05:53 free.sh
+root@3b1aa3d1ac52:/var/log# ls -lh
+total 328K
+-rw-r--r-- 1 root root 9.9K Jan 26 07:24 alternatives.log
+drwxr-xr-x 1 root root 4.0K Jan 26 07:24 apt
+-rw-r--r-- 1 root root  35K Oct 18 21:02 bootstrap.log
+-rw-rw---- 1 root utmp    0 Oct 18 21:02 btmp
+-rw-r--r-- 1 root root 226K Jan 26 07:24 dpkg.log
+-rw-r--r-- 1 root root 3.2K Oct 18 21:02 faillog
+-rw-rw-r-- 1 root utmp  29K Oct 18 21:02 lastlog
+-rw------- 1 root root 6.4K Oct 18 21:02 tallylog
+-rw-rw-r-- 1 root utmp    0 Oct 18 21:02 wtmp
+root@3b1aa3d1ac52:/var/log# du -ah /var | sort -n -r | head -n 10
+1008K   /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic-updates_main_binary-amd64_Packages.lz4
+536K    /var/cache/debconf/templates.dat
+504K    /var/cache/debconf/templates.dat-old
+492K    /var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_bionic-security_main_binary-amd64_Packages.lz4
+400K    /var/log
+364K    /var/lib/dpkg/info/libstdc++6:amd64.symbols
+288K    /var/lib/dpkg/info/python-libcloud.md5sums
+288K    /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_multiverse_binary-amd64_Packages.lz4
+284K    /var/lib/dpkg/info/ansible.md5sums
+240K    /var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_bionic_InRelease
+root@3b1aa3d1ac52:/var/log# gt5
+bash: gt5: command not found
+root@3b1aa3d1ac52:/var/log# apt-get install gt5
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libgc1c2 w3m
+Suggested packages:
+  cmigemo dict dict-wn dictd libsixel-bin man-db mpv w3m-el w3m-img xdg-utils
+  xsel
+The following NEW packages will be installed:
+  gt5 libgc1c2 w3m
+0 upgraded, 3 newly installed, 0 to remove and 20 not upgraded.
+Need to get 1020 kB of archives.
+After this operation, 2975 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 libgc1c2 amd64 1:7.4.2-8ubuntu1 [81.8 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 w3m amd64 0.5.3-36build1 [924 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic/universe amd64 gt5 all 1.5.0~20111220+bzr29-2 [13.9 kB]
+Fetched 1020 kB in 3s (316 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libgc1c2:amd64.
+(Reading database ... 17336 files and directories currently installed.)
+Preparing to unpack .../libgc1c2_1%3a7.4.2-8ubuntu1_amd64.deb ...
+Unpacking libgc1c2:amd64 (1:7.4.2-8ubuntu1) ...
+Selecting previously unselected package w3m.
+Preparing to unpack .../w3m_0.5.3-36build1_amd64.deb ...
+Unpacking w3m (0.5.3-36build1) ...
+Selecting previously unselected package gt5.
+Preparing to unpack .../gt5_1.5.0~20111220+bzr29-2_all.deb ...
+Unpacking gt5 (1.5.0~20111220+bzr29-2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Setting up libgc1c2:amd64 (1:7.4.2-8ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up w3m (0.5.3-36build1) ...
+Setting up gt5 (1.5.0~20111220+bzr29-2) ...
+root@3b1aa3d1ac52:/var/log# gt5 /var
+root@3b1aa3d1ac52:/var/log# watch -n30 -t 'gt5'
+root@3b1aa3d1ac52:/var/log# du -hsx * | sort -rh | head -10
+228K    dpkg.log
+72K     apt
+36K     bootstrap.log
+32K     lastlog
+12K     alternatives.log
+8.0K    tallylog
+4.0K    faillog
+0       wtmp
+0       btmp
+root@3b1aa3d1ac52:/var/log# find /root -mtime -3
+/root
+/root/case.sh
+/root/lastwatch.sh
+/root/.viminfo
+/root/num.sh
+/root/softwares
+/root/.gt5-diffs
+/root/.gt5-diffs/_,var_,log.gz
+/root/.gt5-diffs/_,var.gz
+/root/.gt5.html
+/root/.ssh
+/root/.ssh/id_rsa
+/root/.ssh/id_rsa.pub
+/root/menu.sh
+/root/.bash_history
+/root/free.sh
+/root/lastwatch
+/root/arbitarynum.sh
+/root/.w3m
+/root/.w3m/history
+/root/.forloop.py.swp
+root@3b1aa3d1ac52:/var/log# find /root -mtime 3
+root@3b1aa3d1ac52:/var/log# find /root -mtime -10
+/root
+/root/case.sh
+/root/lastwatch.sh
+/root/.viminfo
+/root/num.sh
+/root/softwares
+/root/.gt5-diffs
+/root/.gt5-diffs/_,var_,log.gz
+/root/.gt5-diffs/_,var.gz
+/root/.gt5.html
+/root/.ssh
+/root/.ssh/id_rsa
+/root/.ssh/id_rsa.pub
+/root/menu.sh
+/root/.bash_history
+/root/free.sh
+/root/lastwatch
+/root/arbitarynum.sh
+/root/.w3m
+/root/.w3m/history
+/root/.forloop.py.swp
+/root/.ansible
+/root/.ansible/tmp
+root@3b1aa3d1ac52:/var/log# inotifywait -m -r -e delete dir_name
+bash: inotifywait: command not found
+root@3b1aa3d1ac52:/var/log# inotifywait -m -r -e delete /root
+bash: inotifywait: command not found
+root@3b1aa3d1ac52:/var/log# ls
+alternatives.log  bootstrap.log  dpkg.log  lastlog   wtmp
+apt               btmp           faillog   tallylog
+root@3b1aa3d1ac52:/var/log# mkdir dir
+root@3b1aa3d1ac52:/var/log# ls
+alternatives.log  bootstrap.log  dir       faillog  tallylog
+apt               btmp           dpkg.log  lastlog  wtmp
+root@3b1aa3d1ac52:/var/log# cd dir
+root@3b1aa3d1ac52:/var/log/dir# touch -v raka{1,2,3}
+touch: invalid option -- 'v'
+Try 'touch --help' for more information.
+root@3b1aa3d1ac52:/var/log/dir# touch  raka{1,2,3}
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka2  raka3
+root@3b1aa3d1ac52:/var/log/dir# touch  raka{1,2,3}.log
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka1.log  raka2  raka2.log  raka3  raka3.log
+root@3b1aa3d1ac52:/var/log/dir# find /log/dir -type f -name "*.log" -mtime +5 | xargs rm -f
+find: '/log/dir': No such file or directory
+root@3b1aa3d1ac52:/var/log/dir# find /var/log/dir -type f -name "*.log" -mtime +5 | xargs rm -f
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka1.log  raka2  raka2.log  raka3  raka3.log
+root@3b1aa3d1ac52:/var/log/dir# find /var/log/dir -type f -name "*.log" -mtime +1 | xargs rm -f
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka1.log  raka2  raka2.log  raka3  raka3.log
+root@3b1aa3d1ac52:/var/log/dir# find /var/log/dir -type f -name "*.log" -mtime | xargs rm -f
+find: missing argument to `-mtime'
+root@3b1aa3d1ac52:/var/log/dir# find /var/log/dir -type f -name "*.log" | xargs rm -f
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka2  raka3
+root@3b1aa3d1ac52:/var/log/dir#  find . -type f -name "*.txt" -exec rm -f {} \;
+root@3b1aa3d1ac52:/var/log/dir# touch raja{4,5,6,7,8}.log
+root@3b1aa3d1ac52:/var/log/dir# ls
+raja4.log  raja5.log  raja6.log  raja7.log  raja8.log  raka1  raka2  raka3
+root@3b1aa3d1ac52:/var/log/dir#  find . -type f -name "*.txt" -exec rm -f {} \;
+root@3b1aa3d1ac52:/var/log/dir# find . -type f -name "*.log" -exec rm -f {} \;
+root@3b1aa3d1ac52:/var/log/dir# ls
+raka1  raka2  raka3
+root@3b1aa3d1ac52:/var/log/dir# find . -type f -name "*" -exec rm -f {} \;
+root@3b1aa3d1ac52:/var/log/dir# ls
+root@3b1aa3d1ac52:/var/log/dir# find . -mtime +1 -print
+root@3b1aa3d1ac52:/var/log/dir# find . -mtime +0 -print
+root@3b1aa3d1ac52:/var/log/dir# find . -mtime -1 -print
+.
+root@3b1aa3d1ac52:/var/log/dir# find . -mtime -2 -print
+.
+root@3b1aa3d1ac52:/var/log/dir# find /root -mtime +3 -print
+/root/.bashrc
+/root/.profile
+/root/.ansible
+/root/.ansible/tmp
+root@3b1aa3d1ac52:/var/log/dir#
