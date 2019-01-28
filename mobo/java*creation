@@ -1,0 +1,2611 @@
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+openssl-libs-1.0.2k-16.amzn2.0.2.x86_64.rpm                | 1.2 MB   00:01
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:openssl-libs-1.0.2k-16.amzn2.0.2.x86_64                    1/2
+  Cleanup    : 1:openssl-libs-1.0.2k-16.amzn2.0.1.x86_64                    2/2
+  Verifying  : 1:openssl-libs-1.0.2k-16.amzn2.0.2.x86_64                    1/2
+  Verifying  : 1:openssl-libs-1.0.2k-16.amzn2.0.1.x86_64                    2/2
+
+Updated:
+  openssl-libs.x86_64 1:1.0.2k-16.amzn2.0.2
+
+Complete!
+bash-4.2# vi hostname
+bash-4.2# vi /etc/hostname
+bash-4.2# exec bash
+bash-4.2# hostname kernel
+bash: hostname: command not found
+bash-4.2# ls
+bin   dev  home  lib64  media  opt   root  sbin  sys  usr
+boot  etc  lib   local  mnt    proc  run   srv   tmp  var
+bash-4.2# clear
+bash-4.2# ls
+bin   dev  home  lib64  media  opt   root  sbin  sys  usr
+boot  etc  lib   local  mnt    proc  run   srv   tmp  var
+bash-4.2# cd /var/
+bash-4.2# ls
+adm    db     games   kerberos  local  log   nis  preserve  spool  yp
+cache  empty  gopher  lib       lock   mail  opt  run       tmp
+bash-4.2# java -version
+bash: java: command not found
+bash-4.2# java --version
+bash: java: command not found
+bash-4.2# yum install java*
+Loaded plugins: ovl, priorities
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.7.0-openjdk.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+--> Processing Dependency: xorg-x11-fonts-Type1 for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpulse.so.0(PULSE_0)(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpng15.so.15(PNG15_0)(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libjpeg.so.62(LIBJPEG_6.2)(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9.0rc4)(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9)(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: fontconfig for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpulse.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpng15.so.15()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpangoft2-1.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpangocairo-1.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpango-1.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libjpeg.so.62()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libgtk-x11-2.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libgif.so.4()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libgdk_pixbuf-2.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libgdk-x11-2.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libfreetype.so.6()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libfontconfig.so.1()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libcups.so.2()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libcairo.so.2()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libatk-1.0.so.0()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libasound.so.2()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libXtst.so.6()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libXrender.so.1()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libXi.so.6()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libXext.so.6()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libXcomposite.so.1()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libX11.so.6()(64bit) for package: 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+---> Package java-1.7.0-openjdk-accessibility.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+---> Package java-1.7.0-openjdk-demo.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+---> Package java-1.7.0-openjdk-devel.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+---> Package java-1.7.0-openjdk-headless.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+--> Processing Dependency: copy-jdk-configs >= 3.3-9 for package: 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: tzdata-java for package: 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libpcsclite.so.1()(64bit) for package: 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+--> Processing Dependency: libgconf-2.so.4()(64bit) for package: 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2.0.1.x86_64
+---> Package java-1.7.0-openjdk-javadoc.noarch 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+---> Package java-1.7.0-openjdk-src.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1 will be installed
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-accessibility.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-accessibility-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-demo.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-demo-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-devel.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-devel-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+--> Processing Dependency: lksctp-tools(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.191.b12-0.amzn2.x86_64
+---> Package java-1.8.0-openjdk-headless-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-javadoc.noarch 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-javadoc-debug.noarch 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-javadoc-zip.noarch 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-javadoc-zip-debug.noarch 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-src.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-1.8.0-openjdk-src-debug.x86_64 1:1.8.0.191.b12-0.amzn2 will be installed
+---> Package java-atk-wrapper.x86_64 0:0.30.4-5.amzn2.0.2 will be installed
+--> Processing Dependency: xorg-x11-utils for package: java-atk-wrapper-0.30.4-5.amzn2.0.2.x86_64
+---> Package java_cup.noarch 1:0.11a-16.1.amzn2 will be installed
+---> Package java_cup-javadoc.noarch 1:0.11a-16.1.amzn2 will be installed
+---> Package java_cup-manual.noarch 1:0.11a-16.1.amzn2 will be installed
+---> Package javacc.noarch 0:5.0-10.1.amzn2 will be installed
+---> Package javacc-demo.noarch 0:5.0-10.1.amzn2 will be installed
+---> Package javacc-javadoc.noarch 0:5.0-10.1.amzn2 will be installed
+---> Package javacc-manual.noarch 0:5.0-10.1.amzn2 will be installed
+---> Package javacc-maven-plugin.noarch 0:2.6-17.amzn2 will be installed
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-utils) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-project) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-plugin-api) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-model) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.reporting:maven-reporting-impl) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.reporting:maven-reporting-api) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-site-renderer) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-sink-api) for package: javacc-maven-plugin-2.6-17.amzn2.noarch
+---> Package javacc-maven-plugin-javadoc.noarch 0:2.6-17.amzn2 will be installed
+---> Package javamail.noarch 0:1.4.6-8.amzn2 will be installed
+---> Package javamail-javadoc.noarch 0:1.4.6-8.amzn2 will be installed
+---> Package javapackages-tools.noarch 0:3.4.1-11.amzn2 will be installed
+--> Processing Dependency: python-javapackages = 3.4.1-11.amzn2 for package: javapackages-tools-3.4.1-11.amzn2.noarch
+--> Processing Dependency: libxslt for package: javapackages-tools-3.4.1-11.amzn2.noarch
+---> Package javassist.noarch 0:3.16.1-10.amzn2 will be installed
+---> Package javassist-javadoc.noarch 0:3.16.1-10.amzn2 will be installed
+--> Running transaction check
+---> Package GConf2.x86_64 0:3.2.6-8.amzn2.0.2 will be installed
+--> Processing Dependency: libdbus-1.so.3(LIBDBUS_1_3)(64bit) for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+--> Processing Dependency: dbus for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+--> Processing Dependency: /usr/bin/killall for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+--> Processing Dependency: libpolkit-gobject-1.so.0()(64bit) for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+--> Processing Dependency: libdbus-glib-1.so.2()(64bit) for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+--> Processing Dependency: libdbus-1.so.3()(64bit) for package: GConf2-3.2.6-8.amzn2.0.2.x86_64
+---> Package alsa-lib.x86_64 0:1.1.4.1-2.amzn2 will be installed
+---> Package atk.x86_64 0:2.22.0-3.amzn2.0.2 will be installed
+---> Package cairo.x86_64 0:1.14.8-2.amzn2.0.2 will be installed
+--> Processing Dependency: libxcb.so.1()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+--> Processing Dependency: libxcb-shm.so.0()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+--> Processing Dependency: libxcb-render.so.0()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+--> Processing Dependency: libpixman-1.so.0()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+--> Processing Dependency: libGL.so.1()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+--> Processing Dependency: libEGL.so.1()(64bit) for package: cairo-1.14.8-2.amzn2.0.2.x86_64
+---> Package copy-jdk-configs.noarch 0:3.3-10.amzn2 will be installed
+---> Package cups-libs.x86_64 1:1.6.3-35.amzn2 will be installed
+--> Processing Dependency: libavahi-common.so.3()(64bit) for package: 1:cups-libs-1.6.3-35.amzn2.x86_64
+--> Processing Dependency: libavahi-client.so.3()(64bit) for package: 1:cups-libs-1.6.3-35.amzn2.x86_64
+--> Processing Dependency: libaudit.so.1()(64bit) for package: 1:cups-libs-1.6.3-35.amzn2.x86_64
+---> Package fontconfig.x86_64 0:2.10.95-11.amzn2.0.2 will be installed
+--> Processing Dependency: fontpackages-filesystem for package: fontconfig-2.10.95-11.amzn2.0.2.x86_64
+--> Processing Dependency: font(:lang=en) for package: fontconfig-2.10.95-11.amzn2.0.2.x86_64
+---> Package freetype.x86_64 0:2.4.11-15.amzn2.0.2 will be installed
+---> Package gdk-pixbuf2.x86_64 0:2.36.5-1.amzn2.0.2 will be installed
+--> Processing Dependency: libtiff.so.5(LIBTIFF_4.0)(64bit) for package: gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64
+--> Processing Dependency: libtiff.so.5()(64bit) for package: gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64
+--> Processing Dependency: libjasper.so.1()(64bit) for package: gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64
+---> Package giflib.x86_64 0:4.1.6-9.amzn2.0.2 will be installed
+--> Processing Dependency: libSM.so.6()(64bit) for package: giflib-4.1.6-9.amzn2.0.2.x86_64
+--> Processing Dependency: libICE.so.6()(64bit) for package: giflib-4.1.6-9.amzn2.0.2.x86_64
+---> Package gtk2.x86_64 0:2.24.31-1.amzn2.0.2 will be installed
+--> Processing Dependency: libXrandr >= 1.2.99.4-2 for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: hicolor-icon-theme for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: gtk-update-icon-cache for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXrandr.so.2()(64bit) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXinerama.so.1()(64bit) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXfixes.so.3()(64bit) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXdamage.so.1()(64bit) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXcursor.so.1()(64bit) for package: gtk2-2.24.31-1.amzn2.0.2.x86_64
+---> Package libX11.x86_64 0:1.6.5-1.amzn2.0.2 will be installed
+--> Processing Dependency: libX11-common >= 1.6.5-1.amzn2.0.2 for package: libX11-1.6.5-1.amzn2.0.2.x86_64
+---> Package libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2 will be installed
+---> Package libXext.x86_64 0:1.3.3-3.amzn2.0.2 will be installed
+---> Package libXi.x86_64 0:1.7.9-1.amzn2.0.2 will be installed
+---> Package libXrender.x86_64 0:0.9.10-1.amzn2.0.2 will be installed
+---> Package libXtst.x86_64 0:1.2.3-1.amzn2.0.2 will be installed
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.amzn2.0.2 will be installed
+---> Package libpng.x86_64 2:1.5.13-7.amzn2.0.2 will be installed
+---> Package libxslt.x86_64 0:1.1.28-5.amzn2.0.2 will be installed
+---> Package lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2 will be installed
+---> Package maven.noarch 0:3.0.5-17.amzn2 will be installed
+--> Processing Dependency: sisu-inject-plexus for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: sisu-inject-bean for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: plexus-sec-dispatcher for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: plexus-interpolation for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: plexus-containers-component-annotations for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: plexus-cipher for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: objectweb-asm for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.sisu:sisu-inject-plexus) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.plexus:plexus-sec-dispatcher) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.plexus:plexus-cipher) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.aether:aether-util) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.aether:aether-spi) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.aether:aether-impl) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.sonatype.aether:aether-api) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-interpolation) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-container-default) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-component-annotations) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-classworlds) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.wagon:wagon-provider-api) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: mvn(commons-cli:commons-cli) for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: maven-wagon for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: httpcomponents-core for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: httpcomponents-client for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: guava for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: google-guice for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: cglib for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: atinject for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: apache-commons-logging for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: apache-commons-codec for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: apache-commons-cli for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aopalliance for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aether-util for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aether-spi for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aether-impl for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aether-connector-wagon for package: maven-3.0.5-17.amzn2.noarch
+--> Processing Dependency: aether-api for package: maven-3.0.5-17.amzn2.noarch
+---> Package maven-doxia-sink-api.noarch 0:1.4-5.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-logging-api) = 1.4 for package: maven-doxia-sink-api-1.4-5.amzn2.noarch
+---> Package maven-doxia-sitetools.noarch 0:1.4-3.amzn2 will be installed
+--> Processing Dependency: mvn(xml-apis:xml-apis) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(xalan:xalan) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-velocity) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-i18n) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.velocity:velocity) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-module-xhtml) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-module-xdoc) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-module-fo) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-module-fml) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-module-apt) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven.doxia:doxia-core) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+--> Processing Dependency: mvn(commons-collections:commons-collections) for package: maven-doxia-sitetools-1.4-3.amzn2.noarch
+---> Package maven-project.noarch 0:2.2.1-47.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.maven:maven-settings:2.2.1) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-profile) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-plugin-registry) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-model:2.2.1) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-artifact:2.2.1) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.maven:maven-artifact-manager) = 2.2.1 for package: maven-project-2.2.1-47.amzn2.noarch
+---> Package maven-reporting-api.noarch 1:3.0-5.amzn2 will be installed
+---> Package maven-reporting-impl.noarch 0:2.2-8.amzn2 will be installed
+--> Processing Dependency: mvn(commons-validator:commons-validator) for package: maven-reporting-impl-2.2-8.amzn2.noarch
+---> Package pango.x86_64 0:1.40.4-1.amzn2.0.2 will be installed
+--> Processing Dependency: libthai(x86-64) >= 0.1.9 for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXft(x86-64) >= 2.0.0 for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: harfbuzz(x86-64) >= 1.0.3 for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: libthai.so.0(LIBTHAI_0.1)(64bit) for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: libthai.so.0()(64bit) for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: libharfbuzz.so.0()(64bit) for package: pango-1.40.4-1.amzn2.0.2.x86_64
+--> Processing Dependency: libXft.so.2()(64bit) for package: pango-1.40.4-1.amzn2.0.2.x86_64
+---> Package pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2 will be installed
+---> Package plexus-utils.noarch 0:3.0.9-9.amzn2 will be installed
+---> Package pulseaudio-libs.x86_64 0:10.0-3.amzn2.0.2 will be installed
+--> Processing Dependency: libsystemd.so.0(LIBSYSTEMD_209)(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+--> Processing Dependency: libsndfile.so.1(libsndfile.so.1.0)(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+--> Processing Dependency: libwrap.so.0()(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+--> Processing Dependency: libsystemd.so.0()(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+--> Processing Dependency: libsndfile.so.1()(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+--> Processing Dependency: libasyncns.so.0()(64bit) for package: pulseaudio-libs-10.0-3.amzn2.0.2.x86_64
+---> Package python-javapackages.noarch 0:3.4.1-11.amzn2 will be installed
+--> Processing Dependency: python-lxml for package: python-javapackages-3.4.1-11.amzn2.noarch
+---> Package tzdata-java.noarch 0:2018e-3.amzn2 will be installed
+---> Package xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2 will be installed
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+---> Package xorg-x11-utils.x86_64 0:7.5-22.amzn2.0.1 will be installed
+--> Processing Dependency: libdmx.so.1()(64bit) for package: xorg-x11-utils-7.5-22.amzn2.0.1.x86_64
+--> Processing Dependency: libXxf86vm.so.1()(64bit) for package: xorg-x11-utils-7.5-22.amzn2.0.1.x86_64
+--> Processing Dependency: libXxf86misc.so.1()(64bit) for package: xorg-x11-utils-7.5-22.amzn2.0.1.x86_64
+--> Processing Dependency: libXxf86dga.so.1()(64bit) for package: xorg-x11-utils-7.5-22.amzn2.0.1.x86_64
+--> Processing Dependency: libXv.so.1()(64bit) for package: xorg-x11-utils-7.5-22.amzn2.0.1.x86_64
+--> Running transaction check
+---> Package aether-api.noarch 0:1.13.1-13.amzn2 will be installed
+---> Package aether-connector-wagon.noarch 0:1.13.1-13.amzn2 will be installed
+---> Package aether-impl.noarch 0:1.13.1-13.amzn2 will be installed
+---> Package aether-spi.noarch 0:1.13.1-13.amzn2 will be installed
+---> Package aether-util.noarch 0:1.13.1-13.amzn2 will be installed
+---> Package aopalliance.noarch 0:1.0-8.1.amzn2 will be installed
+---> Package apache-commons-cli.noarch 0:1.2-13.amzn2 will be installed
+---> Package apache-commons-codec.noarch 0:1.8-7.amzn2 will be installed
+---> Package apache-commons-collections.noarch 0:3.2.1-22.amzn2 will be installed
+---> Package apache-commons-logging.noarch 0:1.1.2-7.amzn2 will be installed
+--> Processing Dependency: mvn(logkit:logkit) for package: apache-commons-logging-1.1.2-7.amzn2.noarch
+--> Processing Dependency: mvn(log4j:log4j) for package: apache-commons-logging-1.1.2-7.amzn2.noarch
+--> Processing Dependency: mvn(avalon-framework:avalon-framework-api) for package: apache-commons-logging-1.1.2-7.amzn2.noarch
+---> Package apache-commons-validator.noarch 0:1.4.0-8.amzn2 will be installed
+--> Processing Dependency: mvn(commons-digester:commons-digester) for package: apache-commons-validator-1.4.0-8.amzn2.noarch
+--> Processing Dependency: mvn(commons-beanutils:commons-beanutils) for package: apache-commons-validator-1.4.0-8.amzn2.noarch
+---> Package atinject.noarch 0:1-13.20100611svn86.amzn2 will be installed
+---> Package audit-libs.x86_64 0:2.8.1-3.amzn2.1 will be installed
+--> Processing Dependency: libcap-ng.so.0()(64bit) for package: audit-libs-2.8.1-3.amzn2.1.x86_64
+---> Package avahi-libs.x86_64 0:0.6.31-19.amzn2 will be installed
+---> Package cglib.noarch 0:2.2-18.1.amzn2 will be installed
+---> Package dbus.x86_64 1:1.10.24-7.amzn2 will be installed
+--> Processing Dependency: systemd for package: 1:dbus-1.10.24-7.amzn2.x86_64
+--> Processing Dependency: systemd for package: 1:dbus-1.10.24-7.amzn2.x86_64
+--> Processing Dependency: systemd for package: 1:dbus-1.10.24-7.amzn2.x86_64
+--> Processing Dependency: /usr/sbin/useradd for package: 1:dbus-1.10.24-7.amzn2.x86_64
+---> Package dbus-glib.x86_64 0:0.100-7.2.amzn2 will be installed
+---> Package dbus-libs.x86_64 1:1.10.24-7.amzn2 will be installed
+---> Package fontpackages-filesystem.noarch 0:1.44-8.amzn2 will be installed
+---> Package google-guice.noarch 0:3.1.3-9.amzn2 will be installed
+--> Processing Dependency: mvn(org.slf4j:slf4j-api) for package: google-guice-3.1.3-9.amzn2.noarch
+---> Package gtk-update-icon-cache.x86_64 0:3.22.26-4.amzn2 will be installed
+---> Package guava.noarch 0:13.0-6.amzn2 will be installed
+---> Package harfbuzz.x86_64 0:1.3.2-1.amzn2.0.2 will be installed
+--> Processing Dependency: libgraphite2.so.3()(64bit) for package: harfbuzz-1.3.2-1.amzn2.0.2.x86_64
+---> Package hicolor-icon-theme.noarch 0:0.12-7.amzn2 will be installed
+---> Package httpcomponents-client.noarch 0:4.2.5-5.amzn2 will be installed
+---> Package httpcomponents-core.noarch 0:4.2.4-6.amzn2 will be installed
+---> Package jasper-libs.x86_64 0:1.900.1-33.amzn2 will be installed
+---> Package libICE.x86_64 0:1.0.9-9.amzn2.0.2 will be installed
+---> Package libSM.x86_64 0:1.2.2-2.amzn2.0.2 will be installed
+---> Package libX11-common.noarch 0:1.6.5-1.amzn2.0.2 will be installed
+---> Package libXcursor.x86_64 0:1.1.14-8.amzn2.0.2 will be installed
+---> Package libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2 will be installed
+---> Package libXfixes.x86_64 0:5.0.3-1.amzn2.0.2 will be installed
+---> Package libXft.x86_64 0:2.3.2-2.amzn2.0.2 will be installed
+---> Package libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2 will be installed
+---> Package libXrandr.x86_64 0:1.5.1-2.amzn2.0.2 will be installed
+---> Package libXv.x86_64 0:1.0.11-1.amzn2.0.2 will be installed
+---> Package libXxf86dga.x86_64 0:1.1.4-2.1.amzn2.0.2 will be installed
+---> Package libXxf86misc.x86_64 0:1.0.3-7.1.amzn2.0.2 will be installed
+---> Package libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2 will be installed
+---> Package libasyncns.x86_64 0:0.8-7.amzn2.0.2 will be installed
+---> Package libdmx.x86_64 0:1.1.3-3.amzn2.0.2 will be installed
+---> Package libglvnd-egl.x86_64 1:1.0.0-1.amzn2.0.2 will be installed
+--> Processing Dependency: libglvnd(x86-64) = 1:1.0.0-1.amzn2.0.2 for package: 1:libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64
+--> Processing Dependency: mesa-libEGL(x86-64) >= 13.0.4-1 for package: 1:libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64
+--> Processing Dependency: libGLdispatch.so.0()(64bit) for package: 1:libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64
+---> Package libglvnd-glx.x86_64 1:1.0.0-1.amzn2.0.2 will be installed
+--> Processing Dependency: mesa-libGL(x86-64) >= 13.0.4-1 for package: 1:libglvnd-glx-1.0.0-1.amzn2.0.2.x86_64
+---> Package libsndfile.x86_64 0:1.0.25-10.amzn2.0.2 will be installed
+--> Processing Dependency: libvorbisenc.so.2()(64bit) for package: libsndfile-1.0.25-10.amzn2.0.2.x86_64
+--> Processing Dependency: libvorbis.so.0()(64bit) for package: libsndfile-1.0.25-10.amzn2.0.2.x86_64
+--> Processing Dependency: libogg.so.0()(64bit) for package: libsndfile-1.0.25-10.amzn2.0.2.x86_64
+--> Processing Dependency: libgsm.so.1()(64bit) for package: libsndfile-1.0.25-10.amzn2.0.2.x86_64
+--> Processing Dependency: libFLAC.so.8()(64bit) for package: libsndfile-1.0.25-10.amzn2.0.2.x86_64
+---> Package libthai.x86_64 0:0.1.14-9.amzn2.0.2 will be installed
+---> Package libtiff.x86_64 0:4.0.3-27.amzn2.0.2 will be installed
+--> Processing Dependency: libjbig.so.2.0()(64bit) for package: libtiff-4.0.3-27.amzn2.0.2.x86_64
+---> Package libxcb.x86_64 0:1.12-1.amzn2.0.2 will be installed
+--> Processing Dependency: libXau.so.6()(64bit) for package: libxcb-1.12-1.amzn2.0.2.x86_64
+---> Package maven-artifact.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-artifact-manager.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-doxia-core.noarch 0:1.4-5.amzn2 will be installed
+--> Processing Dependency: mvn(xerces:xercesImpl) for package: maven-doxia-core-1.4-5.amzn2.noarch
+--> Processing Dependency: mvn(commons-lang:commons-lang) for package: maven-doxia-core-1.4-5.amzn2.noarch
+---> Package maven-doxia-logging-api.noarch 0:1.4-5.amzn2 will be installed
+---> Package maven-doxia-module-apt.noarch 0:1.4-5.amzn2 will be installed
+---> Package maven-doxia-module-fml.noarch 0:1.4-5.amzn2 will be installed
+---> Package maven-doxia-module-fo.noarch 0:1.4-5.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.xmlgraphics:fop) for package: maven-doxia-module-fo-1.4-5.amzn2.noarch
+--> Processing Dependency: mvn(commons-configuration:commons-configuration) for package: maven-doxia-module-fo-1.4-5.amzn2.noarch
+---> Package maven-doxia-module-xdoc.noarch 0:1.4-5.amzn2 will be installed
+---> Package maven-doxia-module-xhtml.noarch 0:1.4-5.amzn2 will be installed
+---> Package maven-model.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-plugin-registry.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-profile.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-settings.noarch 0:2.2.1-47.amzn2 will be installed
+---> Package maven-wagon.noarch 0:2.4-3.amzn2 will be installed
+--> Processing Dependency: mvn(org.jsoup:jsoup) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-interactivity-api) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(nekohtml:nekohtml) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(commons-net:commons-net) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(commons-io:commons-io) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(commons-httpclient:commons-httpclient) for package: maven-wagon-2.4-3.amzn2.noarch
+--> Processing Dependency: mvn(com.jcraft:jsch) for package: maven-wagon-2.4-3.amzn2.noarch
+---> Package objectweb-asm.noarch 0:3.3.1-9.amzn2 will be installed
+---> Package pixman.x86_64 0:0.34.0-1.amzn2.0.2 will be installed
+---> Package plexus-cipher.noarch 0:1.7-5.amzn2 will be installed
+---> Package plexus-classworlds.noarch 0:2.4.2-8.amzn2 will be installed
+---> Package plexus-containers-component-annotations.noarch 0:1.5.5-14.amzn2 will be installed
+---> Package plexus-containers-container-default.noarch 0:1.5.5-14.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.xbean:xbean-reflect) for package: plexus-containers-container-default-1.5.5-14.amzn2.noarch
+--> Processing Dependency: mvn(junit:junit) for package: plexus-containers-container-default-1.5.5-14.amzn2.noarch
+---> Package plexus-i18n.noarch 0:1.0-0.6.b10.4.amzn2 will be installed
+---> Package plexus-interpolation.noarch 0:1.15-8.amzn2 will be installed
+---> Package plexus-sec-dispatcher.noarch 0:1.4-13.amzn2 will be installed
+---> Package plexus-velocity.noarch 0:1.1.8-16.amzn2 will be installed
+---> Package polkit.x86_64 0:0.112-14.amzn2 will be installed
+--> Processing Dependency: polkit-pkla-compat for package: polkit-0.112-14.amzn2.x86_64
+--> Processing Dependency: libpam.so.0(LIBPAM_1.0)(64bit) for package: polkit-0.112-14.amzn2.x86_64
+--> Processing Dependency: libmozjs-17.0.so(mozjs_17.0)(64bit) for package: polkit-0.112-14.amzn2.x86_64
+--> Processing Dependency: libpam.so.0()(64bit) for package: polkit-0.112-14.amzn2.x86_64
+--> Processing Dependency: libmozjs-17.0.so()(64bit) for package: polkit-0.112-14.amzn2.x86_64
+---> Package psmisc.x86_64 0:22.20-15.amzn2.0.2 will be installed
+---> Package python-lxml.x86_64 0:3.2.1-4.amzn2.0.2 will be installed
+---> Package sisu-inject-bean.noarch 0:2.3.0-11.amzn2 will be installed
+--> Processing Dependency: mvn(javax.enterprise:cdi-api) for package: sisu-inject-bean-2.3.0-11.amzn2.noarch
+---> Package sisu-inject-plexus.noarch 0:2.3.0-11.amzn2 will be installed
+---> Package stix-fonts.noarch 0:1.1.0-5.amzn2 will be installed
+---> Package systemd-libs.x86_64 0:219-57.amzn2.0.7 will be installed
+--> Processing Dependency: liblz4.so.1()(64bit) for package: systemd-libs-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libdw.so.1()(64bit) for package: systemd-libs-219-57.amzn2.0.7.x86_64
+---> Package tcp_wrappers-libs.x86_64 0:7.6-77.amzn2.0.2 will be installed
+---> Package ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2 will be installed
+---> Package velocity.noarch 0:1.7-10.1.amzn2 will be installed
+--> Processing Dependency: servlet3 for package: velocity-1.7-10.1.amzn2.noarch
+--> Processing Dependency: jdom for package: velocity-1.7-10.1.amzn2.noarch
+--> Processing Dependency: jaxen for package: velocity-1.7-10.1.amzn2.noarch
+--> Processing Dependency: jakarta-oro for package: velocity-1.7-10.1.amzn2.noarch
+--> Processing Dependency: hsqldb for package: velocity-1.7-10.1.amzn2.noarch
+--> Processing Dependency: bcel for package: velocity-1.7-10.1.amzn2.noarch
+---> Package xalan-j2.noarch 0:2.7.1-23.1.amzn2 will be installed
+---> Package xml-commons-apis.noarch 0:1.4.01-16.amzn2 will be installed
+---> Package xorg-x11-font-utils.x86_64 1:7.5-20.amzn2.0.2 will be installed
+--> Processing Dependency: /usr/bin/pkg-config for package: 1:xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64
+--> Processing Dependency: libfontenc.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64
+--> Processing Dependency: libXfont.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64
+--> Running transaction check
+---> Package apache-commons-beanutils.noarch 0:1.8.3-14.amzn2 will be installed
+---> Package apache-commons-configuration.noarch 0:1.9-8.amzn2 will be installed
+--> Processing Dependency: mvn(xml-resolver:xml-resolver) for package: apache-commons-configuration-1.9-8.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.commons:commons-vfs2) for package: apache-commons-configuration-1.9-8.amzn2.noarch
+--> Processing Dependency: mvn(org.apache.commons:commons-jexl) for package: apache-commons-configuration-1.9-8.amzn2.noarch
+--> Processing Dependency: mvn(commons-jxpath:commons-jxpath) for package: apache-commons-configuration-1.9-8.amzn2.noarch
+---> Package apache-commons-digester.noarch 0:1.8.1-19.amzn2 will be installed
+---> Package apache-commons-io.noarch 1:2.4-12.amzn2 will be installed
+---> Package apache-commons-lang.noarch 0:2.6-15.amzn2 will be installed
+---> Package apache-commons-net.noarch 0:3.2-8.amzn2 will be installed
+---> Package avalon-framework.noarch 0:4.3-10.1.amzn2 will be installed
+---> Package avalon-logkit.noarch 0:2.1-14.1.amzn2 will be installed
+--> Processing Dependency: jms for package: avalon-logkit-2.1-14.1.amzn2.noarch
+---> Package bcel.noarch 0:5.2-18.amzn2 will be installed
+--> Processing Dependency: mvn(regexp:regexp) for package: bcel-5.2-18.amzn2.noarch
+---> Package cdi-api.noarch 0:1.0-11.SP4.amzn2 will be installed
+--> Processing Dependency: jboss-interceptors-1.1-api for package: cdi-api-1.0-11.SP4.amzn2.noarch
+--> Processing Dependency: jboss-el-2.2-api for package: cdi-api-1.0-11.SP4.amzn2.noarch
+--> Processing Dependency: jboss-ejb-3.1-api for package: cdi-api-1.0-11.SP4.amzn2.noarch
+--> Processing Dependency: geronimo-annotation for package: cdi-api-1.0-11.SP4.amzn2.noarch
+---> Package elfutils-libs.x86_64 0:0.170-4.amzn2 will be installed
+--> Processing Dependency: default-yama-scope for package: elfutils-libs-0.170-4.amzn2.x86_64
+---> Package flac-libs.x86_64 0:1.3.0-5.amzn2.0.2 will be installed
+---> Package fop.noarch 0:1.1-6.amzn2 will be installed
+--> Processing Dependency: xmlgraphics-commons >= 1.5 for package: fop-1.1-6.amzn2.noarch
+--> Processing Dependency: batik >= 1.7 for package: fop-1.1-6.amzn2.noarch
+--> Processing Dependency: icc-profiles-openicc for package: fop-1.1-6.amzn2.noarch
+---> Package graphite2.x86_64 0:1.3.10-1.amzn2.0.2 will be installed
+---> Package gsm.x86_64 0:1.0.13-11.amzn2.0.2 will be installed
+---> Package hsqldb.noarch 1:1.8.1.3-14.amzn2 will be installed
+--> Processing Dependency: systemd-sysv for package: 1:hsqldb-1.8.1.3-14.amzn2.noarch
+---> Package jakarta-commons-httpclient.noarch 1:3.1-16.amzn2 will be installed
+---> Package jakarta-oro.noarch 0:2.0.8-16.1.amzn2 will be installed
+---> Package jaxen.noarch 0:1.1.3-11.1.amzn2 will be installed
+--> Processing Dependency: dom4j >= 1.6.1 for package: jaxen-1.1.3-11.1.amzn2.noarch
+---> Package jbigkit-libs.x86_64 0:2.0-11.amzn2.0.2 will be installed
+---> Package jdom.noarch 0:1.1.3-6.1.amzn2 will be installed
+---> Package jsch.noarch 0:0.1.50-5.amzn2 will be installed
+--> Processing Dependency: jzlib >= 1.0.5 for package: jsch-0.1.50-5.amzn2.noarch
+---> Package jsoup.noarch 0:1.6.1-10.amzn2 will be installed
+---> Package junit.noarch 0:4.11-8.1.amzn2.0.1 will be installed
+--> Processing Dependency: osgi(org.hamcrest.core) for package: junit-4.11-8.1.amzn2.0.1.noarch
+--> Processing Dependency: hamcrest for package: junit-4.11-8.1.amzn2.0.1.noarch
+---> Package libXau.x86_64 0:1.0.8-2.1.amzn2.0.2 will be installed
+---> Package libXfont.x86_64 0:1.5.2-1.amzn2.0.2 will be installed
+---> Package libcap-ng.x86_64 0:0.7.5-4.amzn2.0.2 will be installed
+---> Package libfontenc.x86_64 0:1.1.3-3.amzn2.0.2 will be installed
+---> Package libglvnd.x86_64 1:1.0.0-1.amzn2.0.2 will be installed
+---> Package libogg.x86_64 2:1.3.0-7.amzn2.0.2 will be installed
+---> Package libvorbis.x86_64 1:1.3.3-8.amzn2.0.2 will be installed
+---> Package log4j.noarch 0:1.2.17-16.amzn2 will be installed
+---> Package lz4.x86_64 0:1.7.5-2.amzn2.0.1 will be installed
+---> Package mesa-libEGL.x86_64 0:17.2.3-8.20171019.amzn2.0.4 will be installed
+--> Processing Dependency: mesa-libgbm = 17.2.3-8.20171019.amzn2.0.4 for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libxshmfence.so.1()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libwayland-server.so.0()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libwayland-client.so.0()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libgbm.so.1()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libdrm.so.2()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+---> Package mesa-libGL.x86_64 0:17.2.3-8.20171019.amzn2.0.4 will be installed
+--> Processing Dependency: mesa-libglapi = 17.2.3-8.20171019.amzn2.0.4 for package: mesa-libGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+--> Processing Dependency: libglapi.so.0()(64bit) for package: mesa-libGL-17.2.3-8.20171019.amzn2.0.4.x86_64
+---> Package mozjs17.x86_64 0:17.0.0-20.amzn2.0.1 will be installed
+---> Package nekohtml.noarch 0:1.9.14-13.amzn2 will be installed
+---> Package pam.x86_64 0:1.1.8-22.amzn2 will be installed
+--> Processing Dependency: libpwquality >= 0.9.9 for package: pam-1.1.8-22.amzn2.x86_64
+--> Processing Dependency: cracklib-dicts >= 2.8 for package: pam-1.1.8-22.amzn2.x86_64
+--> Processing Dependency: libcrack.so.2()(64bit) for package: pam-1.1.8-22.amzn2.x86_64
+---> Package pkgconfig.x86_64 1:0.27.1-4.amzn2.0.2 will be installed
+---> Package plexus-interactivity.noarch 0:1.0-0.14.alpha6.amzn2 will be installed
+--> Processing Dependency: mvn(org.codehaus.plexus:plexus-component-api) for package: plexus-interactivity-1.0-0.14.alpha6.amzn2.noarch
+--> Processing Dependency: mvn(jline:jline) for package: plexus-interactivity-1.0-0.14.alpha6.amzn2.noarch
+---> Package polkit-pkla-compat.x86_64 0:0.1-4.amzn2.0.2 will be installed
+---> Package shadow-utils.x86_64 2:4.1.5.1-24.amzn2.0.2 will be installed
+--> Processing Dependency: libsemanage.so.1(LIBSEMANAGE_1.0)(64bit) for package: 2:shadow-utils-4.1.5.1-24.amzn2.0.2.x86_64
+--> Processing Dependency: libsemanage.so.1()(64bit) for package: 2:shadow-utils-4.1.5.1-24.amzn2.0.2.x86_64
+---> Package slf4j.noarch 0:1.7.4-4.amzn2 will be installed
+--> Processing Dependency: mvn(ch.qos.cal10n:cal10n-api) for package: slf4j-1.7.4-4.amzn2.noarch
+---> Package systemd.x86_64 0:219-57.amzn2.0.7 will be installed
+--> Processing Dependency: kmod >= 18-4 for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libkmod.so.2(LIBKMOD_5)(64bit) for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libcryptsetup.so.4(CRYPTSETUP_1.0)(64bit) for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: acl for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libqrencode.so.3()(64bit) for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libkmod.so.2()(64bit) for package: systemd-219-57.amzn2.0.7.x86_64
+--> Processing Dependency: libcryptsetup.so.4()(64bit) for package: systemd-219-57.amzn2.0.7.x86_64
+---> Package tomcat-servlet-3.0-api.noarch 0:7.0.76-8.amzn2 will be installed
+---> Package xbean.noarch 0:3.13-6.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.felix:org.apache.felix.framework) for package: xbean-3.13-6.amzn2.noarch
+---> Package xerces-j2.noarch 0:2.11.0-17.amzn2 will be installed
+--> Running transaction check
+---> Package acl.x86_64 0:2.2.51-14.amzn2 will be installed
+---> Package apache-commons-jexl.noarch 0:2.1.1-9.amzn2 will be installed
+---> Package apache-commons-jxpath.noarch 0:1.3-20.amzn2 will be installed
+---> Package apache-commons-vfs.noarch 0:2.0-11.amzn2 will be installed
+--> Processing Dependency: mvn(org.apache.ant:ant) for package: apache-commons-vfs-2.0-11.amzn2.noarch
+---> Package batik.noarch 0:1.8-0.12.svn1230816.amzn2 will be installed
+--> Processing Dependency: rhino >= 1.5 for package: batik-1.8-0.12.svn1230816.amzn2.noarch
+--> Processing Dependency: osgi(org.w3c.css.sac) for package: batik-1.8-0.12.svn1230816.amzn2.noarch
+--> Processing Dependency: jai-imageio-core for package: batik-1.8-0.12.svn1230816.amzn2.noarch
+---> Package cal10n.noarch 0:0.7.7-4.amzn2 will be installed
+---> Package cracklib.x86_64 0:2.9.0-11.amzn2.0.2 will be installed
+--> Processing Dependency: gzip for package: cracklib-2.9.0-11.amzn2.0.2.x86_64
+---> Package cracklib-dicts.x86_64 0:2.9.0-11.amzn2.0.2 will be installed
+---> Package cryptsetup-libs.x86_64 0:1.7.4-4.amzn2 will be installed
+--> Processing Dependency: libdevmapper.so.1.02(DM_1_02_97)(64bit) for package: cryptsetup-libs-1.7.4-4.amzn2.x86_64
+--> Processing Dependency: libdevmapper.so.1.02(Base)(64bit) for package: cryptsetup-libs-1.7.4-4.amzn2.x86_64
+--> Processing Dependency: libdevmapper.so.1.02()(64bit) for package: cryptsetup-libs-1.7.4-4.amzn2.x86_64
+---> Package dom4j.noarch 0:1.6.1-20.1.amzn2 will be installed
+--> Processing Dependency: xpp3 for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: ws-jaxme for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: relaxngDatatype for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: msv-xsdlib for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: msv-msv for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: isorelax for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: bea-stax-api for package: dom4j-1.6.1-20.1.amzn2.noarch
+--> Processing Dependency: bea-stax for package: dom4j-1.6.1-20.1.amzn2.noarch
+---> Package elfutils-default-yama-scope.noarch 0:0.170-4.amzn2 will be installed
+---> Package felix-framework.noarch 0:4.2.1-5.amzn2 will be installed
+---> Package geronimo-annotation.noarch 0:1.0-15.amzn2 will be installed
+---> Package geronimo-jms.noarch 0:1.1.1-19.amzn2 will be installed
+---> Package hamcrest.noarch 0:1.3-6.1.amzn2 will be installed
+--> Processing Dependency: qdox for package: hamcrest-1.3-6.1.amzn2.noarch
+--> Processing Dependency: easymock2 for package: hamcrest-1.3-6.1.amzn2.noarch
+---> Package icc-profiles-openicc.noarch 0:1.3.1-5.amzn2 will be installed
+--> Processing Dependency: color-filesystem for package: icc-profiles-openicc-1.3.1-5.amzn2.noarch
+---> Package jboss-ejb-3.1-api.noarch 0:1.0.2-10.amzn2 will be installed
+--> Processing Dependency: jboss-transaction-1.1-api for package: jboss-ejb-3.1-api-1.0.2-10.amzn2.noarch
+--> Processing Dependency: jboss-jaxrpc-1.1-api for package: jboss-ejb-3.1-api-1.0.2-10.amzn2.noarch
+---> Package jboss-el-2.2-api.noarch 0:1.0.1-0.7.20120212git2fabd8.amzn2 will be installed
+---> Package jboss-interceptors-1.1-api.noarch 0:1.0.2-0.9.20120319git49a904.amzn2 will be installed
+---> Package jline.noarch 0:1.0-8.amzn2 will be installed
+---> Package jzlib.noarch 0:1.1.1-6.amzn2 will be installed
+---> Package kmod.x86_64 0:25-3.amzn2.0.2 will be installed
+---> Package kmod-libs.x86_64 0:25-3.amzn2.0.2 will be installed
+---> Package libdrm.x86_64 0:2.4.83-2.amzn2.0.2 will be installed
+--> Processing Dependency: libpciaccess.so.0()(64bit) for package: libdrm-2.4.83-2.amzn2.0.2.x86_64
+---> Package libpwquality.x86_64 0:1.2.3-5.amzn2 will be installed
+---> Package libsemanage.x86_64 0:2.5-11.amzn2 will be installed
+--> Processing Dependency: libustr-1.0.so.1(USTR_1.0.1)(64bit) for package: libsemanage-2.5-11.amzn2.x86_64
+--> Processing Dependency: libustr-1.0.so.1(USTR_1.0)(64bit) for package: libsemanage-2.5-11.amzn2.x86_64
+--> Processing Dependency: libustr-1.0.so.1()(64bit) for package: libsemanage-2.5-11.amzn2.x86_64
+---> Package libwayland-client.x86_64 0:1.14.0-2.amzn2.0.1 will be installed
+---> Package libwayland-server.x86_64 0:1.14.0-2.amzn2.0.1 will be installed
+---> Package libxshmfence.x86_64 0:1.2-1.amzn2.0.2 will be installed
+---> Package mesa-libgbm.x86_64 0:17.2.3-8.20171019.amzn2.0.4 will be installed
+---> Package mesa-libglapi.x86_64 0:17.2.3-8.20171019.amzn2.0.4 will be installed
+---> Package plexus-component-api.noarch 0:1.0-0.16.alpha15.amzn2 will be installed
+---> Package qrencode-libs.x86_64 0:3.4.1-3.amzn2.0.2 will be installed
+---> Package regexp.noarch 0:1.5-13.amzn2 will be installed
+---> Package systemd-sysv.x86_64 0:219-57.amzn2.0.7 will be installed
+---> Package xml-commons-resolver.noarch 0:1.2-15.amzn2 will be installed
+---> Package xmlgraphics-commons.noarch 0:1.5-3.amzn2 will be installed
+--> Running transaction check
+---> Package ant.noarch 0:1.9.2-9.amzn2.0.1 will be installed
+--> Processing Dependency: perl for package: ant-1.9.2-9.amzn2.0.1.noarch
+---> Package bea-stax.noarch 0:1.2.0-9.amzn2 will be installed
+---> Package bea-stax-api.noarch 0:1.2.0-9.amzn2 will be installed
+---> Package color-filesystem.noarch 0:1-13.amzn2 will be installed
+---> Package device-mapper-libs.x86_64 7:1.02.146-4.amzn2.0.2 will be installed
+--> Processing Dependency: device-mapper = 7:1.02.146-4.amzn2.0.2 for package: 7:device-mapper-libs-1.02.146-4.amzn2.0.2.x86_64
+---> Package easymock2.noarch 0:2.5.2-12.1.amzn2 will be installed
+---> Package gzip.x86_64 0:1.5-10.amzn2 will be installed
+---> Package isorelax.noarch 1:0-0.15.release20050331.amzn2 will be installed
+---> Package jai-imageio-core.noarch 0:1.2-0.14.20100217cvs.amzn2 will be installed
+---> Package jboss-jaxrpc-1.1-api.noarch 0:1.0.1-7.amzn2 will be installed
+--> Processing Dependency: jboss-servlet-3.0-api for package: jboss-jaxrpc-1.1-api-1.0.1-7.amzn2.noarch
+---> Package jboss-transaction-1.1-api.noarch 0:1.0.1-8.amzn2 will be installed
+---> Package libpciaccess.x86_64 0:0.14-1.amzn2 will be installed
+--> Processing Dependency: hwdata for package: libpciaccess-0.14-1.amzn2.x86_64
+---> Package msv-msv.noarch 1:2013.5.1-7.amzn2 will be installed
+---> Package msv-xsdlib.noarch 1:2013.5.1-7.amzn2 will be installed
+---> Package qdox.noarch 0:1.12.1-10.amzn2 will be installed
+---> Package relaxngDatatype.noarch 0:1.0-11.amzn2 will be installed
+---> Package rhino.noarch 0:1.7R5-1.amzn2 will be installed
+---> Package sac.noarch 0:1.3-17.amzn2 will be installed
+---> Package ustr.x86_64 0:1.0.4-16.amzn2.0.3 will be installed
+---> Package ws-jaxme.noarch 0:0.5.2-10.amzn2 will be installed
+--> Processing Dependency: antlr for package: ws-jaxme-0.5.2-10.amzn2.noarch
+---> Package xpp3.noarch 0:1.1.3.8-11.amzn2 will be installed
+--> Running transaction check
+---> Package antlr-tool.noarch 0:2.7.7-30.amzn2.0.2 will be installed
+---> Package device-mapper.x86_64 7:1.02.146-4.amzn2.0.2 will be installed
+--> Processing Dependency: util-linux >= 2.23 for package: 7:device-mapper-1.02.146-4.amzn2.0.2.x86_64
+---> Package hwdata.x86_64 0:0.252-8.8.amzn2 will be installed
+---> Package jboss-servlet-3.0-api.noarch 0:1.0.1-9.amzn2 will be installed
+---> Package perl.x86_64 4:5.16.3-292.amzn2.0.2 will be installed
+--> Processing Dependency: perl-libs = 4:5.16.3-292.amzn2.0.2 for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Socket) >= 1.3 for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Scalar::Util) >= 1.10 for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl-macros for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl-libs for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(threads::shared) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(threads) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(constant) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Time::Local) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Time::HiRes) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Storable) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Socket) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Scalar::Util) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Pod::Simple::XHTML) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Pod::Simple::Search) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Getopt::Long) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Filter::Util::Call) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(File::Temp) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(File::Spec::Unix) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(File::Spec::Functions) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(File::Spec) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(File::Path) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Exporter) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Cwd) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: perl(Carp) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Processing Dependency: libperl.so()(64bit) for package: 4:perl-5.16.3-292.amzn2.0.2.x86_64
+--> Running transaction check
+---> Package perl-Carp.noarch 0:1.26-244.amzn2 will be installed
+---> Package perl-Exporter.noarch 0:5.68-3.amzn2 will be installed
+---> Package perl-File-Path.noarch 0:2.09-2.amzn2 will be installed
+---> Package perl-File-Temp.noarch 0:0.23.01-3.amzn2 will be installed
+---> Package perl-Filter.x86_64 0:1.49-3.amzn2.0.2 will be installed
+---> Package perl-Getopt-Long.noarch 0:2.40-3.amzn2 will be installed
+--> Processing Dependency: perl(Pod::Usage) >= 1.14 for package: perl-Getopt-Long-2.40-3.amzn2.noarch
+--> Processing Dependency: perl(Text::ParseWords) for package: perl-Getopt-Long-2.40-3.amzn2.noarch
+---> Package perl-PathTools.x86_64 0:3.40-5.amzn2.0.2 will be installed
+---> Package perl-Pod-Simple.noarch 1:3.28-4.amzn2 will be installed
+--> Processing Dependency: perl(Pod::Escapes) >= 1.04 for package: 1:perl-Pod-Simple-3.28-4.amzn2.noarch
+--> Processing Dependency: perl(Encode) for package: 1:perl-Pod-Simple-3.28-4.amzn2.noarch
+---> Package perl-Scalar-List-Utils.x86_64 0:1.27-248.amzn2.0.2 will be installed
+---> Package perl-Socket.x86_64 0:2.010-4.amzn2.0.2 will be installed
+---> Package perl-Storable.x86_64 0:2.45-3.amzn2.0.2 will be installed
+---> Package perl-Time-HiRes.x86_64 4:1.9725-3.amzn2.0.2 will be installed
+---> Package perl-Time-Local.noarch 0:1.2300-2.amzn2 will be installed
+---> Package perl-constant.noarch 0:1.27-2.amzn2.0.1 will be installed
+---> Package perl-libs.x86_64 4:5.16.3-292.amzn2.0.2 will be installed
+---> Package perl-macros.x86_64 4:5.16.3-292.amzn2.0.2 will be installed
+---> Package perl-threads.x86_64 0:1.87-4.amzn2.0.2 will be installed
+---> Package perl-threads-shared.x86_64 0:1.43-6.amzn2.0.2 will be installed
+---> Package util-linux.x86_64 0:2.30.2-2.amzn2.0.4 will be installed
+--> Processing Dependency: libsmartcols = 2.30.2-2.amzn2.0.4 for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk = 2.30.2-2.amzn2.0.4 for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libutempter.so.0(UTEMPTER_1.1)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1(SMARTCOLS_2.30)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1(SMARTCOLS_2.29)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1(SMARTCOLS_2.28)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1(SMARTCOLS_2.27)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1(SMARTCOLS_2.25)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1(FDISK_2.30)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1(FDISK_2.29)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1(FDISK_2.28)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1(FDISK_2.27)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1(FDISK_2.26)(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libutempter.so.0()(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libsmartcols.so.1()(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Processing Dependency: libfdisk.so.1()(64bit) for package: util-linux-2.30.2-2.amzn2.0.4.x86_64
+--> Running transaction check
+---> Package libfdisk.x86_64 0:2.30.2-2.amzn2.0.4 will be installed
+---> Package libsmartcols.x86_64 0:2.30.2-2.amzn2.0.4 will be installed
+---> Package libutempter.x86_64 0:1.1.6-4.amzn2.0.2 will be installed
+---> Package perl-Encode.x86_64 0:2.51-7.amzn2.0.2 will be installed
+---> Package perl-Pod-Escapes.noarch 1:1.04-292.amzn2.0.2 will be installed
+---> Package perl-Pod-Usage.noarch 0:1.63-3.amzn2 will be installed
+--> Processing Dependency: perl(Pod::Text) >= 3.15 for package: perl-Pod-Usage-1.63-3.amzn2.noarch
+--> Processing Dependency: perl-Pod-Perldoc for package: perl-Pod-Usage-1.63-3.amzn2.noarch
+---> Package perl-Text-ParseWords.noarch 0:3.29-4.amzn2 will be installed
+--> Running transaction check
+---> Package perl-Pod-Perldoc.noarch 0:3.20-4.amzn2 will be installed
+--> Processing Dependency: perl(parent) for package: perl-Pod-Perldoc-3.20-4.amzn2.noarch
+--> Processing Dependency: perl(HTTP::Tiny) for package: perl-Pod-Perldoc-3.20-4.amzn2.noarch
+--> Processing Dependency: groff-base for package: perl-Pod-Perldoc-3.20-4.amzn2.noarch
+---> Package perl-podlators.noarch 0:2.5.1-3.amzn2.0.1 will be installed
+--> Running transaction check
+---> Package groff-base.x86_64 0:1.22.2-8.amzn2.0.2 will be installed
+---> Package perl-HTTP-Tiny.noarch 0:0.033-3.amzn2 will be installed
+---> Package perl-parent.noarch 1:0.225-244.amzn2.0.1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                        Arch   Version                 Repository  Size
+================================================================================
+Installing:
+ java-1.7.0-openjdk             x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core 242 k
+ java-1.7.0-openjdk-accessibility
+                                x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core  38 k
+ java-1.7.0-openjdk-demo        x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core 1.9 M
+ java-1.7.0-openjdk-devel       x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core 9.2 M
+ java-1.7.0-openjdk-headless    x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core  26 M
+ java-1.7.0-openjdk-javadoc     noarch 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core  14 M
+ java-1.7.0-openjdk-src         x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+                                                               amzn2-core  39 M
+ java-1.8.0-openjdk             x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 252 k
+ java-1.8.0-openjdk-accessibility
+                                x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  60 k
+ java-1.8.0-openjdk-accessibility-debug
+                                x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  60 k
+ java-1.8.0-openjdk-debug       x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 254 k
+ java-1.8.0-openjdk-demo        x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 2.0 M
+ java-1.8.0-openjdk-demo-debug  x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 2.0 M
+ java-1.8.0-openjdk-devel       x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 9.7 M
+ java-1.8.0-openjdk-devel-debug x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core 9.7 M
+ java-1.8.0-openjdk-headless    x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  32 M
+ java-1.8.0-openjdk-headless-debug
+                                x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  33 M
+ java-1.8.0-openjdk-javadoc     noarch 1:1.8.0.191.b12-0.amzn2 amzn2-core  15 M
+ java-1.8.0-openjdk-javadoc-debug
+                                noarch 1:1.8.0.191.b12-0.amzn2 amzn2-core  15 M
+ java-1.8.0-openjdk-javadoc-zip noarch 1:1.8.0.191.b12-0.amzn2 amzn2-core  42 M
+ java-1.8.0-openjdk-javadoc-zip-debug
+                                noarch 1:1.8.0.191.b12-0.amzn2 amzn2-core  42 M
+ java-1.8.0-openjdk-src         x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  45 M
+ java-1.8.0-openjdk-src-debug   x86_64 1:1.8.0.191.b12-0.amzn2 amzn2-core  45 M
+ java-atk-wrapper               x86_64 0.30.4-5.amzn2.0.2      amzn2-core  71 k
+ java_cup                       noarch 1:0.11a-16.1.amzn2      amzn2-core 107 k
+ java_cup-javadoc               noarch 1:0.11a-16.1.amzn2      amzn2-core 121 k
+ java_cup-manual                noarch 1:0.11a-16.1.amzn2      amzn2-core  29 k
+ javacc                         noarch 5.0-10.1.amzn2          amzn2-core 299 k
+ javacc-demo                    noarch 5.0-10.1.amzn2          amzn2-core  88 k
+ javacc-javadoc                 noarch 5.0-10.1.amzn2          amzn2-core 166 k
+ javacc-manual                  noarch 5.0-10.1.amzn2          amzn2-core  84 k
+ javacc-maven-plugin            noarch 2.6-17.amzn2            amzn2-core  84 k
+ javacc-maven-plugin-javadoc    noarch 2.6-17.amzn2            amzn2-core  46 k
+ javamail                       noarch 1.4.6-8.amzn2           amzn2-core 757 k
+ javamail-javadoc               noarch 1.4.6-8.amzn2           amzn2-core 552 k
+ javapackages-tools             noarch 3.4.1-11.amzn2          amzn2-core  73 k
+ javassist                      noarch 3.16.1-10.amzn2         amzn2-core 627 k
+ javassist-javadoc              noarch 3.16.1-10.amzn2         amzn2-core 532 k
+Installing for dependencies:
+ GConf2                         x86_64 3.2.6-8.amzn2.0.2       amzn2-core 1.0 M
+ acl                            x86_64 2.2.51-14.amzn2         amzn2-core  82 k
+ aether-api                     noarch 1.13.1-13.amzn2         amzn2-core  89 k
+ aether-connector-wagon         noarch 1.13.1-13.amzn2         amzn2-core  34 k
+ aether-impl                    noarch 1.13.1-13.amzn2         amzn2-core 124 k
+ aether-spi                     noarch 1.13.1-13.amzn2         amzn2-core  19 k
+ aether-util                    noarch 1.13.1-13.amzn2         amzn2-core 119 k
+ alsa-lib                       x86_64 1.1.4.1-2.amzn2         amzn2-core 425 k
+ ant                            noarch 1.9.2-9.amzn2.0.1       amzn2-core 1.9 M
+ antlr-tool                     noarch 2.7.7-30.amzn2.0.2      amzn2-core 357 k
+ aopalliance                    noarch 1.0-8.1.amzn2           amzn2-core  11 k
+ apache-commons-beanutils       noarch 1.8.3-14.amzn2          amzn2-core 213 k
+ apache-commons-cli             noarch 1.2-13.amzn2            amzn2-core  51 k
+ apache-commons-codec           noarch 1.8-7.amzn2             amzn2-core 223 k
+ apache-commons-collections     noarch 3.2.1-22.amzn2          amzn2-core 509 k
+ apache-commons-configuration   noarch 1.9-8.amzn2             amzn2-core 335 k
+ apache-commons-digester        noarch 1.8.1-19.amzn2          amzn2-core 142 k
+ apache-commons-io              noarch 1:2.4-12.amzn2          amzn2-core 189 k
+ apache-commons-jexl            noarch 2.1.1-9.amzn2           amzn2-core 250 k
+ apache-commons-jxpath          noarch 1.3-20.amzn2            amzn2-core 275 k
+ apache-commons-lang            noarch 2.6-15.amzn2            amzn2-core 276 k
+ apache-commons-logging         noarch 1.1.2-7.amzn2           amzn2-core  78 k
+ apache-commons-net             noarch 3.2-8.amzn2             amzn2-core 261 k
+ apache-commons-validator       noarch 1.4.0-8.amzn2           amzn2-core 163 k
+ apache-commons-vfs             noarch 2.0-11.amzn2            amzn2-core 363 k
+ atinject                       noarch 1-13.20100611svn86.amzn2
+                                                               amzn2-core  13 k
+ atk                            x86_64 2.22.0-3.amzn2.0.2      amzn2-core 258 k
+ audit-libs                     x86_64 2.8.1-3.amzn2.1         amzn2-core  99 k
+ avahi-libs                     x86_64 0.6.31-19.amzn2         amzn2-core  62 k
+ avalon-framework               noarch 4.3-10.1.amzn2          amzn2-core  87 k
+ avalon-logkit                  noarch 2.1-14.1.amzn2          amzn2-core  87 k
+ batik                          noarch 1.8-0.12.svn1230816.amzn2
+                                                               amzn2-core 6.3 M
+ bcel                           noarch 5.2-18.amzn2            amzn2-core 469 k
+ bea-stax                       noarch 1.2.0-9.amzn2           amzn2-core 176 k
+ bea-stax-api                   noarch 1.2.0-9.amzn2           amzn2-core  31 k
+ cairo                          x86_64 1.14.8-2.amzn2.0.2      amzn2-core 718 k
+ cal10n                         noarch 0.7.7-4.amzn2           amzn2-core  36 k
+ cdi-api                        noarch 1.0-11.SP4.amzn2        amzn2-core  41 k
+ cglib                          noarch 2.2-18.1.amzn2          amzn2-core 255 k
+ color-filesystem               noarch 1-13.amzn2              amzn2-core 5.4 k
+ copy-jdk-configs               noarch 3.3-10.amzn2            amzn2-core  21 k
+ cracklib                       x86_64 2.9.0-11.amzn2.0.2      amzn2-core  80 k
+ cracklib-dicts                 x86_64 2.9.0-11.amzn2.0.2      amzn2-core 3.6 M
+ cryptsetup-libs                x86_64 1.7.4-4.amzn2           amzn2-core 224 k
+ cups-libs                      x86_64 1:1.6.3-35.amzn2        amzn2-core 360 k
+ dbus                           x86_64 1:1.10.24-7.amzn2       amzn2-core 247 k
+ dbus-glib                      x86_64 0.100-7.2.amzn2         amzn2-core 103 k
+ dbus-libs                      x86_64 1:1.10.24-7.amzn2       amzn2-core 169 k
+ device-mapper                  x86_64 7:1.02.146-4.amzn2.0.2  amzn2-core 289 k
+ device-mapper-libs             x86_64 7:1.02.146-4.amzn2.0.2  amzn2-core 320 k
+ dom4j                          noarch 1.6.1-20.1.amzn2        amzn2-core 277 k
+ easymock2                      noarch 2.5.2-12.1.amzn2        amzn2-core  92 k
+ elfutils-default-yama-scope    noarch 0.170-4.amzn2           amzn2-core  31 k
+ elfutils-libs                  x86_64 0.170-4.amzn2           amzn2-core 270 k
+ felix-framework                noarch 4.2.1-5.amzn2           amzn2-core 481 k
+ flac-libs                      x86_64 1.3.0-5.amzn2.0.2       amzn2-core 168 k
+ fontconfig                     x86_64 2.10.95-11.amzn2.0.2    amzn2-core 231 k
+ fontpackages-filesystem        noarch 1.44-8.amzn2            amzn2-core  10 k
+ fop                            noarch 1.1-6.amzn2             amzn2-core 3.6 M
+ freetype                       x86_64 2.4.11-15.amzn2.0.2     amzn2-core 392 k
+ gdk-pixbuf2                    x86_64 2.36.5-1.amzn2.0.2      amzn2-core 567 k
+ geronimo-annotation            noarch 1.0-15.amzn2            amzn2-core  24 k
+ geronimo-jms                   noarch 1.1.1-19.amzn2          amzn2-core  31 k
+ giflib                         x86_64 4.1.6-9.amzn2.0.2       amzn2-core  40 k
+ google-guice                   noarch 3.1.3-9.amzn2           amzn2-core 384 k
+ graphite2                      x86_64 1.3.10-1.amzn2.0.2      amzn2-core 115 k
+ groff-base                     x86_64 1.22.2-8.amzn2.0.2      amzn2-core 948 k
+ gsm                            x86_64 1.0.13-11.amzn2.0.2     amzn2-core  30 k
+ gtk-update-icon-cache          x86_64 3.22.26-4.amzn2         amzn2-core  27 k
+ gtk2                           x86_64 2.24.31-1.amzn2.0.2     amzn2-core 3.4 M
+ guava                          noarch 13.0-6.amzn2            amzn2-core 1.6 M
+ gzip                           x86_64 1.5-10.amzn2            amzn2-core 130 k
+ hamcrest                       noarch 1.3-6.1.amzn2           amzn2-core 124 k
+ harfbuzz                       x86_64 1.3.2-1.amzn2.0.2       amzn2-core 181 k
+ hicolor-icon-theme             noarch 0.12-7.amzn2            amzn2-core  43 k
+ hsqldb                         noarch 1:1.8.1.3-14.amzn2      amzn2-core 950 k
+ httpcomponents-client          noarch 4.2.5-5.amzn2           amzn2-core 425 k
+ httpcomponents-core            noarch 4.2.4-6.amzn2           amzn2-core 465 k
+ hwdata                         x86_64 0.252-8.8.amzn2         amzn2-core 2.3 M
+ icc-profiles-openicc           noarch 1.3.1-5.amzn2           amzn2-core 327 k
+ isorelax                       noarch 1:0-0.15.release20050331.amzn2
+                                                               amzn2-core  75 k
+ jai-imageio-core               noarch 1.2-0.14.20100217cvs.amzn2
+                                                               amzn2-core 331 k
+ jakarta-commons-httpclient     noarch 1:3.1-16.amzn2          amzn2-core 241 k
+ jakarta-oro                    noarch 2.0.8-16.1.amzn2        amzn2-core  78 k
+ jasper-libs                    x86_64 1.900.1-33.amzn2        amzn2-core 150 k
+ jaxen                          noarch 1.1.3-11.1.amzn2        amzn2-core 204 k
+ jbigkit-libs                   x86_64 2.0-11.amzn2.0.2        amzn2-core  47 k
+ jboss-ejb-3.1-api              noarch 1.0.2-10.amzn2          amzn2-core  54 k
+ jboss-el-2.2-api               noarch 1.0.1-0.7.20120212git2fabd8.amzn2
+                                                               amzn2-core  44 k
+ jboss-interceptors-1.1-api     noarch 1.0.2-0.9.20120319git49a904.amzn2
+                                                               amzn2-core  27 k
+ jboss-jaxrpc-1.1-api           noarch 1.0.1-7.amzn2           amzn2-core  44 k
+ jboss-servlet-3.0-api          noarch 1.0.1-9.amzn2           amzn2-core  82 k
+ jboss-transaction-1.1-api      noarch 1.0.1-8.amzn2           amzn2-core  40 k
+ jdom                           noarch 1.1.3-6.1.amzn2         amzn2-core 174 k
+ jline                          noarch 1.0-8.amzn2             amzn2-core  69 k
+ jsch                           noarch 0.1.50-5.amzn2          amzn2-core 239 k
+ jsoup                          noarch 1.6.1-10.amzn2          amzn2-core 263 k
+ junit                          noarch 4.11-8.1.amzn2.0.1      amzn2-core 261 k
+ jzlib                          noarch 1.1.1-6.amzn2           amzn2-core  72 k
+ kmod                           x86_64 25-3.amzn2.0.2          amzn2-core 111 k
+ kmod-libs                      x86_64 25-3.amzn2.0.2          amzn2-core  59 k
+ libICE                         x86_64 1.0.9-9.amzn2.0.2       amzn2-core  67 k
+ libSM                          x86_64 1.2.2-2.amzn2.0.2       amzn2-core  39 k
+ libX11                         x86_64 1.6.5-1.amzn2.0.2       amzn2-core 614 k
+ libX11-common                  noarch 1.6.5-1.amzn2.0.2       amzn2-core 164 k
+ libXau                         x86_64 1.0.8-2.1.amzn2.0.2     amzn2-core  29 k
+ libXcomposite                  x86_64 0.4.4-4.1.amzn2.0.2     amzn2-core  22 k
+ libXcursor                     x86_64 1.1.14-8.amzn2.0.2      amzn2-core  30 k
+ libXdamage                     x86_64 1.1.4-4.1.amzn2.0.2     amzn2-core  20 k
+ libXext                        x86_64 1.3.3-3.amzn2.0.2       amzn2-core  39 k
+ libXfixes                      x86_64 5.0.3-1.amzn2.0.2       amzn2-core  18 k
+ libXfont                       x86_64 1.5.2-1.amzn2.0.2       amzn2-core 152 k
+ libXft                         x86_64 2.3.2-2.amzn2.0.2       amzn2-core  60 k
+ libXi                          x86_64 1.7.9-1.amzn2.0.2       amzn2-core  41 k
+ libXinerama                    x86_64 1.1.3-2.1.amzn2.0.2     amzn2-core  14 k
+ libXrandr                      x86_64 1.5.1-2.amzn2.0.2       amzn2-core  27 k
+ libXrender                     x86_64 0.9.10-1.amzn2.0.2      amzn2-core  26 k
+ libXtst                        x86_64 1.2.3-1.amzn2.0.2       amzn2-core  20 k
+ libXv                          x86_64 1.0.11-1.amzn2.0.2      amzn2-core  18 k
+ libXxf86dga                    x86_64 1.1.4-2.1.amzn2.0.2     amzn2-core  19 k
+ libXxf86misc                   x86_64 1.0.3-7.1.amzn2.0.2     amzn2-core  19 k
+ libXxf86vm                     x86_64 1.1.4-1.amzn2.0.2       amzn2-core  17 k
+ libasyncns                     x86_64 0.8-7.amzn2.0.2         amzn2-core  26 k
+ libcap-ng                      x86_64 0.7.5-4.amzn2.0.2       amzn2-core  25 k
+ libdmx                         x86_64 1.1.3-3.amzn2.0.2       amzn2-core  16 k
+ libdrm                         x86_64 2.4.83-2.amzn2.0.2      amzn2-core 153 k
+ libfdisk                       x86_64 2.30.2-2.amzn2.0.4      amzn2-core 240 k
+ libfontenc                     x86_64 1.1.3-3.amzn2.0.2       amzn2-core  31 k
+ libglvnd                       x86_64 1:1.0.0-1.amzn2.0.2     amzn2-core  89 k
+ libglvnd-egl                   x86_64 1:1.0.0-1.amzn2.0.2     amzn2-core  43 k
+ libglvnd-glx                   x86_64 1:1.0.0-1.amzn2.0.2     amzn2-core 124 k
+ libjpeg-turbo                  x86_64 1.2.90-5.amzn2.0.2      amzn2-core 134 k
+ libogg                         x86_64 2:1.3.0-7.amzn2.0.2     amzn2-core  24 k
+ libpciaccess                   x86_64 0.14-1.amzn2            amzn2-core  26 k
+ libpng                         x86_64 2:1.5.13-7.amzn2.0.2    amzn2-core 214 k
+ libpwquality                   x86_64 1.2.3-5.amzn2           amzn2-core  84 k
+ libsemanage                    x86_64 2.5-11.amzn2            amzn2-core 152 k
+ libsmartcols                   x86_64 2.30.2-2.amzn2.0.4      amzn2-core 156 k
+ libsndfile                     x86_64 1.0.25-10.amzn2.0.2     amzn2-core 152 k
+ libthai                        x86_64 0.1.14-9.amzn2.0.2      amzn2-core 187 k
+ libtiff                        x86_64 4.0.3-27.amzn2.0.2      amzn2-core 174 k
+ libutempter                    x86_64 1.1.6-4.amzn2.0.2       amzn2-core  25 k
+ libvorbis                      x86_64 1:1.3.3-8.amzn2.0.2     amzn2-core 204 k
+ libwayland-client              x86_64 1.14.0-2.amzn2.0.1      amzn2-core  32 k
+ libwayland-server              x86_64 1.14.0-2.amzn2.0.1      amzn2-core  38 k
+ libxcb                         x86_64 1.12-1.amzn2.0.2        amzn2-core 216 k
+ libxshmfence                   x86_64 1.2-1.amzn2.0.2         amzn2-core 7.2 k
+ libxslt                        x86_64 1.1.28-5.amzn2.0.2      amzn2-core 243 k
+ lksctp-tools                   x86_64 1.0.17-2.amzn2.0.2      amzn2-core  88 k
+ log4j                          noarch 1.2.17-16.amzn2         amzn2-core 444 k
+ lz4                            x86_64 1.7.5-2.amzn2.0.1       amzn2-core  99 k
+ maven                          noarch 3.0.5-17.amzn2          amzn2-core 1.3 M
+ maven-artifact                 noarch 2.2.1-47.amzn2          amzn2-core  83 k
+ maven-artifact-manager         noarch 2.2.1-47.amzn2          amzn2-core  76 k
+ maven-doxia-core               noarch 1.4-5.amzn2             amzn2-core 157 k
+ maven-doxia-logging-api        noarch 1.4-5.amzn2             amzn2-core  25 k
+ maven-doxia-module-apt         noarch 1.4-5.amzn2             amzn2-core  57 k
+ maven-doxia-module-fml         noarch 1.4-5.amzn2             amzn2-core  45 k
+ maven-doxia-module-fo          noarch 1.4-5.amzn2             amzn2-core  65 k
+ maven-doxia-module-xdoc        noarch 1.4-5.amzn2             amzn2-core  44 k
+ maven-doxia-module-xhtml       noarch 1.4-5.amzn2             amzn2-core  24 k
+ maven-doxia-sink-api           noarch 1.4-5.amzn2             amzn2-core  20 k
+ maven-doxia-sitetools          noarch 1.4-3.amzn2             amzn2-core 128 k
+ maven-model                    noarch 2.2.1-47.amzn2          amzn2-core 132 k
+ maven-plugin-registry          noarch 2.2.1-47.amzn2          amzn2-core  43 k
+ maven-profile                  noarch 2.2.1-47.amzn2          amzn2-core  48 k
+ maven-project                  noarch 2.2.1-47.amzn2          amzn2-core 157 k
+ maven-reporting-api            noarch 1:3.0-5.amzn2           amzn2-core  19 k
+ maven-reporting-impl           noarch 2.2-8.amzn2             amzn2-core  27 k
+ maven-settings                 noarch 2.2.1-47.amzn2          amzn2-core  63 k
+ maven-wagon                    noarch 2.4-3.amzn2             amzn2-core 187 k
+ mesa-libEGL                    x86_64 17.2.3-8.20171019.amzn2.0.4
+                                                               amzn2-core 100 k
+ mesa-libGL                     x86_64 17.2.3-8.20171019.amzn2.0.4
+                                                               amzn2-core 159 k
+ mesa-libgbm                    x86_64 17.2.3-8.20171019.amzn2.0.4
+                                                               amzn2-core  37 k
+ mesa-libglapi                  x86_64 17.2.3-8.20171019.amzn2.0.4
+                                                               amzn2-core  43 k
+ mozjs17                        x86_64 17.0.0-20.amzn2.0.1     amzn2-core 1.4 M
+ msv-msv                        noarch 1:2013.5.1-7.amzn2      amzn2-core 3.8 M
+ msv-xsdlib                     noarch 1:2013.5.1-7.amzn2      amzn2-core 1.1 M
+ nekohtml                       noarch 1.9.14-13.amzn2         amzn2-core 152 k
+ objectweb-asm                  noarch 3.3.1-9.amzn2           amzn2-core 197 k
+ pam                            x86_64 1.1.8-22.amzn2          amzn2-core 718 k
+ pango                          x86_64 1.40.4-1.amzn2.0.2      amzn2-core 276 k
+ pcsc-lite-libs                 x86_64 1.8.8-7.amzn2           amzn2-core  35 k
+ perl                           x86_64 4:5.16.3-292.amzn2.0.2  amzn2-core 8.0 M
+ perl-Carp                      noarch 1.26-244.amzn2          amzn2-core  19 k
+ perl-Encode                    x86_64 2.51-7.amzn2.0.2        amzn2-core 1.5 M
+ perl-Exporter                  noarch 5.68-3.amzn2            amzn2-core  29 k
+ perl-File-Path                 noarch 2.09-2.amzn2            amzn2-core  27 k
+ perl-File-Temp                 noarch 0.23.01-3.amzn2         amzn2-core  56 k
+ perl-Filter                    x86_64 1.49-3.amzn2.0.2        amzn2-core  76 k
+ perl-Getopt-Long               noarch 2.40-3.amzn2            amzn2-core  56 k
+ perl-HTTP-Tiny                 noarch 0.033-3.amzn2           amzn2-core  38 k
+ perl-PathTools                 x86_64 3.40-5.amzn2.0.2        amzn2-core  83 k
+ perl-Pod-Escapes               noarch 1:1.04-292.amzn2.0.2    amzn2-core  51 k
+ perl-Pod-Perldoc               noarch 3.20-4.amzn2            amzn2-core  87 k
+ perl-Pod-Simple                noarch 1:3.28-4.amzn2          amzn2-core 216 k
+ perl-Pod-Usage                 noarch 1.63-3.amzn2            amzn2-core  27 k
+ perl-Scalar-List-Utils         x86_64 1.27-248.amzn2.0.2      amzn2-core  36 k
+ perl-Socket                    x86_64 2.010-4.amzn2.0.2       amzn2-core  49 k
+ perl-Storable                  x86_64 2.45-3.amzn2.0.2        amzn2-core  78 k
+ perl-Text-ParseWords           noarch 3.29-4.amzn2            amzn2-core  14 k
+ perl-Time-HiRes                x86_64 4:1.9725-3.amzn2.0.2    amzn2-core  45 k
+ perl-Time-Local                noarch 1.2300-2.amzn2          amzn2-core  24 k
+ perl-constant                  noarch 1.27-2.amzn2.0.1        amzn2-core  19 k
+ perl-libs                      x86_64 4:5.16.3-292.amzn2.0.2  amzn2-core 700 k
+ perl-macros                    x86_64 4:5.16.3-292.amzn2.0.2  amzn2-core  43 k
+ perl-parent                    noarch 1:0.225-244.amzn2.0.1   amzn2-core  12 k
+ perl-podlators                 noarch 2.5.1-3.amzn2.0.1       amzn2-core 112 k
+ perl-threads                   x86_64 1.87-4.amzn2.0.2        amzn2-core  50 k
+ perl-threads-shared            x86_64 1.43-6.amzn2.0.2        amzn2-core  39 k
+ pixman                         x86_64 0.34.0-1.amzn2.0.2      amzn2-core 254 k
+ pkgconfig                      x86_64 1:0.27.1-4.amzn2.0.2    amzn2-core  54 k
+ plexus-cipher                  noarch 1.7-5.amzn2             amzn2-core  23 k
+ plexus-classworlds             noarch 2.4.2-8.amzn2           amzn2-core  54 k
+ plexus-component-api           noarch 1.0-0.16.alpha15.amzn2  amzn2-core  27 k
+ plexus-containers-component-annotations
+                                noarch 1.5.5-14.amzn2          amzn2-core  11 k
+ plexus-containers-container-default
+                                noarch 1.5.5-14.amzn2          amzn2-core 183 k
+ plexus-i18n                    noarch 1.0-0.6.b10.4.amzn2     amzn2-core  19 k
+ plexus-interactivity           noarch 1.0-0.14.alpha6.amzn2   amzn2-core  18 k
+ plexus-interpolation           noarch 1.15-8.amzn2            amzn2-core  57 k
+ plexus-sec-dispatcher          noarch 1.4-13.amzn2            amzn2-core  29 k
+ plexus-utils                   noarch 3.0.9-9.amzn2           amzn2-core 225 k
+ plexus-velocity                noarch 1.1.8-16.amzn2          amzn2-core  18 k
+ polkit                         x86_64 0.112-14.amzn2          amzn2-core 168 k
+ polkit-pkla-compat             x86_64 0.1-4.amzn2.0.2         amzn2-core  39 k
+ psmisc                         x86_64 22.20-15.amzn2.0.2      amzn2-core 141 k
+ pulseaudio-libs                x86_64 10.0-3.amzn2.0.2        amzn2-core 651 k
+ python-javapackages            noarch 3.4.1-11.amzn2          amzn2-core  31 k
+ python-lxml                    x86_64 3.2.1-4.amzn2.0.2       amzn2-core 1.0 M
+ qdox                           noarch 1.12.1-10.amzn2         amzn2-core 170 k
+ qrencode-libs                  x86_64 3.4.1-3.amzn2.0.2       amzn2-core  50 k
+ regexp                         noarch 1.5-13.amzn2            amzn2-core  47 k
+ relaxngDatatype                noarch 1.0-11.amzn2            amzn2-core  16 k
+ rhino                          noarch 1.7R5-1.amzn2           amzn2-core 1.0 M
+ sac                            noarch 1.3-17.amzn2            amzn2-core  17 k
+ shadow-utils                   x86_64 2:4.1.5.1-24.amzn2.0.2  amzn2-core 1.1 M
+ sisu-inject-bean               noarch 2.3.0-11.amzn2          amzn2-core 181 k
+ sisu-inject-plexus             noarch 2.3.0-11.amzn2          amzn2-core 179 k
+ slf4j                          noarch 1.7.4-4.amzn2           amzn2-core 170 k
+ stix-fonts                     noarch 1.1.0-5.amzn2           amzn2-core 1.3 M
+ systemd                        x86_64 219-57.amzn2.0.7        amzn2-core 5.0 M
+ systemd-libs                   x86_64 219-57.amzn2.0.7        amzn2-core 396 k
+ systemd-sysv                   x86_64 219-57.amzn2.0.7        amzn2-core  79 k
+ tcp_wrappers-libs              x86_64 7.6-77.amzn2.0.2        amzn2-core  66 k
+ tomcat-servlet-3.0-api         noarch 7.0.76-8.amzn2          amzn2-core 211 k
+ ttmkfdir                       x86_64 3.0.9-42.amzn2.0.2      amzn2-core  50 k
+ tzdata-java                    noarch 2018e-3.amzn2           amzn2-core 184 k
+ ustr                           x86_64 1.0.4-16.amzn2.0.3      amzn2-core  96 k
+ util-linux                     x86_64 2.30.2-2.amzn2.0.4      amzn2-core 2.3 M
+ velocity                       noarch 1.7-10.1.amzn2          amzn2-core 414 k
+ ws-jaxme                       noarch 0.5.2-10.amzn2          amzn2-core 1.1 M
+ xalan-j2                       noarch 2.7.1-23.1.amzn2        amzn2-core 1.9 M
+ xbean                          noarch 3.13-6.amzn2            amzn2-core 376 k
+ xerces-j2                      noarch 2.11.0-17.amzn2         amzn2-core 1.1 M
+ xml-commons-apis               noarch 1.4.01-16.amzn2         amzn2-core 227 k
+ xml-commons-resolver           noarch 1.2-15.amzn2            amzn2-core 108 k
+ xmlgraphics-commons            noarch 1.5-3.amzn2             amzn2-core 545 k
+ xorg-x11-font-utils            x86_64 1:7.5-20.amzn2.0.2      amzn2-core  87 k
+ xorg-x11-fonts-Type1           noarch 7.5-9.amzn2             amzn2-core 521 k
+ xorg-x11-utils                 x86_64 7.5-22.amzn2.0.1        amzn2-core 115 k
+ xpp3                           noarch 1.1.3.8-11.amzn2        amzn2-core 336 k
+
+Transaction Summary
+================================================================================
+Install  38 Packages (+261 Dependent packages)
+
+Total download size: 476 M
+Installed size: 1.7 G
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/299): acl-2.2.51-14.amzn2.x86_64.rpm                    |  82 kB   00:01
+(2/299): aether-api-1.13.1-13.amzn2.noarch.rpm             |  89 kB   00:01
+(3/299): GConf2-3.2.6-8.amzn2.0.2.x86_64.rpm               | 1.0 MB   00:04
+(4/299): aether-connector-wagon-1.13.1-13.amzn2.noarch.rpm |  34 kB   00:01
+(5/299): aether-impl-1.13.1-13.amzn2.noarch.rpm            | 124 kB   00:01
+(6/299): aether-spi-1.13.1-13.amzn2.noarch.rpm             |  19 kB   00:01
+(7/299): alsa-lib-1.1.4.1-2.amzn2.x86_64.rpm               | 425 kB   00:00
+(8/299): aether-util-1.13.1-13.amzn2.noarch.rpm            | 119 kB   00:01
+(9/299): ant-1.9.2-9.amzn2.0.1.noarch.rpm                  | 1.9 MB   00:02
+(10/299): antlr-tool-2.7.7-30.amzn2.0.2.noarch.rpm         | 357 kB   00:02
+(11/299): aopalliance-1.0-8.1.amzn2.noarch.rpm             |  11 kB   00:01
+(12/299): apache-commons-cli-1.2-13.amzn2.noarch.rpm       |  51 kB   00:00
+(13/299): apache-commons-beanutils-1.8.3-14.amzn2.noarch.r | 213 kB   00:01
+(14/299): apache-commons-codec-1.8-7.amzn2.noarch.rpm      | 223 kB   00:00
+(15/299): apache-commons-collections-3.2.1-22.amzn2.noarch | 509 kB   00:02
+(16/299): apache-commons-configuration-1.9-8.amzn2.noarch. | 335 kB   00:02
+(17/299): apache-commons-digester-1.8.1-19.amzn2.noarch.rp | 142 kB   00:01
+(18/299): apache-commons-io-2.4-12.amzn2.noarch.rpm        | 189 kB   00:02
+(19/299): apache-commons-jexl-2.1.1-9.amzn2.noarch.rpm     | 250 kB   00:03
+(20/299): apache-commons-jxpath-1.3-20.amzn2.noarch.rpm    | 275 kB   00:01
+(21/299): apache-commons-logging-1.1.2-7.amzn2.noarch.rpm  |  78 kB   00:01
+(22/299): apache-commons-lang-2.6-15.amzn2.noarch.rpm      | 276 kB   00:02
+(23/299): apache-commons-net-3.2-8.amzn2.noarch.rpm        | 261 kB   00:02
+(24/299): apache-commons-validator-1.4.0-8.amzn2.noarch.rp | 163 kB   00:01
+(25/299): atinject-1-13.20100611svn86.amzn2.noarch.rpm     |  13 kB   00:01
+(26/299): atk-2.22.0-3.amzn2.0.2.x86_64.rpm                | 258 kB   00:04
+(27/299): audit-libs-2.8.1-3.amzn2.1.x86_64.rpm            |  99 kB   00:02
+(28/299): apache-commons-vfs-2.0-11.amzn2.noarch.rpm       | 363 kB   00:07
+(29/299): avahi-libs-0.6.31-19.amzn2.x86_64.rpm            |  62 kB   00:00
+(30/299): avalon-framework-4.3-10.1.amzn2.noarch.rpm       |  87 kB   00:01
+(31/299): avalon-logkit-2.1-14.1.amzn2.noarch.rpm          |  87 kB   00:01
+(32/299): bcel-5.2-18.amzn2.noarch.rpm                     | 469 kB   00:02
+(33/299): bea-stax-1.2.0-9.amzn2.noarch.rpm                | 176 kB   00:00
+(34/299): bea-stax-api-1.2.0-9.amzn2.noarch.rpm            |  31 kB   00:01
+(35/299): batik-1.8-0.12.svn1230816.amzn2.noarch.rpm       | 6.3 MB   00:05
+(36/299): cairo-1.14.8-2.amzn2.0.2.x86_64.rpm              | 718 kB   00:00
+(37/299): cdi-api-1.0-11.SP4.amzn2.noarch.rpm              |  41 kB   00:00
+(38/299): cal10n-0.7.7-4.amzn2.noarch.rpm                  |  36 kB   00:01
+(39/299): cglib-2.2-18.1.amzn2.noarch.rpm                  | 255 kB   00:00
+(40/299): color-filesystem-1-13.amzn2.noarch.rpm           | 5.4 kB   00:01
+(41/299): copy-jdk-configs-3.3-10.amzn2.noarch.rpm         |  21 kB   00:01
+(42/299): cracklib-2.9.0-11.amzn2.0.2.x86_64.rpm           |  80 kB   00:00
+(43/299): cryptsetup-libs-1.7.4-4.amzn2.x86_64.rpm         | 224 kB   00:00
+(44/299): cups-libs-1.6.3-35.amzn2.x86_64.rpm              | 360 kB   00:01
+(45/299): dbus-1.10.24-7.amzn2.x86_64.rpm                  | 247 kB   00:02
+(46/299): dbus-glib-0.100-7.2.amzn2.x86_64.rpm             | 103 kB   00:01
+(47/299): dbus-libs-1.10.24-7.amzn2.x86_64.rpm             | 169 kB   00:00
+(48/299): device-mapper-1.02.146-4.amzn2.0.2.x86_64.rpm    | 289 kB   00:00
+(49/299): device-mapper-libs-1.02.146-4.amzn2.0.2.x86_64.r | 320 kB   00:00
+(50/299): cracklib-dicts-2.9.0-11.amzn2.0.2.x86_64.rpm     | 3.6 MB   00:07
+(51/299): easymock2-2.5.2-12.1.amzn2.noarch.rpm            |  92 kB   00:01
+(52/299): elfutils-default-yama-scope-0.170-4.amzn2.noarch |  31 kB   00:00
+(53/299): elfutils-libs-0.170-4.amzn2.x86_64.rpm           | 270 kB   00:00
+(54/299): dom4j-1.6.1-20.1.amzn2.noarch.rpm                | 277 kB   00:02
+(55/299): flac-libs-1.3.0-5.amzn2.0.2.x86_64.rpm           | 168 kB   00:01
+(56/299): felix-framework-4.2.1-5.amzn2.noarch.rpm         | 481 kB   00:02
+(57/299): fontconfig-2.10.95-11.amzn2.0.2.x86_64.rpm       | 231 kB   00:00
+(58/299): fontpackages-filesystem-1.44-8.amzn2.noarch.rpm  |  10 kB   00:00
+(59/299): freetype-2.4.11-15.amzn2.0.2.x86_64.rpm          | 392 kB   00:00
+(60/299): gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64.rpm        | 567 kB   00:00
+(61/299): geronimo-annotation-1.0-15.amzn2.noarch.rpm      |  24 kB   00:01
+(62/299): geronimo-jms-1.1.1-19.amzn2.noarch.rpm           |  31 kB   00:01
+(63/299): giflib-4.1.6-9.amzn2.0.2.x86_64.rpm              |  40 kB   00:00
+(64/299): fop-1.1-6.amzn2.noarch.rpm                       | 3.6 MB   00:03
+(65/299): graphite2-1.3.10-1.amzn2.0.2.x86_64.rpm          | 115 kB   00:00
+(66/299): groff-base-1.22.2-8.amzn2.0.2.x86_64.rpm         | 948 kB   00:00
+(67/299): gsm-1.0.13-11.amzn2.0.2.x86_64.rpm               |  30 kB   00:01
+(68/299): gtk-update-icon-cache-3.22.26-4.amzn2.x86_64.rpm |  27 kB   00:00
+(69/299): google-guice-3.1.3-9.amzn2.noarch.rpm            | 384 kB   00:02
+(70/299): gtk2-2.24.31-1.amzn2.0.2.x86_64.rpm              | 3.4 MB   00:01
+(71/299): gzip-1.5-10.amzn2.x86_64.rpm                     | 130 kB   00:00
+(72/299): guava-13.0-6.amzn2.noarch.rpm                    | 1.6 MB   00:01
+(73/299): harfbuzz-1.3.2-1.amzn2.0.2.x86_64.rpm            | 181 kB   00:00
+(74/299): hicolor-icon-theme-0.12-7.amzn2.noarch.rpm       |  43 kB   00:00
+(75/299): hamcrest-1.3-6.1.amzn2.noarch.rpm                | 124 kB   00:01
+(76/299): httpcomponents-client-4.2.5-5.amzn2.noarch.rpm   | 425 kB   00:00
+(77/299): hsqldb-1.8.1.3-14.amzn2.noarch.rpm               | 950 kB   00:02
+(78/299): httpcomponents-core-4.2.4-6.amzn2.noarch.rpm     | 465 kB   00:02
+(79/299): hwdata-0.252-8.8.amzn2.x86_64.rpm                | 2.3 MB   00:00
+(80/299): isorelax-0-0.15.release20050331.amzn2.noarch.rpm |  75 kB   00:01
+(81/299): icc-profiles-openicc-1.3.1-5.amzn2.noarch.rpm    | 327 kB   00:03
+(82/299): jai-imageio-core-1.2-0.14.20100217cvs.amzn2.noar | 331 kB   00:02
+(83/299): jakarta-commons-httpclient-3.1-16.amzn2.noarch.r | 241 kB   00:00
+(84/299): jasper-libs-1.900.1-33.amzn2.x86_64.rpm          | 150 kB   00:00
+(85/299): jakarta-oro-2.0.8-16.1.amzn2.noarch.rpm          |  78 kB   00:01
+(86/299): java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1. | 242 kB   00:01
+(87/299): java-1.7.0-openjdk-accessibility-1.7.0.201-2.6.1 |  38 kB   00:00
+(88/299): java-1.7.0-openjdk-demo-1.7.0.201-2.6.16.1.amzn2 | 1.9 MB   00:12
+(89/299): java-1.7.0-openjdk-devel-1.7.0.201-2.6.16.1.amzn | 9.2 MB   00:17
+(90/299): java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.a |  26 MB   00:18
+(91/299): java-1.7.0-openjdk-javadoc-1.7.0.201-2.6.16.1.am |  14 MB   00:21
+(92/299): java-1.8.0-openjdk-1.8.0.191.b12-0.amzn2.x86_64. | 252 kB   00:01
+(93/299): java-1.8.0-openjdk-accessibility-1.8.0.191.b12-0 |  60 kB   00:03
+(94/299): java-1.8.0-openjdk-accessibility-debug-1.8.0.191 |  60 kB   00:01
+(95/299): java-1.8.0-openjdk-debug-1.8.0.191.b12-0.amzn2.x | 254 kB   00:03
+(96/299): java-1.8.0-openjdk-demo-1.8.0.191.b12-0.amzn2.x8 | 2.0 MB   00:05
+(97/299): java-1.7.0-openjdk-src-1.7.0.201-2.6.16.1.amzn2. |  39 MB   00:30
+(98/299): java-1.8.0-openjdk-demo-debug-1.8.0.191.b12-0.am | 2.0 MB   00:04
+(99/299): java-1.8.0-openjdk-devel-1.8.0.191.b12-0.amzn2.x | 9.7 MB   00:07
+(100/299): java-1.8.0-openjdk-devel-debug-1.8.0.191.b12-0. | 9.7 MB   00:15
+(101/299): java-1.8.0-openjdk-headless-1.8.0.191.b12-0.amz |  32 MB   00:26
+(102/299): java-1.8.0-openjdk-headless-debug-1.8.0.191.b12 |  33 MB   00:20
+(103/299): java-1.8.0-openjdk-javadoc-1.8.0.191.b12-0.amzn |  15 MB   00:10
+(104/299): java-1.8.0-openjdk-javadoc-debug-1.8.0.191.b12- |  15 MB   00:20
+(105/299): java-1.8.0-openjdk-javadoc-zip-1.8.0.191.b12-0. |  42 MB   00:59
+(106/299): java-1.8.0-openjdk-javadoc-zip-debug-1.8.0.191. |  42 MB   01:12
+(107/299): java-1.8.0-openjdk-src-1.8.0.191.b12-0.amzn2.x8 |  45 MB   00:42
+(108/299): java-atk-wrapper-0.30.4-5.amzn2.0.2.x86_64.rpm  |  71 kB   00:01
+(109/299): java_cup-0.11a-16.1.amzn2.noarch.rpm            | 107 kB   00:01
+(110/299): java_cup-javadoc-0.11a-16.1.amzn2.noarch.rpm    | 121 kB   00:01
+(111/299): java_cup-manual-0.11a-16.1.amzn2.noarch.rpm     |  29 kB   00:01
+(112/299): javacc-5.0-10.1.amzn2.noarch.rpm                | 299 kB   00:06
+(113/299): javacc-demo-5.0-10.1.amzn2.noarch.rpm           |  88 kB   00:02
+(114/299): java-1.8.0-openjdk-src-debug-1.8.0.191.b12-0.am |  45 MB   00:35
+(115/299): javacc-javadoc-5.0-10.1.amzn2.noarch.rpm        | 166 kB   00:01
+(116/299): javacc-maven-plugin-2.6-17.amzn2.noarch.rpm     |  84 kB   00:01
+(117/299): javacc-manual-5.0-10.1.amzn2.noarch.rpm         |  84 kB   00:02
+(118/299): javacc-maven-plugin-javadoc-2.6-17.amzn2.noarch |  46 kB   00:00
+(119/299): javamail-1.4.6-8.amzn2.noarch.rpm               | 757 kB   00:01
+(120/299): javapackages-tools-3.4.1-11.amzn2.noarch.rpm    |  73 kB   00:00
+(121/299): javamail-javadoc-1.4.6-8.amzn2.noarch.rpm       | 552 kB   00:02
+(122/299): javassist-3.16.1-10.amzn2.noarch.rpm            | 627 kB   00:03
+(123/299): javassist-javadoc-3.16.1-10.amzn2.noarch.rpm    | 532 kB   00:02
+(124/299): jbigkit-libs-2.0-11.amzn2.0.2.x86_64.rpm        |  47 kB   00:00
+(125/299): jboss-ejb-3.1-api-1.0.2-10.amzn2.noarch.rpm     |  54 kB   00:00
+(126/299): jaxen-1.1.3-11.1.amzn2.noarch.rpm               | 204 kB   00:01
+(127/299): jboss-interceptors-1.1-api-1.0.2-0.9.20120319gi |  27 kB   00:00
+(128/299): jboss-el-2.2-api-1.0.1-0.7.20120212git2fabd8.am |  44 kB   00:01
+(129/299): jboss-servlet-3.0-api-1.0.1-9.amzn2.noarch.rpm  |  82 kB   00:01
+(130/299): jboss-jaxrpc-1.1-api-1.0.1-7.amzn2.noarch.rpm   |  44 kB   00:02
+(131/299): jboss-transaction-1.1-api-1.0.1-8.amzn2.noarch. |  40 kB   00:01
+(132/299): jdom-1.1.3-6.1.amzn2.noarch.rpm                 | 174 kB   00:01
+(133/299): jline-1.0-8.amzn2.noarch.rpm                    |  69 kB   00:01
+(134/299): jsch-0.1.50-5.amzn2.noarch.rpm                  | 239 kB   00:01
+(135/299): junit-4.11-8.1.amzn2.0.1.noarch.rpm             | 261 kB   00:01
+(136/299): jsoup-1.6.1-10.amzn2.noarch.rpm                 | 263 kB   00:03
+(137/299): kmod-25-3.amzn2.0.2.x86_64.rpm                  | 111 kB   00:00
+(138/299): kmod-libs-25-3.amzn2.0.2.x86_64.rpm             |  59 kB   00:00
+(139/299): libICE-1.0.9-9.amzn2.0.2.x86_64.rpm             |  67 kB   00:00
+(140/299): libSM-1.2.2-2.amzn2.0.2.x86_64.rpm              |  39 kB   00:00
+(141/299): libX11-1.6.5-1.amzn2.0.2.x86_64.rpm             | 614 kB   00:00
+(142/299): libX11-common-1.6.5-1.amzn2.0.2.noarch.rpm      | 164 kB   00:00
+(143/299): jzlib-1.1.1-6.amzn2.noarch.rpm                  |  72 kB   00:01
+(144/299): libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64.rpm    |  22 kB   00:00
+(145/299): libXau-1.0.8-2.1.amzn2.0.2.x86_64.rpm           |  29 kB   00:00
+(146/299): libXcursor-1.1.14-8.amzn2.0.2.x86_64.rpm        |  30 kB   00:00
+(147/299): libXdamage-1.1.4-4.1.amzn2.0.2.x86_64.rpm       |  20 kB   00:00
+(148/299): libXext-1.3.3-3.amzn2.0.2.x86_64.rpm            |  39 kB   00:00
+(149/299): libXfixes-5.0.3-1.amzn2.0.2.x86_64.rpm          |  18 kB   00:00
+(150/299): libXft-2.3.2-2.amzn2.0.2.x86_64.rpm             |  60 kB   00:00
+(151/299): libXi-1.7.9-1.amzn2.0.2.x86_64.rpm              |  41 kB   00:00
+(152/299): libXinerama-1.1.3-2.1.amzn2.0.2.x86_64.rpm      |  14 kB   00:00
+(153/299): libXrandr-1.5.1-2.amzn2.0.2.x86_64.rpm          |  27 kB   00:00
+(154/299): libXrender-0.9.10-1.amzn2.0.2.x86_64.rpm        |  26 kB   00:00
+(155/299): libXtst-1.2.3-1.amzn2.0.2.x86_64.rpm            |  20 kB   00:00
+(156/299): libXv-1.0.11-1.amzn2.0.2.x86_64.rpm             |  18 kB   00:00
+(157/299): libXfont-1.5.2-1.amzn2.0.2.x86_64.rpm           | 152 kB   00:01
+(158/299): libXxf86dga-1.1.4-2.1.amzn2.0.2.x86_64.rpm      |  19 kB   00:01
+(159/299): libXxf86vm-1.1.4-1.amzn2.0.2.x86_64.rpm         |  17 kB   00:00
+(160/299): libXxf86misc-1.0.3-7.1.amzn2.0.2.x86_64.rpm     |  19 kB   00:00
+(161/299): libcap-ng-0.7.5-4.amzn2.0.2.x86_64.rpm          |  25 kB   00:00
+(162/299): libasyncns-0.8-7.amzn2.0.2.x86_64.rpm           |  26 kB   00:01
+(163/299): libdrm-2.4.83-2.amzn2.0.2.x86_64.rpm            | 153 kB   00:00
+(164/299): libfdisk-2.30.2-2.amzn2.0.4.x86_64.rpm          | 240 kB   00:00
+(165/299): libdmx-1.1.3-3.amzn2.0.2.x86_64.rpm             |  16 kB   00:01
+(166/299): libglvnd-1.0.0-1.amzn2.0.2.x86_64.rpm           |  89 kB   00:00
+(167/299): libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64.rpm       |  43 kB   00:00
+(168/299): libglvnd-glx-1.0.0-1.amzn2.0.2.x86_64.rpm       | 124 kB   00:00
+(169/299): libjpeg-turbo-1.2.90-5.amzn2.0.2.x86_64.rpm     | 134 kB   00:00
+(170/299): libfontenc-1.1.3-3.amzn2.0.2.x86_64.rpm         |  31 kB   00:01
+(171/299): libpciaccess-0.14-1.amzn2.x86_64.rpm            |  26 kB   00:00
+(172/299): libpng-1.5.13-7.amzn2.0.2.x86_64.rpm            | 214 kB   00:00
+(173/299): libpwquality-1.2.3-5.amzn2.x86_64.rpm           |  84 kB   00:00
+(174/299): libsemanage-2.5-11.amzn2.x86_64.rpm             | 152 kB   00:00
+(175/299): libogg-1.3.0-7.amzn2.0.2.x86_64.rpm             |  24 kB   00:01
+(176/299): libsmartcols-2.30.2-2.amzn2.0.4.x86_64.rpm      | 156 kB   00:00
+(177/299): libthai-0.1.14-9.amzn2.0.2.x86_64.rpm           | 187 kB   00:00
+(178/299): libtiff-4.0.3-27.amzn2.0.2.x86_64.rpm           | 174 kB   00:00
+(179/299): libutempter-1.1.6-4.amzn2.0.2.x86_64.rpm        |  25 kB   00:00
+(180/299): libsndfile-1.0.25-10.amzn2.0.2.x86_64.rpm       | 152 kB   00:01
+(181/299): libwayland-client-1.14.0-2.amzn2.0.1.x86_64.rpm |  32 kB   00:00
+(182/299): libvorbis-1.3.3-8.amzn2.0.2.x86_64.rpm          | 204 kB   00:01
+(183/299): libwayland-server-1.14.0-2.amzn2.0.1.x86_64.rpm |  38 kB   00:00
+(184/299): libxshmfence-1.2-1.amzn2.0.2.x86_64.rpm         | 7.2 kB   00:00
+(185/299): libxcb-1.12-1.amzn2.0.2.x86_64.rpm              | 216 kB   00:00
+(186/299): libxslt-1.1.28-5.amzn2.0.2.x86_64.rpm           | 243 kB   00:00
+(187/299): log4j-1.2.17-16.amzn2.noarch.rpm                | 444 kB   00:00
+(188/299): lz4-1.7.5-2.amzn2.0.1.x86_64.rpm                |  99 kB   00:00
+(189/299): lksctp-tools-1.0.17-2.amzn2.0.2.x86_64.rpm      |  88 kB   00:00
+(190/299): maven-artifact-2.2.1-47.amzn2.noarch.rpm        |  83 kB   00:00
+(191/299): maven-artifact-manager-2.2.1-47.amzn2.noarch.rp |  76 kB   00:01
+(192/299): maven-3.0.5-17.amzn2.noarch.rpm                 | 1.3 MB   00:02
+(193/299): maven-doxia-logging-api-1.4-5.amzn2.noarch.rpm  |  25 kB   00:01
+(194/299): maven-doxia-core-1.4-5.amzn2.noarch.rpm         | 157 kB   00:01
+(195/299): maven-doxia-module-apt-1.4-5.amzn2.noarch.rpm   |  57 kB   00:00
+(196/299): maven-doxia-module-fml-1.4-5.amzn2.noarch.rpm   |  45 kB   00:00
+(197/299): maven-doxia-module-fo-1.4-5.amzn2.noarch.rpm    |  65 kB   00:01
+(198/299): maven-doxia-module-xdoc-1.4-5.amzn2.noarch.rpm  |  44 kB   00:01
+(199/299): maven-doxia-sink-api-1.4-5.amzn2.noarch.rpm     |  20 kB   00:01
+(200/299): maven-doxia-module-xhtml-1.4-5.amzn2.noarch.rpm |  24 kB   00:01
+(201/299): maven-model-2.2.1-47.amzn2.noarch.rpm           | 132 kB   00:00
+(202/299): maven-doxia-sitetools-1.4-3.amzn2.noarch.rpm    | 128 kB   00:01
+(203/299): maven-profile-2.2.1-47.amzn2.noarch.rpm         |  48 kB   00:00
+(204/299): maven-plugin-registry-2.2.1-47.amzn2.noarch.rpm |  43 kB   00:01
+(205/299): maven-reporting-api-3.0-5.amzn2.noarch.rpm      |  19 kB   00:00
+(206/299): maven-project-2.2.1-47.amzn2.noarch.rpm         | 157 kB   00:01
+(207/299): maven-reporting-impl-2.2-8.amzn2.noarch.rpm     |  27 kB   00:01
+(208/299): maven-settings-2.2.1-47.amzn2.noarch.rpm        |  63 kB   00:01
+(209/299): mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64. | 100 kB   00:00
+(210/299): mesa-libGL-17.2.3-8.20171019.amzn2.0.4.x86_64.r | 159 kB   00:00
+(211/299): mesa-libgbm-17.2.3-8.20171019.amzn2.0.4.x86_64. |  37 kB   00:00
+(212/299): mesa-libglapi-17.2.3-8.20171019.amzn2.0.4.x86_6 |  43 kB   00:00
+(213/299): maven-wagon-2.4-3.amzn2.noarch.rpm              | 187 kB   00:02
+(214/299): mozjs17-17.0.0-20.amzn2.0.1.x86_64.rpm          | 1.4 MB   00:00
+(215/299): msv-msv-2013.5.1-7.amzn2.noarch.rpm             | 3.8 MB   00:02
+(216/299): msv-xsdlib-2013.5.1-7.amzn2.noarch.rpm          | 1.1 MB   00:02
+(217/299): nekohtml-1.9.14-13.amzn2.noarch.rpm             | 152 kB   00:01
+(218/299): pam-1.1.8-22.amzn2.x86_64.rpm                   | 718 kB   00:00
+(219/299): pango-1.40.4-1.amzn2.0.2.x86_64.rpm             | 276 kB   00:00
+(220/299): objectweb-asm-3.3.1-9.amzn2.noarch.rpm          | 197 kB   00:01
+(221/299): pcsc-lite-libs-1.8.8-7.amzn2.x86_64.rpm         |  35 kB   00:01
+(222/299): perl-Carp-1.26-244.amzn2.noarch.rpm             |  19 kB   00:00
+(223/299): perl-Encode-2.51-7.amzn2.0.2.x86_64.rpm         | 1.5 MB   00:00
+(224/299): perl-Exporter-5.68-3.amzn2.noarch.rpm           |  29 kB   00:00
+(225/299): perl-File-Path-2.09-2.amzn2.noarch.rpm          |  27 kB   00:00
+(226/299): perl-File-Temp-0.23.01-3.amzn2.noarch.rpm       |  56 kB   00:00
+(227/299): perl-Filter-1.49-3.amzn2.0.2.x86_64.rpm         |  76 kB   00:00
+(228/299): perl-Getopt-Long-2.40-3.amzn2.noarch.rpm        |  56 kB   00:00
+(229/299): perl-HTTP-Tiny-0.033-3.amzn2.noarch.rpm         |  38 kB   00:00
+(230/299): perl-PathTools-3.40-5.amzn2.0.2.x86_64.rpm      |  83 kB   00:00
+(231/299): perl-Pod-Escapes-1.04-292.amzn2.0.2.noarch.rpm  |  51 kB   00:00
+(232/299): perl-Pod-Perldoc-3.20-4.amzn2.noarch.rpm        |  87 kB   00:00
+(233/299): perl-5.16.3-292.amzn2.0.2.x86_64.rpm            | 8.0 MB   00:03
+(234/299): perl-Pod-Simple-3.28-4.amzn2.noarch.rpm         | 216 kB   00:00
+(235/299): perl-Pod-Usage-1.63-3.amzn2.noarch.rpm          |  27 kB   00:00
+(236/299): perl-Scalar-List-Utils-1.27-248.amzn2.0.2.x86_6 |  36 kB   00:00
+(237/299): perl-Socket-2.010-4.amzn2.0.2.x86_64.rpm        |  49 kB   00:00
+(238/299): perl-Storable-2.45-3.amzn2.0.2.x86_64.rpm       |  78 kB   00:00
+(239/299): perl-Text-ParseWords-3.29-4.amzn2.noarch.rpm    |  14 kB   00:00
+(240/299): perl-Time-HiRes-1.9725-3.amzn2.0.2.x86_64.rpm   |  45 kB   00:00
+(241/299): perl-Time-Local-1.2300-2.amzn2.noarch.rpm       |  24 kB   00:00
+(242/299): perl-constant-1.27-2.amzn2.0.1.noarch.rpm       |  19 kB   00:00
+(243/299): perl-macros-5.16.3-292.amzn2.0.2.x86_64.rpm     |  43 kB   00:00
+(244/299): perl-parent-0.225-244.amzn2.0.1.noarch.rpm      |  12 kB   00:00
+(245/299): perl-libs-5.16.3-292.amzn2.0.2.x86_64.rpm       | 700 kB   00:00
+(246/299): perl-podlators-2.5.1-3.amzn2.0.1.noarch.rpm     | 112 kB   00:00
+(247/299): perl-threads-1.87-4.amzn2.0.2.x86_64.rpm        |  50 kB   00:00
+(248/299): perl-threads-shared-1.43-6.amzn2.0.2.x86_64.rpm |  39 kB   00:00
+(249/299): pixman-0.34.0-1.amzn2.0.2.x86_64.rpm            | 254 kB   00:00
+(250/299): pkgconfig-0.27.1-4.amzn2.0.2.x86_64.rpm         |  54 kB   00:00
+(251/299): plexus-cipher-1.7-5.amzn2.noarch.rpm            |  23 kB   00:01
+(252/299): plexus-classworlds-2.4.2-8.amzn2.noarch.rpm     |  54 kB   00:01
+(253/299): plexus-component-api-1.0-0.16.alpha15.amzn2.noa |  27 kB   00:01
+(254/299): plexus-containers-component-annotations-1.5.5-1 |  11 kB   00:01
+(255/299): plexus-i18n-1.0-0.6.b10.4.amzn2.noarch.rpm      |  19 kB   00:01
+(256/299): plexus-containers-container-default-1.5.5-14.am | 183 kB   00:01
+(257/299): plexus-interactivity-1.0-0.14.alpha6.amzn2.noar |  18 kB   00:00
+(258/299): plexus-interpolation-1.15-8.amzn2.noarch.rpm    |  57 kB   00:01
+(259/299): plexus-sec-dispatcher-1.4-13.amzn2.noarch.rpm   |  29 kB   00:01
+(260/299): plexus-velocity-1.1.8-16.amzn2.noarch.rpm       |  18 kB   00:01
+(261/299): plexus-utils-3.0.9-9.amzn2.noarch.rpm           | 225 kB   00:01
+(262/299): polkit-pkla-compat-0.1-4.amzn2.0.2.x86_64.rpm   |  39 kB   00:01
+(263/299): polkit-0.112-14.amzn2.x86_64.rpm                | 168 kB   00:01
+(264/299): psmisc-22.20-15.amzn2.0.2.x86_64.rpm            | 141 kB   00:00
+(265/299): python-javapackages-3.4.1-11.amzn2.noarch.rpm   |  31 kB   00:00
+(266/299): pulseaudio-libs-10.0-3.amzn2.0.2.x86_64.rpm     | 651 kB   00:01
+(267/299): python-lxml-3.2.1-4.amzn2.0.2.x86_64.rpm        | 1.0 MB   00:00
+(268/299): qrencode-libs-3.4.1-3.amzn2.0.2.x86_64.rpm      |  50 kB   00:00
+(269/299): regexp-1.5-13.amzn2.noarch.rpm                  |  47 kB   00:01
+(270/299): qdox-1.12.1-10.amzn2.noarch.rpm                 | 170 kB   00:01
+(271/299): relaxngDatatype-1.0-11.amzn2.noarch.rpm         |  16 kB   00:01
+(272/299): sac-1.3-17.amzn2.noarch.rpm                     |  17 kB   00:01
+(273/299): rhino-1.7R5-1.amzn2.noarch.rpm                  | 1.0 MB   00:02
+(274/299): shadow-utils-4.1.5.1-24.amzn2.0.2.x86_64.rpm    | 1.1 MB   00:00
+(275/299): sisu-inject-bean-2.3.0-11.amzn2.noarch.rpm      | 181 kB   00:01
+(276/299): sisu-inject-plexus-2.3.0-11.amzn2.noarch.rpm    | 179 kB   00:01
+(277/299): stix-fonts-1.1.0-5.amzn2.noarch.rpm             | 1.3 MB   00:00
+(278/299): systemd-219-57.amzn2.0.7.x86_64.rpm             | 5.0 MB   00:01
+(279/299): systemd-libs-219-57.amzn2.0.7.x86_64.rpm        | 396 kB   00:00
+(280/299): slf4j-1.7.4-4.amzn2.noarch.rpm                  | 170 kB   00:01
+(281/299): tcp_wrappers-libs-7.6-77.amzn2.0.2.x86_64.rpm   |  66 kB   00:00
+(282/299): systemd-sysv-219-57.amzn2.0.7.x86_64.rpm        |  79 kB   00:01
+(283/299): ttmkfdir-3.0.9-42.amzn2.0.2.x86_64.rpm          |  50 kB   00:00
+(284/299): tomcat-servlet-3.0-api-7.0.76-8.amzn2.noarch.rp | 211 kB   00:01
+(285/299): ustr-1.0.4-16.amzn2.0.3.x86_64.rpm              |  96 kB   00:00
+(286/299): tzdata-java-2018e-3.amzn2.noarch.rpm            | 184 kB   00:01
+(287/299): velocity-1.7-10.1.amzn2.noarch.rpm              | 414 kB   00:00
+(288/299): util-linux-2.30.2-2.amzn2.0.4.x86_64.rpm        | 2.3 MB   00:01
+(289/299): ws-jaxme-0.5.2-10.amzn2.noarch.rpm              | 1.1 MB   00:02
+(290/299): xalan-j2-2.7.1-23.1.amzn2.noarch.rpm            | 1.9 MB   00:02
+(291/299): xerces-j2-2.11.0-17.amzn2.noarch.rpm            | 1.1 MB   00:01
+(292/299): xbean-3.13-6.amzn2.noarch.rpm                   | 376 kB   00:02
+(293/299): xml-commons-apis-1.4.01-16.amzn2.noarch.rpm     | 227 kB   00:01
+(294/299): xml-commons-resolver-1.2-15.amzn2.noarch.rpm    | 108 kB   00:01
+(295/299): xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64.rpm |  87 kB   00:00
+(296/299): xmlgraphics-commons-1.5-3.amzn2.noarch.rpm      | 545 kB   00:02
+(297/299): xorg-x11-fonts-Type1-7.5-9.amzn2.noarch.rpm     | 521 kB   00:01
+(298/299): xorg-x11-utils-7.5-22.amzn2.0.1.x86_64.rpm      | 115 kB   00:00
+(299/299): xpp3-1.1.3.8-11.amzn2.noarch.rpm                | 336 kB   00:01
+--------------------------------------------------------------------------------
+Total                                              1.2 MB/s | 476 MB  06:21
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : freetype-2.4.11-15.amzn2.0.2.x86_64                        1/299
+  Installing : libjpeg-turbo-1.2.90-5.amzn2.0.2.x86_64                    2/299
+  Installing : 2:libpng-1.5.13-7.amzn2.0.2.x86_64                         3/299
+  Installing : copy-jdk-configs-3.3-10.amzn2.noarch                       4/299
+  Installing : atk-2.22.0-3.amzn2.0.2.x86_64                              5/299
+  Installing : libICE-1.0.9-9.amzn2.0.2.x86_64                            6/299
+  Installing : 2:libogg-1.3.0-7.amzn2.0.2.x86_64                          7/299
+  Installing : alsa-lib-1.1.4.1-2.amzn2.x86_64                            8/299
+  Installing : libcap-ng-0.7.5-4.amzn2.0.2.x86_64                         9/299
+  Installing : audit-libs-2.8.1-3.amzn2.1.x86_64                         10/299
+  Installing : tzdata-java-2018e-3.amzn2.noarch                          11/299
+  Installing : libSM-1.2.2-2.amzn2.0.2.x86_64                            12/299
+  Installing : mesa-libglapi-17.2.3-8.20171019.amzn2.0.4.x86_64          13/299
+  Installing : libfontenc-1.1.3-3.amzn2.0.2.x86_64                       14/299
+  Installing : libwayland-client-1.14.0-2.amzn2.0.1.x86_64               15/299
+  Installing : 1:libglvnd-1.0.0-1.amzn2.0.2.x86_64                       16/299
+  Installing : libwayland-server-1.14.0-2.amzn2.0.1.x86_64               17/299
+  Installing : fontpackages-filesystem-1.44-8.amzn2.noarch               18/299
+  Installing : libxslt-1.1.28-5.amzn2.0.2.x86_64                         19/299
+  Installing : lz4-1.7.5-2.amzn2.0.1.x86_64                              20/299
+  Installing : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                    21/299
+  Installing : libxshmfence-1.2-1.amzn2.0.2.x86_64                       22/299
+  Installing : python-lxml-3.2.1-4.amzn2.0.2.x86_64                      23/299
+  Installing : python-javapackages-3.4.1-11.amzn2.noarch                 24/299
+  Installing : javapackages-tools-3.4.1-11.amzn2.noarch                  25/299
+  Installing : 1:java-1.8.0-openjdk-headless-1.8.0.191.b12-0.amzn2.x8    26/299
+  Installing : 1:java-1.8.0-openjdk-headless-debug-1.8.0.191.b12-0.am    27/299
+  Installing : relaxngDatatype-1.0-11.amzn2.noarch                       28/299
+  Installing : tomcat-servlet-3.0-api-7.0.76-8.amzn2.noarch              29/299
+  Installing : jakarta-oro-2.0.8-16.1.amzn2.noarch                       30/299
+  Installing : bea-stax-api-1.2.0-9.amzn2.noarch                         31/299
+  Installing : bea-stax-1.2.0-9.amzn2.noarch                             32/299
+  Installing : stix-fonts-1.1.0-5.amzn2.noarch                           33/299
+  Installing : fontconfig-2.10.95-11.amzn2.0.2.x86_64                    34/299
+  Installing : libXfont-1.5.2-1.amzn2.0.2.x86_64                         35/299
+  Installing : flac-libs-1.3.0-5.amzn2.0.2.x86_64                        36/299
+  Installing : 1:libvorbis-1.3.3-8.amzn2.0.2.x86_64                      37/299
+  Installing : jasper-libs-1.900.1-33.amzn2.x86_64                       38/299
+  Installing : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                        39/299
+  Installing : kmod-libs-25-3.amzn2.0.2.x86_64                           40/299
+  Installing : hicolor-icon-theme-0.12-7.amzn2.noarch                    41/299
+  Installing : libXau-1.0.8-2.1.amzn2.0.2.x86_64                         42/299
+  Installing : libxcb-1.12-1.amzn2.0.2.x86_64                            43/299
+  Installing : qrencode-libs-3.4.1-3.amzn2.0.2.x86_64                    44/299
+  Installing : 1:pkgconfig-0.27.1-4.amzn2.0.2.x86_64                     45/299
+  Installing : 1:xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64             46/299
+  Installing : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                   47/299
+  Installing : groff-base-1.22.2-8.amzn2.0.2.x86_64                      48/299
+  Installing : 1:perl-parent-0.225-244.amzn2.0.1.noarch                  49/299
+  Installing : perl-HTTP-Tiny-0.033-3.amzn2.noarch                       50/299
+  Installing : perl-Pod-Perldoc-3.20-4.amzn2.noarch                      51/299
+  Installing : perl-podlators-2.5.1-3.amzn2.0.1.noarch                   52/299
+  Installing : 1:perl-Pod-Escapes-1.04-292.amzn2.0.2.noarch              53/299
+  Installing : perl-Text-ParseWords-3.29-4.amzn2.noarch                  54/299
+  Installing : perl-Encode-2.51-7.amzn2.0.2.x86_64                       55/299
+  Installing : perl-Pod-Usage-1.63-3.amzn2.noarch                        56/299
+  Installing : perl-Filter-1.49-3.amzn2.0.2.x86_64                       57/299
+  Installing : perl-Storable-2.45-3.amzn2.0.2.x86_64                     58/299
+  Installing : 4:perl-Time-HiRes-1.9725-3.amzn2.0.2.x86_64               59/299
+  Installing : perl-Carp-1.26-244.amzn2.noarch                           60/299
+  Installing : perl-PathTools-3.40-5.amzn2.0.2.x86_64                    61/299
+  Installing : perl-Scalar-List-Utils-1.27-248.amzn2.0.2.x86_64          62/299
+  Installing : perl-Exporter-5.68-3.amzn2.noarch                         63/299
+  Installing : 4:perl-libs-5.16.3-292.amzn2.0.2.x86_64                   64/299
+  Installing : perl-threads-shared-1.43-6.amzn2.0.2.x86_64               65/299
+  Installing : perl-threads-1.87-4.amzn2.0.2.x86_64                      66/299
+  Installing : perl-File-Path-2.09-2.amzn2.noarch                        67/299
+  Installing : perl-Socket-2.010-4.amzn2.0.2.x86_64                      68/299
+  Installing : perl-Time-Local-1.2300-2.amzn2.noarch                     69/299
+  Installing : perl-File-Temp-0.23.01-3.amzn2.noarch                     70/299
+  Installing : perl-constant-1.27-2.amzn2.0.1.noarch                     71/299
+  Installing : 4:perl-macros-5.16.3-292.amzn2.0.2.x86_64                 72/299
+  Installing : 1:perl-Pod-Simple-3.28-4.amzn2.noarch                     73/299
+  Installing : perl-Getopt-Long-2.40-3.amzn2.noarch                      74/299
+  Installing : 4:perl-5.16.3-292.amzn2.0.2.x86_64                        75/299
+  Installing : mozjs17-17.0.0-20.amzn2.0.1.x86_64                        76/299
+  Installing : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                       77/299
+  Installing : ustr-1.0.4-16.amzn2.0.3.x86_64                            78/299
+  Installing : libsemanage-2.5-11.amzn2.x86_64                           79/299
+  Installing : 2:shadow-utils-4.1.5.1-24.amzn2.0.2.x86_64                80/299
+  Installing : libutempter-1.1.6-4.amzn2.0.2.x86_64                      81/299
+  Installing : gzip-1.5-10.amzn2.x86_64                                  82/299
+  Installing : cracklib-2.9.0-11.amzn2.0.2.x86_64                        83/299
+  Installing : cracklib-dicts-2.9.0-11.amzn2.0.2.x86_64                  84/299
+  Installing : pam-1.1.8-22.amzn2.x86_64                                 85/299
+  Installing : libpwquality-1.2.3-5.amzn2.x86_64                         86/299
+  Installing : libasyncns-0.8-7.amzn2.0.2.x86_64                         87/299
+  Installing : acl-2.2.51-14.amzn2.x86_64                                88/299
+  Installing : jbigkit-libs-2.0-11.amzn2.0.2.x86_64                      89/299
+  Installing : libtiff-4.0.3-27.amzn2.0.2.x86_64                         90/299
+  Installing : libfdisk-2.30.2-2.amzn2.0.4.x86_64                        91/299
+  Installing : libsmartcols-2.30.2-2.amzn2.0.4.x86_64                    92/299
+  Installing : psmisc-22.20-15.amzn2.0.2.x86_64                          93/299
+  Installing : pixman-0.34.0-1.amzn2.0.2.x86_64                          94/299
+  Installing : graphite2-1.3.10-1.amzn2.0.2.x86_64                       95/299
+  Installing : harfbuzz-1.3.2-1.amzn2.0.2.x86_64                         96/299
+  Installing : libX11-common-1.6.5-1.amzn2.0.2.noarch                    97/299
+  Installing : libX11-1.6.5-1.amzn2.0.2.x86_64                           98/299
+  Installing : libXext-1.3.3-3.amzn2.0.2.x86_64                          99/299
+  Installing : libXrender-0.9.10-1.amzn2.0.2.x86_64                     100/299
+  Installing : libXi-1.7.9-1.amzn2.0.2.x86_64                           101/299
+  Installing : libXtst-1.2.3-1.amzn2.0.2.x86_64                         102/299
+  Installing : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                 103/299
+  Installing : libXfixes-5.0.3-1.amzn2.0.2.x86_64                       104/299
+  Installing : gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64                    105/299
+  Installing : giflib-4.1.6-9.amzn2.0.2.x86_64                          106/299
+  Installing : 1:java-1.8.0-openjdk-1.8.0.191.b12-0.amzn2.x86_64        107/299
+  Installing : plexus-utils-3.0.9-9.amzn2.noarch                        108/299
+  Installing : plexus-containers-component-annotations-1.5.5-14.amzn2   109/299
+  Installing : xml-commons-apis-1.4.01-16.amzn2.noarch                  110/299
+  Installing : plexus-classworlds-2.4.2-8.amzn2.noarch                  111/299
+  Installing : apache-commons-collections-3.2.1-22.amzn2.noarch         112/299
+  Installing : apache-commons-lang-2.6-15.amzn2.noarch                  113/299
+  Installing : apache-commons-codec-1.8-7.amzn2.noarch                  114/299
+  Installing : aether-api-1.13.1-13.amzn2.noarch                        115/299
+  Installing : xml-commons-resolver-1.2-15.amzn2.noarch                 116/299
+  Installing : xalan-j2-2.7.1-23.1.amzn2.noarch                         117/299
+  Installing : xerces-j2-2.11.0-17.amzn2.noarch                         118/299
+  Installing : plexus-interpolation-1.15-8.amzn2.noarch                 119/299
+  Installing : httpcomponents-core-4.2.4-6.amzn2.noarch                 120/299
+  Installing : aether-util-1.13.1-13.amzn2.noarch                       121/299
+  Installing : aether-spi-1.13.1-13.amzn2.noarch                        122/299
+  Installing : objectweb-asm-3.3.1-9.amzn2.noarch                       123/299
+  Installing : maven-model-2.2.1-47.amzn2.noarch                        124/299
+  Installing : atinject-1-13.20100611svn86.amzn2.noarch                 125/299
+  Installing : 1:isorelax-0-0.15.release20050331.amzn2.noarch           126/299
+  Installing : 1:apache-commons-io-2.4-12.amzn2.noarch                  127/299
+  Installing : guava-13.0-6.amzn2.noarch                                128/299
+  Installing : 1:java-1.8.0-openjdk-debug-1.8.0.191.b12-0.amzn2.x86_6   129/299
+  Installing : 1:msv-xsdlib-2013.5.1-7.amzn2.noarch                     130/299
+  Installing : cglib-2.2-18.1.amzn2.noarch                              131/299
+  Installing : maven-artifact-2.2.1-47.amzn2.noarch                     132/299
+  Installing : aopalliance-1.0-8.1.amzn2.noarch                         133/299
+  Installing : plexus-cipher-1.7-5.amzn2.noarch                         134/299
+  Installing : apache-commons-net-3.2-8.amzn2.noarch                    135/299
+  Installing : geronimo-jms-1.1.1-19.amzn2.noarch                       136/299
+  Installing : javacc-5.0-10.1.amzn2.noarch                             137/299
+  Installing : jline-1.0-8.amzn2.noarch                                 138/299
+  Installing : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                    139/299
+  Installing : libXrandr-1.5.1-2.amzn2.0.2.x86_64                       140/299
+  Installing : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                      141/299
+  Installing : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                   142/299
+  Installing : rhino-1.7R5-1.amzn2.noarch                               143/299
+  Installing : plexus-sec-dispatcher-1.4-13.amzn2.noarch                144/299
+  Installing : 1:msv-msv-2013.5.1-7.amzn2.noarch                        145/299
+  Installing : aether-impl-1.13.1-13.amzn2.noarch                       146/299
+  Installing : plexus-component-api-1.0-0.16.alpha15.amzn2.noarch       147/299
+  Installing : plexus-interactivity-1.0-0.14.alpha6.amzn2.noarch        148/299
+  Installing : regexp-1.5-13.amzn2.noarch                               149/299
+  Installing : bcel-5.2-18.amzn2.noarch                                 150/299
+  Installing : nekohtml-1.9.14-13.amzn2.noarch                          151/299
+  Installing : jsoup-1.6.1-10.amzn2.noarch                              152/299
+  Installing : cal10n-0.7.7-4.amzn2.noarch                              153/299
+  Installing : javassist-3.16.1-10.amzn2.noarch                         154/299
+  Installing : javamail-1.4.6-8.amzn2.noarch                            155/299
+  Installing : log4j-1.2.17-16.amzn2.noarch                             156/299
+  Installing : avalon-logkit-2.1-14.1.amzn2.noarch                      157/299
+  Installing : avalon-framework-4.3-10.1.amzn2.noarch                   158/299
+  Installing : apache-commons-logging-1.1.2-7.amzn2.noarch              159/299
+  Installing : apache-commons-beanutils-1.8.3-14.amzn2.noarch           160/299
+  Installing : httpcomponents-client-4.2.5-5.amzn2.noarch               161/299
+  Installing : slf4j-1.7.4-4.amzn2.noarch                               162/299
+  Installing : google-guice-3.1.3-9.amzn2.noarch                        163/299
+  Installing : 1:jakarta-commons-httpclient-3.1-16.amzn2.noarch         164/299
+  Installing : apache-commons-digester-1.8.1-19.amzn2.noarch            165/299
+  Installing : apache-commons-validator-1.4.0-8.amzn2.noarch            166/299
+  Installing : apache-commons-jexl-2.1.1-9.amzn2.noarch                 167/299
+  Installing : xmlgraphics-commons-1.5-3.amzn2.noarch                   168/299
+  Installing : jzlib-1.1.1-6.amzn2.noarch                               169/299
+  Installing : jsch-0.1.50-5.amzn2.noarch                               170/299
+  Installing : maven-wagon-2.4-3.amzn2.noarch                           171/299
+  Installing : jai-imageio-core-1.2-0.14.20100217cvs.amzn2.noarch       172/299
+  Installing : apache-commons-cli-1.2-13.amzn2.noarch                   173/299
+  Installing : jboss-interceptors-1.1-api-1.0.2-0.9.20120319git49a904   174/299
+  Installing : jboss-el-2.2-api-1.0.1-0.7.20120212git2fabd8.amzn2.noa   175/299
+  Installing : sac-1.3-17.amzn2.noarch                                  176/299
+  Installing : batik-1.8-0.12.svn1230816.amzn2.noarch                   177/299
+  Installing : easymock2-2.5.2-12.1.amzn2.noarch                        178/299
+  Installing : hamcrest-1.3-6.1.amzn2.noarch                            179/299
+  Installing : junit-4.11-8.1.amzn2.0.1.noarch                          180/299
+  Installing : qdox-1.12.1-10.amzn2.noarch                              181/299
+  Installing : xpp3-1.1.3.8-11.amzn2.noarch                             182/299
+  Installing : felix-framework-4.2.1-5.amzn2.noarch                     183/299
+  Installing : xbean-3.13-6.amzn2.noarch                                184/299
+  Installing : plexus-containers-container-default-1.5.5-14.amzn2.noa   185/299
+  Installing : maven-doxia-logging-api-1.4-5.amzn2.noarch               186/299
+  Installing : maven-doxia-sink-api-1.4-5.amzn2.noarch                  187/299
+  Installing : maven-doxia-core-1.4-5.amzn2.noarch                      188/299
+  Installing : 1:maven-reporting-api-3.0-5.amzn2.noarch                 189/299
+  Installing : maven-doxia-module-xdoc-1.4-5.amzn2.noarch               190/299
+  Installing : maven-doxia-module-xhtml-1.4-5.amzn2.noarch              191/299
+  Installing : maven-doxia-module-apt-1.4-5.amzn2.noarch                192/299
+  Installing : maven-doxia-module-fml-1.4-5.amzn2.noarch                193/299
+  Installing : maven-settings-2.2.1-47.amzn2.noarch                     194/299
+  Installing : plexus-i18n-1.0-0.6.b10.4.amzn2.noarch                   195/299
+  Installing : maven-plugin-registry-2.2.1-47.amzn2.noarch              196/299
+  Installing : maven-profile-2.2.1-47.amzn2.noarch                      197/299
+  Installing : geronimo-annotation-1.0-15.amzn2.noarch                  198/299
+  Installing : jboss-servlet-3.0-api-1.0.1-9.amzn2.noarch               199/299
+  Installing : jboss-jaxrpc-1.1-api-1.0.1-7.amzn2.noarch                200/299
+  Installing : antlr-tool-2.7.7-30.amzn2.0.2.noarch                     201/299
+  Installing : jboss-transaction-1.1-api-1.0.1-8.amzn2.noarch           202/299
+  Installing : jboss-ejb-3.1-api-1.0.2-10.amzn2.noarch                  203/299
+  Installing : cdi-api-1.0-11.SP4.amzn2.noarch                          204/299
+  Installing : sisu-inject-bean-2.3.0-11.amzn2.noarch                   205/299
+  Installing : sisu-inject-plexus-2.3.0-11.amzn2.noarch                 206/299
+  Installing : aether-connector-wagon-1.13.1-13.amzn2.noarch            207/299
+  Installing : gtk-update-icon-cache-3.22.26-4.amzn2.x86_64             208/299
+  Installing : libXcursor-1.1.14-8.amzn2.0.2.x86_64                     209/299
+  Installing : libXft-2.3.2-2.amzn2.0.2.x86_64                          210/299
+  Installing : libXxf86misc-1.0.3-7.1.amzn2.0.2.x86_64                  211/299
+  Installing : libXxf86dga-1.1.4-2.1.amzn2.0.2.x86_64                   212/299
+  Installing : libdmx-1.1.3-3.amzn2.0.2.x86_64                          213/299
+  Installing : libXv-1.0.11-1.amzn2.0.2.x86_64                          214/299
+  Installing : xorg-x11-utils-7.5-22.amzn2.0.1.x86_64                   215/299
+  Installing : gsm-1.0.13-11.amzn2.0.2.x86_64                           216/299
+  Installing : libsndfile-1.0.25-10.amzn2.0.2.x86_64                    217/299
+  Installing : kmod-25-3.amzn2.0.2.x86_64                               218/299
+  Installing : util-linux-2.30.2-2.amzn2.0.4.x86_64                     219/299
+  Installing : 7:device-mapper-1.02.146-4.amzn2.0.2.x86_64              220/299
+  Installing : 7:device-mapper-libs-1.02.146-4.amzn2.0.2.x86_64         221/299
+  Installing : cryptsetup-libs-1.7.4-4.amzn2.x86_64                     222/299
+  Installing : elfutils-libs-0.170-4.amzn2.x86_64                       223/299
+  Installing : systemd-libs-219-57.amzn2.0.7.x86_64                     224/299
+  Installing : 1:dbus-libs-1.10.24-7.amzn2.x86_64                       225/299
+  Installing : systemd-219-57.amzn2.0.7.x86_64                          226/299
+  Installing : 1:dbus-1.10.24-7.amzn2.x86_64                            227/299
+  Installing : elfutils-default-yama-scope-0.170-4.amzn2.noarch         228/299
+  Installing : polkit-0.112-14.amzn2.x86_64                             229/299
+  Installing : polkit-pkla-compat-0.1-4.amzn2.0.2.x86_64                230/299
+  Installing : systemd-sysv-219-57.amzn2.0.7.x86_64                     231/299
+  Installing : 1:hsqldb-1.8.1.3-14.amzn2.noarch                         232/299
+  Installing : ws-jaxme-0.5.2-10.amzn2.noarch                           233/299
+  Installing : jdom-1.1.3-6.1.amzn2.noarch                              234/299
+  Installing : jaxen-1.1.3-11.1.amzn2.noarch                            235/299
+  Installing : dom4j-1.6.1-20.1.amzn2.noarch                            236/299
+  Installing : velocity-1.7-10.1.amzn2.noarch                           237/299
+  Installing : plexus-velocity-1.1.8-16.amzn2.noarch                    238/299
+  Installing : apache-commons-jxpath-1.3-20.amzn2.noarch                239/299
+  Installing : hwdata-0.252-8.8.amzn2.x86_64                            240/299
+  Installing : libpciaccess-0.14-1.amzn2.x86_64                         241/299
+  Installing : libdrm-2.4.83-2.amzn2.0.2.x86_64                         242/299
+  Installing : 1:libglvnd-glx-1.0.0-1.amzn2.0.2.x86_64                  243/299
+  Installing : mesa-libGL-17.2.3-8.20171019.amzn2.0.4.x86_64            244/299
+  Installing : mesa-libgbm-17.2.3-8.20171019.amzn2.0.4.x86_64           245/299
+  Installing : 1:libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64                  246/299
+  Installing : mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64           247/299
+  Installing : cairo-1.14.8-2.amzn2.0.2.x86_64                          248/299
+  Installing : dbus-glib-0.100-7.2.amzn2.x86_64                         249/299
+  Installing : GConf2-3.2.6-8.amzn2.0.2.x86_64                          250/299
+  Installing : avahi-libs-0.6.31-19.amzn2.x86_64                        251/299
+  Installing : 1:cups-libs-1.6.3-35.amzn2.x86_64                        252/299
+  Installing : 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2   253/299
+  Installing : color-filesystem-1-13.amzn2.noarch                       254/299
+  Installing : icc-profiles-openicc-1.3.1-5.amzn2.noarch                255/299
+  Installing : fop-1.1-6.amzn2.noarch                                   256/299
+  Installing : tcp_wrappers-libs-7.6-77.amzn2.0.2.x86_64                257/299
+  Installing : pulseaudio-libs-10.0-3.amzn2.0.2.x86_64                  258/299
+  Installing : libthai-0.1.14-9.amzn2.0.2.x86_64                        259/299
+  Installing : pango-1.40.4-1.amzn2.0.2.x86_64                          260/299
+  Installing : gtk2-2.24.31-1.amzn2.0.2.x86_64                          261/299
+  Installing : 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_   262/299
+  Installing : java-atk-wrapper-0.30.4-5.amzn2.0.2.x86_64               263/299
+  Installing : 1:java-1.7.0-openjdk-devel-1.7.0.201-2.6.16.1.amzn2.0.   264/299
+  Installing : maven-3.0.5-17.amzn2.noarch                              265/299
+  Installing : maven-artifact-manager-2.2.1-47.amzn2.noarch             266/299
+  Installing : maven-project-2.2.1-47.amzn2.noarch                      267/299
+  Installing : ant-1.9.2-9.amzn2.0.1.noarch                             268/299
+  Installing : apache-commons-vfs-2.0-11.amzn2.noarch                   269/299
+  Installing : apache-commons-configuration-1.9-8.amzn2.noarch          270/299
+  Installing : maven-doxia-module-fo-1.4-5.amzn2.noarch                 271/299
+  Installing : maven-doxia-sitetools-1.4-3.amzn2.noarch                 272/299
+  Installing : maven-reporting-impl-2.2-8.amzn2.noarch                  273/299
+  Installing : javacc-maven-plugin-2.6-17.amzn2.noarch                  274/299
+  Installing : 1:java-1.8.0-openjdk-accessibility-debug-1.8.0.191.b12   275/299
+  Installing : 1:java-1.8.0-openjdk-accessibility-1.8.0.191.b12-0.amz   276/299
+  Installing : 1:java-1.7.0-openjdk-accessibility-1.7.0.201-2.6.16.1.   277/299
+  Installing : 1:java-1.7.0-openjdk-src-1.7.0.201-2.6.16.1.amzn2.0.1.   278/299
+  Installing : 1:java-1.7.0-openjdk-demo-1.7.0.201-2.6.16.1.amzn2.0.1   279/299
+  Installing : javacc-demo-5.0-10.1.amzn2.noarch                        280/299
+  Installing : 1:java-1.8.0-openjdk-demo-debug-1.8.0.191.b12-0.amzn2.   281/299
+  Installing : 1:java-1.8.0-openjdk-devel-debug-1.8.0.191.b12-0.amzn2   282/299
+  Installing : 1:java-1.8.0-openjdk-devel-1.8.0.191.b12-0.amzn2.x86_6   283/299
+  Installing : 1:java_cup-0.11a-16.1.amzn2.noarch                       284/299
+  Installing : 1:java-1.8.0-openjdk-demo-1.8.0.191.b12-0.amzn2.x86_64   285/299
+  Installing : 1:java-1.8.0-openjdk-src-debug-1.8.0.191.b12-0.amzn2.x   286/299
+  Installing : 1:java-1.8.0-openjdk-src-1.8.0.191.b12-0.amzn2.x86_64    287/299
+  Installing : 1:java-1.7.0-openjdk-javadoc-1.7.0.201-2.6.16.1.amzn2.   288/299
+  Installing : 1:java_cup-javadoc-0.11a-16.1.amzn2.noarch               289/299
+  Installing : javacc-javadoc-5.0-10.1.amzn2.noarch                     290/299
+  Installing : javassist-javadoc-3.16.1-10.amzn2.noarch                 291/299
+  Installing : javacc-maven-plugin-javadoc-2.6-17.amzn2.noarch          292/299
+  Installing : 1:java-1.8.0-openjdk-javadoc-debug-1.8.0.191.b12-0.amz   293/299
+  Installing : javamail-javadoc-1.4.6-8.amzn2.noarch                    294/299
+  Installing : 1:java-1.8.0-openjdk-javadoc-zip-1.8.0.191.b12-0.amzn2   295/299
+  Installing : 1:java-1.8.0-openjdk-javadoc-1.8.0.191.b12-0.amzn2.noa   296/299
+  Installing : 1:java-1.8.0-openjdk-javadoc-zip-debug-1.8.0.191.b12-0   297/299
+  Installing : javacc-manual-5.0-10.1.amzn2.noarch                      298/299
+  Installing : 1:java_cup-manual-0.11a-16.1.amzn2.noarch                299/299
+  Verifying  : systemd-219-57.amzn2.0.7.x86_64                            1/299
+  Verifying  : 1:java-1.7.0-openjdk-javadoc-1.7.0.201-2.6.16.1.amzn2.     2/299
+  Verifying  : libXcursor-1.1.14-8.amzn2.0.2.x86_64                       3/299
+  Verifying  : 1:java-1.8.0-openjdk-src-1.8.0.191.b12-0.amzn2.x86_64      4/299
+  Verifying  : jsch-0.1.50-5.amzn2.noarch                                 5/299
+  Verifying  : libxshmfence-1.2-1.amzn2.0.2.x86_64                        6/299
+  Verifying  : freetype-2.4.11-15.amzn2.0.2.x86_64                        7/299
+  Verifying  : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                        8/299
+  Verifying  : perl-Pod-Usage-1.63-3.amzn2.noarch                         9/299
+  Verifying  : regexp-1.5-13.amzn2.noarch                                10/299
+  Verifying  : maven-doxia-module-xdoc-1.4-5.amzn2.noarch                11/299
+  Verifying  : aopalliance-1.0-8.1.amzn2.noarch                          12/299
+  Verifying  : httpcomponents-client-4.2.5-5.amzn2.noarch                13/299
+  Verifying  : libxcb-1.12-1.amzn2.0.2.x86_64                            14/299
+  Verifying  : systemd-sysv-219-57.amzn2.0.7.x86_64                      15/299
+  Verifying  : cryptsetup-libs-1.7.4-4.amzn2.x86_64                      16/299
+  Verifying  : libXxf86misc-1.0.3-7.1.amzn2.0.2.x86_64                   17/299
+  Verifying  : libXext-1.3.3-3.amzn2.0.2.x86_64                          18/299
+  Verifying  : atinject-1-13.20100611svn86.amzn2.noarch                  19/299
+  Verifying  : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                    20/299
+  Verifying  : 1:hsqldb-1.8.1.3-14.amzn2.noarch                          21/299
+  Verifying  : plexus-cipher-1.7-5.amzn2.noarch                          22/299
+  Verifying  : apache-commons-net-3.2-8.amzn2.noarch                     23/299
+  Verifying  : 4:perl-5.16.3-292.amzn2.0.2.x86_64                        24/299
+  Verifying  : libutempter-1.1.6-4.amzn2.0.2.x86_64                      25/299
+  Verifying  : lz4-1.7.5-2.amzn2.0.1.x86_64                              26/299
+  Verifying  : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                  27/299
+  Verifying  : perl-Filter-1.49-3.amzn2.0.2.x86_64                       28/299
+  Verifying  : 1:perl-Pod-Simple-3.28-4.amzn2.noarch                     29/299
+  Verifying  : jsoup-1.6.1-10.amzn2.noarch                               30/299
+  Verifying  : 1:java_cup-javadoc-0.11a-16.1.amzn2.noarch                31/299
+  Verifying  : javacc-javadoc-5.0-10.1.amzn2.noarch                      32/299
+  Verifying  : cal10n-0.7.7-4.amzn2.noarch                               33/299
+  Verifying  : 1:perl-parent-0.225-244.amzn2.0.1.noarch                  34/299
+  Verifying  : libthai-0.1.14-9.amzn2.0.2.x86_64                         35/299
+  Verifying  : libXxf86dga-1.1.4-2.1.amzn2.0.2.x86_64                    36/299
+  Verifying  : libpwquality-1.2.3-5.amzn2.x86_64                         37/299
+  Verifying  : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                   38/299
+  Verifying  : tcp_wrappers-libs-7.6-77.amzn2.0.2.x86_64                 39/299
+  Verifying  : sisu-inject-bean-2.3.0-11.amzn2.noarch                    40/299
+  Verifying  : plexus-interpolation-1.15-8.amzn2.noarch                  41/299
+  Verifying  : libXrender-0.9.10-1.amzn2.0.2.x86_64                      42/299
+  Verifying  : apache-commons-collections-3.2.1-22.amzn2.noarch          43/299
+  Verifying  : plexus-containers-component-annotations-1.5.5-14.amzn2    44/299
+  Verifying  : plexus-sec-dispatcher-1.4-13.amzn2.noarch                 45/299
+  Verifying  : dbus-glib-0.100-7.2.amzn2.x86_64                          46/299
+  Verifying  : color-filesystem-1-13.amzn2.noarch                        47/299
+  Verifying  : jaxen-1.1.3-11.1.amzn2.noarch                             48/299
+  Verifying  : jakarta-oro-2.0.8-16.1.amzn2.noarch                       49/299
+  Verifying  : perl-Storable-2.45-3.amzn2.0.2.x86_64                     50/299
+  Verifying  : xbean-3.13-6.amzn2.noarch                                 51/299
+  Verifying  : pam-1.1.8-22.amzn2.x86_64                                 52/299
+  Verifying  : libpciaccess-0.14-1.amzn2.x86_64                          53/299
+  Verifying  : 1:java-1.8.0-openjdk-accessibility-debug-1.8.0.191.b12    54/299
+  Verifying  : 1:isorelax-0-0.15.release20050331.amzn2.noarch            55/299
+  Verifying  : 1:perl-Pod-Escapes-1.04-292.amzn2.0.2.noarch              56/299
+  Verifying  : kmod-25-3.amzn2.0.2.x86_64                                57/299
+  Verifying  : gsm-1.0.13-11.amzn2.0.2.x86_64                            58/299
+  Verifying  : maven-doxia-module-xhtml-1.4-5.amzn2.noarch               59/299
+  Verifying  : mesa-libGL-17.2.3-8.20171019.amzn2.0.4.x86_64             60/299
+  Verifying  : javassist-javadoc-3.16.1-10.amzn2.noarch                  61/299
+  Verifying  : tzdata-java-2018e-3.amzn2.noarch                          62/299
+  Verifying  : apache-commons-configuration-1.9-8.amzn2.noarch           63/299
+  Verifying  : xpp3-1.1.3.8-11.amzn2.noarch                              64/299
+  Verifying  : flac-libs-1.3.0-5.amzn2.0.2.x86_64                        65/299
+  Verifying  : hamcrest-1.3-6.1.amzn2.noarch                             66/299
+  Verifying  : libX11-common-1.6.5-1.amzn2.0.2.noarch                    67/299
+  Verifying  : javassist-3.16.1-10.amzn2.noarch                          68/299
+  Verifying  : perl-Getopt-Long-2.40-3.amzn2.noarch                      69/299
+  Verifying  : libXfixes-5.0.3-1.amzn2.0.2.x86_64                        70/299
+  Verifying  : nekohtml-1.9.14-13.amzn2.noarch                           71/299
+  Verifying  : perl-podlators-2.5.1-3.amzn2.0.1.noarch                   72/299
+  Verifying  : mesa-libEGL-17.2.3-8.20171019.amzn2.0.4.x86_64            73/299
+  Verifying  : graphite2-1.3.10-1.amzn2.0.2.x86_64                       74/299
+  Verifying  : GConf2-3.2.6-8.amzn2.0.2.x86_64                           75/299
+  Verifying  : pango-1.40.4-1.amzn2.0.2.x86_64                           76/299
+  Verifying  : maven-project-2.2.1-47.amzn2.noarch                       77/299
+  Verifying  : plexus-velocity-1.1.8-16.amzn2.noarch                     78/299
+  Verifying  : apache-commons-jexl-2.1.1-9.amzn2.noarch                  79/299
+  Verifying  : systemd-libs-219-57.amzn2.0.7.x86_64                      80/299
+  Verifying  : libxslt-1.1.28-5.amzn2.0.2.x86_64                         81/299
+  Verifying  : aether-connector-wagon-1.13.1-13.amzn2.noarch             82/299
+  Verifying  : fontpackages-filesystem-1.44-8.amzn2.noarch               83/299
+  Verifying  : sisu-inject-plexus-2.3.0-11.amzn2.noarch                  84/299
+  Verifying  : javamail-1.4.6-8.amzn2.noarch                             85/299
+  Verifying  : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                     86/299
+  Verifying  : maven-settings-2.2.1-47.amzn2.noarch                      87/299
+  Verifying  : plexus-classworlds-2.4.2-8.amzn2.noarch                   88/299
+  Verifying  : pixman-0.34.0-1.amzn2.0.2.x86_64                          89/299
+  Verifying  : mesa-libgbm-17.2.3-8.20171019.amzn2.0.4.x86_64            90/299
+  Verifying  : apache-commons-lang-2.6-15.amzn2.noarch                   91/299
+  Verifying  : libwayland-server-1.14.0-2.amzn2.0.1.x86_64               92/299
+  Verifying  : libdmx-1.1.3-3.amzn2.0.2.x86_64                           93/299
+  Verifying  : aether-util-1.13.1-13.amzn2.noarch                        94/299
+  Verifying  : 1:java-1.8.0-openjdk-1.8.0.191.b12-0.amzn2.x86_64         95/299
+  Verifying  : aether-spi-1.13.1-13.amzn2.noarch                         96/299
+  Verifying  : 4:perl-Time-HiRes-1.9725-3.amzn2.0.2.x86_64               97/299
+  Verifying  : apache-commons-vfs-2.0-11.amzn2.noarch                    98/299
+  Verifying  : apache-commons-digester-1.8.1-19.amzn2.noarch             99/299
+  Verifying  : maven-3.0.5-17.amzn2.noarch                              100/299
+  Verifying  : psmisc-22.20-15.amzn2.0.2.x86_64                         101/299
+  Verifying  : apache-commons-codec-1.8-7.amzn2.noarch                  102/299
+  Verifying  : python-javapackages-3.4.1-11.amzn2.noarch                103/299
+  Verifying  : libsmartcols-2.30.2-2.amzn2.0.4.x86_64                   104/299
+  Verifying  : libXfont-1.5.2-1.amzn2.0.2.x86_64                        105/299
+  Verifying  : libfdisk-2.30.2-2.amzn2.0.4.x86_64                       106/299
+  Verifying  : avahi-libs-0.6.31-19.amzn2.x86_64                        107/299
+  Verifying  : velocity-1.7-10.1.amzn2.noarch                           108/299
+  Verifying  : avalon-framework-4.3-10.1.amzn2.noarch                   109/299
+  Verifying  : cracklib-dicts-2.9.0-11.amzn2.0.2.x86_64                 110/299
+  Verifying  : jzlib-1.1.1-6.amzn2.noarch                               111/299
+  Verifying  : apache-commons-beanutils-1.8.3-14.amzn2.noarch           112/299
+  Verifying  : libsndfile-1.0.25-10.amzn2.0.2.x86_64                    113/299
+  Verifying  : 1:libglvnd-1.0.0-1.amzn2.0.2.x86_64                      114/299
+  Verifying  : audit-libs-2.8.1-3.amzn2.1.x86_64                        115/299
+  Verifying  : javacc-maven-plugin-javadoc-2.6-17.amzn2.noarch          116/299
+  Verifying  : bea-stax-api-1.2.0-9.amzn2.noarch                        117/299
+  Verifying  : jbigkit-libs-2.0-11.amzn2.0.2.x86_64                     118/299
+  Verifying  : perl-PathTools-3.40-5.amzn2.0.2.x86_64                   119/299
+  Verifying  : 1:java-1.8.0-openjdk-headless-1.8.0.191.b12-0.amzn2.x8   120/299
+  Verifying  : 1:java-1.7.0-openjdk-headless-1.7.0.201-2.6.16.1.amzn2   121/299
+  Verifying  : jboss-ejb-3.1-api-1.0.2-10.amzn2.noarch                  122/299
+  Verifying  : maven-doxia-logging-api-1.4-5.amzn2.noarch               123/299
+  Verifying  : maven-doxia-module-apt-1.4-5.amzn2.noarch                124/299
+  Verifying  : giflib-4.1.6-9.amzn2.0.2.x86_64                          125/299
+  Verifying  : libcap-ng-0.7.5-4.amzn2.0.2.x86_64                       126/299
+  Verifying  : polkit-0.112-14.amzn2.x86_64                             127/299
+  Verifying  : acl-2.2.51-14.amzn2.x86_64                               128/299
+  Verifying  : geronimo-jms-1.1.1-19.amzn2.noarch                       129/299
+  Verifying  : jboss-jaxrpc-1.1-api-1.0.1-7.amzn2.noarch                130/299
+  Verifying  : libX11-1.6.5-1.amzn2.0.2.x86_64                          131/299
+  Verifying  : libasyncns-0.8-7.amzn2.0.2.x86_64                        132/299
+  Verifying  : bcel-5.2-18.amzn2.noarch                                 133/299
+  Verifying  : 1:java_cup-manual-0.11a-16.1.amzn2.noarch                134/299
+  Verifying  : 1:maven-reporting-api-3.0-5.amzn2.noarch                 135/299
+  Verifying  : 2:shadow-utils-4.1.5.1-24.amzn2.0.2.x86_64               136/299
+  Verifying  : ws-jaxme-0.5.2-10.amzn2.noarch                           137/299
+  Verifying  : java-atk-wrapper-0.30.4-5.amzn2.0.2.x86_64               138/299
+  Verifying  : apache-commons-logging-1.1.2-7.amzn2.noarch              139/299
+  Verifying  : libXtst-1.2.3-1.amzn2.0.2.x86_64                         140/299
+  Verifying  : aether-impl-1.13.1-13.amzn2.noarch                       141/299
+  Verifying  : plexus-interactivity-1.0-0.14.alpha6.amzn2.noarch        142/299
+  Verifying  : alsa-lib-1.1.4.1-2.amzn2.x86_64                          143/299
+  Verifying  : qdox-1.12.1-10.amzn2.noarch                              144/299
+  Verifying  : jai-imageio-core-1.2-0.14.20100217cvs.amzn2.noarch       145/299
+  Verifying  : 1:java-1.7.0-openjdk-src-1.7.0.201-2.6.16.1.amzn2.0.1.   146/299
+  Verifying  : 1:java-1.8.0-openjdk-demo-debug-1.8.0.191.b12-0.amzn2.   147/299
+  Verifying  : apache-commons-cli-1.2-13.amzn2.noarch                   148/299
+  Verifying  : httpcomponents-core-4.2.4-6.amzn2.noarch                 149/299
+  Verifying  : apache-commons-validator-1.4.0-8.amzn2.noarch            150/299
+  Verifying  : plexus-component-api-1.0-0.16.alpha15.amzn2.noarch       151/299
+  Verifying  : javapackages-tools-3.4.1-11.amzn2.noarch                 152/299
+  Verifying  : perl-Text-ParseWords-3.29-4.amzn2.noarch                 153/299
+  Verifying  : javacc-5.0-10.1.amzn2.noarch                             154/299
+  Verifying  : plexus-i18n-1.0-0.6.b10.4.amzn2.noarch                   155/299
+  Verifying  : 2:libpng-1.5.13-7.amzn2.0.2.x86_64                       156/299
+  Verifying  : fop-1.1-6.amzn2.noarch                                   157/299
+  Verifying  : maven-artifact-2.2.1-47.amzn2.noarch                     158/299
+  Verifying  : aether-api-1.13.1-13.amzn2.noarch                        159/299
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-debug-1.8.0.191.b12-0.amz   160/299
+  Verifying  : jboss-interceptors-1.1-api-1.0.2-0.9.20120319git49a904   161/299
+  Verifying  : libjpeg-turbo-1.2.90-5.amzn2.0.2.x86_64                  162/299
+  Verifying  : 1:java-1.7.0-openjdk-1.7.0.201-2.6.16.1.amzn2.0.1.x86_   163/299
+  Verifying  : relaxngDatatype-1.0-11.amzn2.noarch                      164/299
+  Verifying  : perl-Carp-1.26-244.amzn2.noarch                          165/299
+  Verifying  : jboss-el-2.2-api-1.0.1-0.7.20120212git2fabd8.amzn2.noa   166/299
+  Verifying  : ant-1.9.2-9.amzn2.0.1.noarch                             167/299
+  Verifying  : gzip-1.5-10.amzn2.x86_64                                 168/299
+  Verifying  : 1:libglvnd-egl-1.0.0-1.amzn2.0.2.x86_64                  169/299
+  Verifying  : 1:java-1.8.0-openjdk-accessibility-1.8.0.191.b12-0.amz   170/299
+  Verifying  : 1:java-1.7.0-openjdk-demo-1.7.0.201-2.6.16.1.amzn2.0.1   171/299
+  Verifying  : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                   172/299
+  Verifying  : cdi-api-1.0-11.SP4.amzn2.noarch                          173/299
+  Verifying  : 1:java-1.8.0-openjdk-debug-1.8.0.191.b12-0.amzn2.x86_6   174/299
+  Verifying  : elfutils-default-yama-scope-0.170-4.amzn2.noarch         175/299
+  Verifying  : javacc-manual-5.0-10.1.amzn2.noarch                      176/299
+  Verifying  : libsemanage-2.5-11.amzn2.x86_64                          177/299
+  Verifying  : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                       178/299
+  Verifying  : python-lxml-3.2.1-4.amzn2.0.2.x86_64                     179/299
+  Verifying  : javamail-javadoc-1.4.6-8.amzn2.noarch                    180/299
+  Verifying  : perl-Time-Local-1.2300-2.amzn2.noarch                    181/299
+  Verifying  : apache-commons-jxpath-1.3-20.amzn2.noarch                182/299
+  Verifying  : libwayland-client-1.14.0-2.amzn2.0.1.x86_64              183/299
+  Verifying  : perl-Scalar-List-Utils-1.27-248.amzn2.0.2.x86_64         184/299
+  Verifying  : xerces-j2-2.11.0-17.amzn2.noarch                         185/299
+  Verifying  : maven-doxia-core-1.4-5.amzn2.noarch                      186/299
+  Verifying  : jline-1.0-8.amzn2.noarch                                 187/299
+  Verifying  : libfontenc-1.1.3-3.amzn2.0.2.x86_64                      188/299
+  Verifying  : maven-plugin-registry-2.2.1-47.amzn2.noarch              189/299
+  Verifying  : maven-artifact-manager-2.2.1-47.amzn2.noarch             190/299
+  Verifying  : libSM-1.2.2-2.amzn2.0.2.x86_64                           191/299
+  Verifying  : gtk2-2.24.31-1.amzn2.0.2.x86_64                          192/299
+  Verifying  : tomcat-servlet-3.0-api-7.0.76-8.amzn2.noarch             193/299
+  Verifying  : sac-1.3-17.amzn2.noarch                                  194/299
+  Verifying  : maven-doxia-module-fo-1.4-5.amzn2.noarch                 195/299
+  Verifying  : 1:java-1.8.0-openjdk-src-debug-1.8.0.191.b12-0.amzn2.x   196/299
+  Verifying  : ustr-1.0.4-16.amzn2.0.3.x86_64                           197/299
+  Verifying  : rhino-1.7R5-1.amzn2.noarch                               198/299
+  Verifying  : easymock2-2.5.2-12.1.amzn2.noarch                        199/299
+  Verifying  : maven-reporting-impl-2.2-8.amzn2.noarch                  200/299
+  Verifying  : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                      201/299
+  Verifying  : xml-commons-apis-1.4.01-16.amzn2.noarch                  202/299
+  Verifying  : harfbuzz-1.3.2-1.amzn2.0.2.x86_64                        203/299
+  Verifying  : libtiff-4.0.3-27.amzn2.0.2.x86_64                        204/299
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-zip-1.8.0.191.b12-0.amzn2   205/299
+  Verifying  : libXi-1.7.9-1.amzn2.0.2.x86_64                           206/299
+  Verifying  : 1:java-1.7.0-openjdk-accessibility-1.7.0.201-2.6.16.1.   207/299
+  Verifying  : hwdata-0.252-8.8.amzn2.x86_64                            208/299
+  Verifying  : perl-File-Temp-0.23.01-3.amzn2.noarch                    209/299
+  Verifying  : perl-Pod-Perldoc-3.20-4.amzn2.noarch                     210/299
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-1.8.0.191.b12-0.amzn2.noa   211/299
+  Verifying  : stix-fonts-1.1.0-5.amzn2.noarch                          212/299
+  Verifying  : 7:device-mapper-1.02.146-4.amzn2.0.2.x86_64              213/299
+  Verifying  : libXft-2.3.2-2.amzn2.0.2.x86_64                          214/299
+  Verifying  : 2:libogg-1.3.0-7.amzn2.0.2.x86_64                        215/299
+  Verifying  : polkit-pkla-compat-0.1-4.amzn2.0.2.x86_64                216/299
+  Verifying  : 1:java-1.7.0-openjdk-devel-1.7.0.201-2.6.16.1.amzn2.0.   217/299
+  Verifying  : bea-stax-1.2.0-9.amzn2.noarch                            218/299
+  Verifying  : 1:cups-libs-1.6.3-35.amzn2.x86_64                        219/299
+  Verifying  : felix-framework-4.2.1-5.amzn2.noarch                     220/299
+  Verifying  : libICE-1.0.9-9.amzn2.0.2.x86_64                          221/299
+  Verifying  : maven-doxia-sitetools-1.4-3.amzn2.noarch                 222/299
+  Verifying  : mozjs17-17.0.0-20.amzn2.0.1.x86_64                       223/299
+  Verifying  : geronimo-annotation-1.0-15.amzn2.noarch                  224/299
+  Verifying  : gdk-pixbuf2-2.36.5-1.amzn2.0.2.x86_64                    225/299
+  Verifying  : 1:libvorbis-1.3.3-8.amzn2.0.2.x86_64                     226/299
+  Verifying  : icc-profiles-openicc-1.3.1-5.amzn2.noarch                227/299
+  Verifying  : perl-Exporter-5.68-3.amzn2.noarch                        228/299
+  Verifying  : maven-profile-2.2.1-47.amzn2.noarch                      229/299
+  Verifying  : xml-commons-resolver-1.2-15.amzn2.noarch                 230/299
+  Verifying  : 1:java-1.8.0-openjdk-headless-debug-1.8.0.191.b12-0.am   231/299
+  Verifying  : javacc-maven-plugin-2.6-17.amzn2.noarch                  232/299
+  Verifying  : cracklib-2.9.0-11.amzn2.0.2.x86_64                       233/299
+  Verifying  : 7:device-mapper-libs-1.02.146-4.amzn2.0.2.x86_64         234/299
+  Verifying  : maven-doxia-module-fml-1.4-5.amzn2.noarch                235/299
+  Verifying  : cairo-1.14.8-2.amzn2.0.2.x86_64                          236/299
+  Verifying  : jdom-1.1.3-6.1.amzn2.noarch                              237/299
+  Verifying  : javacc-demo-5.0-10.1.amzn2.noarch                        238/299
+  Verifying  : jboss-servlet-3.0-api-1.0.1-9.amzn2.noarch               239/299
+  Verifying  : atk-2.22.0-3.amzn2.0.2.x86_64                            240/299
+  Verifying  : 1:java-1.8.0-openjdk-devel-debug-1.8.0.191.b12-0.amzn2   241/299
+  Verifying  : perl-Encode-2.51-7.amzn2.0.2.x86_64                      242/299
+  Verifying  : slf4j-1.7.4-4.amzn2.noarch                               243/299
+  Verifying  : util-linux-2.30.2-2.amzn2.0.4.x86_64                     244/299
+  Verifying  : perl-threads-shared-1.43-6.amzn2.0.2.x86_64              245/299
+  Verifying  : plexus-containers-container-default-1.5.5-14.amzn2.noa   246/299
+  Verifying  : 1:xorg-x11-font-utils-7.5-20.amzn2.0.2.x86_64            247/299
+  Verifying  : antlr-tool-2.7.7-30.amzn2.0.2.noarch                     248/299
+  Verifying  : gtk-update-icon-cache-3.22.26-4.amzn2.x86_64             249/299
+  Verifying  : dom4j-1.6.1-20.1.amzn2.noarch                            250/299
+  Verifying  : cglib-2.2-18.1.amzn2.noarch                              251/299
+  Verifying  : maven-model-2.2.1-47.amzn2.noarch                        252/299
+  Verifying  : jboss-transaction-1.1-api-1.0.1-8.amzn2.noarch           253/299
+  Verifying  : groff-base-1.22.2-8.amzn2.0.2.x86_64                     254/299
+  Verifying  : elfutils-libs-0.170-4.amzn2.x86_64                       255/299
+  Verifying  : 4:perl-libs-5.16.3-292.amzn2.0.2.x86_64                  256/299
+  Verifying  : 1:java-1.8.0-openjdk-devel-1.8.0.191.b12-0.amzn2.x86_6   257/299
+  Verifying  : google-guice-3.1.3-9.amzn2.noarch                        258/299
+  Verifying  : log4j-1.2.17-16.amzn2.noarch                             259/299
+  Verifying  : perl-threads-1.87-4.amzn2.0.2.x86_64                     260/299
+  Verifying  : 1:libglvnd-glx-1.0.0-1.amzn2.0.2.x86_64                  261/299
+  Verifying  : perl-File-Path-2.09-2.amzn2.noarch                       262/299
+  Verifying  : perl-HTTP-Tiny-0.033-3.amzn2.noarch                      263/299
+  Verifying  : 1:apache-commons-io-2.4-12.amzn2.noarch                  264/299
+  Verifying  : xorg-x11-utils-7.5-22.amzn2.0.1.x86_64                   265/299
+  Verifying  : 1:java_cup-0.11a-16.1.amzn2.noarch                       266/299
+  Verifying  : 1:jakarta-commons-httpclient-3.1-16.amzn2.noarch         267/299
+  Verifying  : 1:pkgconfig-0.27.1-4.amzn2.0.2.x86_64                    268/299
+  Verifying  : 1:msv-xsdlib-2013.5.1-7.amzn2.noarch                     269/299
+  Verifying  : qrencode-libs-3.4.1-3.amzn2.0.2.x86_64                   270/299
+  Verifying  : libXau-1.0.8-2.1.amzn2.0.2.x86_64                        271/299
+  Verifying  : libXv-1.0.11-1.amzn2.0.2.x86_64                          272/299
+  Verifying  : plexus-utils-3.0.9-9.amzn2.noarch                        273/299
+  Verifying  : hicolor-icon-theme-0.12-7.amzn2.noarch                   274/299
+  Verifying  : libdrm-2.4.83-2.amzn2.0.2.x86_64                         275/299
+  Verifying  : perl-Socket-2.010-4.amzn2.0.2.x86_64                     276/299
+  Verifying  : 1:dbus-libs-1.10.24-7.amzn2.x86_64                       277/299
+  Verifying  : fontconfig-2.10.95-11.amzn2.0.2.x86_64                   278/299
+  Verifying  : maven-wagon-2.4-3.amzn2.noarch                           279/299
+  Verifying  : avalon-logkit-2.1-14.1.amzn2.noarch                      280/299
+  Verifying  : 1:msv-msv-2013.5.1-7.amzn2.noarch                        281/299
+  Verifying  : mesa-libglapi-17.2.3-8.20171019.amzn2.0.4.x86_64         282/299
+  Verifying  : perl-constant-1.27-2.amzn2.0.1.noarch                    283/299
+  Verifying  : 1:java-1.8.0-openjdk-demo-1.8.0.191.b12-0.amzn2.x86_64   284/299
+  Verifying  : 1:dbus-1.10.24-7.amzn2.x86_64                            285/299
+  Verifying  : maven-doxia-sink-api-1.4-5.amzn2.noarch                  286/299
+  Verifying  : libXrandr-1.5.1-2.amzn2.0.2.x86_64                       287/299
+  Verifying  : batik-1.8-0.12.svn1230816.amzn2.noarch                   288/299
+  Verifying  : pulseaudio-libs-10.0-3.amzn2.0.2.x86_64                  289/299
+  Verifying  : copy-jdk-configs-3.3-10.amzn2.noarch                     290/299
+  Verifying  : 4:perl-macros-5.16.3-292.amzn2.0.2.x86_64                291/299
+  Verifying  : 1:java-1.8.0-openjdk-javadoc-zip-debug-1.8.0.191.b12-0   292/299
+  Verifying  : kmod-libs-25-3.amzn2.0.2.x86_64                          293/299
+  Verifying  : jasper-libs-1.900.1-33.amzn2.x86_64                      294/299
+  Verifying  : guava-13.0-6.amzn2.noarch                                295/299
+  Verifying  : junit-4.11-8.1.amzn2.0.1.noarch                          296/299
+  Verifying  : objectweb-asm-3.3.1-9.amzn2.noarch                       297/299
+  Verifying  : xmlgraphics-commons-1.5-3.amzn2.noarch                   298/299
+  Verifying  : xalan-j2-2.7.1-23.1.amzn2.noarch                         299/299
+
+Installed:
+  java-1.7.0-openjdk.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-accessibility.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-demo.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-devel.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-headless.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-javadoc.noarch 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.7.0-openjdk-src.x86_64 1:1.7.0.201-2.6.16.1.amzn2.0.1
+  java-1.8.0-openjdk.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-accessibility.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-accessibility-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-demo.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-demo-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-devel.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-devel-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-headless.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-headless-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-javadoc.noarch 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-javadoc-debug.noarch 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-javadoc-zip.noarch 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-javadoc-zip-debug.noarch 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-src.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-1.8.0-openjdk-src-debug.x86_64 1:1.8.0.191.b12-0.amzn2
+  java-atk-wrapper.x86_64 0:0.30.4-5.amzn2.0.2
+  java_cup.noarch 1:0.11a-16.1.amzn2
+  java_cup-javadoc.noarch 1:0.11a-16.1.amzn2
+  java_cup-manual.noarch 1:0.11a-16.1.amzn2
+  javacc.noarch 0:5.0-10.1.amzn2
+  javacc-demo.noarch 0:5.0-10.1.amzn2
+  javacc-javadoc.noarch 0:5.0-10.1.amzn2
+  javacc-manual.noarch 0:5.0-10.1.amzn2
+  javacc-maven-plugin.noarch 0:2.6-17.amzn2
+  javacc-maven-plugin-javadoc.noarch 0:2.6-17.amzn2
+  javamail.noarch 0:1.4.6-8.amzn2
+  javamail-javadoc.noarch 0:1.4.6-8.amzn2
+  javapackages-tools.noarch 0:3.4.1-11.amzn2
+  javassist.noarch 0:3.16.1-10.amzn2
+  javassist-javadoc.noarch 0:3.16.1-10.amzn2
+
+Dependency Installed:
+  GConf2.x86_64 0:3.2.6-8.amzn2.0.2
+  acl.x86_64 0:2.2.51-14.amzn2
+  aether-api.noarch 0:1.13.1-13.amzn2
+  aether-connector-wagon.noarch 0:1.13.1-13.amzn2
+  aether-impl.noarch 0:1.13.1-13.amzn2
+  aether-spi.noarch 0:1.13.1-13.amzn2
+  aether-util.noarch 0:1.13.1-13.amzn2
+  alsa-lib.x86_64 0:1.1.4.1-2.amzn2
+  ant.noarch 0:1.9.2-9.amzn2.0.1
+  antlr-tool.noarch 0:2.7.7-30.amzn2.0.2
+  aopalliance.noarch 0:1.0-8.1.amzn2
+  apache-commons-beanutils.noarch 0:1.8.3-14.amzn2
+  apache-commons-cli.noarch 0:1.2-13.amzn2
+  apache-commons-codec.noarch 0:1.8-7.amzn2
+  apache-commons-collections.noarch 0:3.2.1-22.amzn2
+  apache-commons-configuration.noarch 0:1.9-8.amzn2
+  apache-commons-digester.noarch 0:1.8.1-19.amzn2
+  apache-commons-io.noarch 1:2.4-12.amzn2
+  apache-commons-jexl.noarch 0:2.1.1-9.amzn2
+  apache-commons-jxpath.noarch 0:1.3-20.amzn2
+  apache-commons-lang.noarch 0:2.6-15.amzn2
+  apache-commons-logging.noarch 0:1.1.2-7.amzn2
+  apache-commons-net.noarch 0:3.2-8.amzn2
+  apache-commons-validator.noarch 0:1.4.0-8.amzn2
+  apache-commons-vfs.noarch 0:2.0-11.amzn2
+  atinject.noarch 0:1-13.20100611svn86.amzn2
+  atk.x86_64 0:2.22.0-3.amzn2.0.2
+  audit-libs.x86_64 0:2.8.1-3.amzn2.1
+  avahi-libs.x86_64 0:0.6.31-19.amzn2
+  avalon-framework.noarch 0:4.3-10.1.amzn2
+  avalon-logkit.noarch 0:2.1-14.1.amzn2
+  batik.noarch 0:1.8-0.12.svn1230816.amzn2
+  bcel.noarch 0:5.2-18.amzn2
+  bea-stax.noarch 0:1.2.0-9.amzn2
+  bea-stax-api.noarch 0:1.2.0-9.amzn2
+  cairo.x86_64 0:1.14.8-2.amzn2.0.2
+  cal10n.noarch 0:0.7.7-4.amzn2
+  cdi-api.noarch 0:1.0-11.SP4.amzn2
+  cglib.noarch 0:2.2-18.1.amzn2
+  color-filesystem.noarch 0:1-13.amzn2
+  copy-jdk-configs.noarch 0:3.3-10.amzn2
+  cracklib.x86_64 0:2.9.0-11.amzn2.0.2
+  cracklib-dicts.x86_64 0:2.9.0-11.amzn2.0.2
+  cryptsetup-libs.x86_64 0:1.7.4-4.amzn2
+  cups-libs.x86_64 1:1.6.3-35.amzn2
+  dbus.x86_64 1:1.10.24-7.amzn2
+  dbus-glib.x86_64 0:0.100-7.2.amzn2
+  dbus-libs.x86_64 1:1.10.24-7.amzn2
+  device-mapper.x86_64 7:1.02.146-4.amzn2.0.2
+  device-mapper-libs.x86_64 7:1.02.146-4.amzn2.0.2
+  dom4j.noarch 0:1.6.1-20.1.amzn2
+  easymock2.noarch 0:2.5.2-12.1.amzn2
+  elfutils-default-yama-scope.noarch 0:0.170-4.amzn2
+  elfutils-libs.x86_64 0:0.170-4.amzn2
+  felix-framework.noarch 0:4.2.1-5.amzn2
+  flac-libs.x86_64 0:1.3.0-5.amzn2.0.2
+  fontconfig.x86_64 0:2.10.95-11.amzn2.0.2
+  fontpackages-filesystem.noarch 0:1.44-8.amzn2
+  fop.noarch 0:1.1-6.amzn2
+  freetype.x86_64 0:2.4.11-15.amzn2.0.2
+  gdk-pixbuf2.x86_64 0:2.36.5-1.amzn2.0.2
+  geronimo-annotation.noarch 0:1.0-15.amzn2
+  geronimo-jms.noarch 0:1.1.1-19.amzn2
+  giflib.x86_64 0:4.1.6-9.amzn2.0.2
+  google-guice.noarch 0:3.1.3-9.amzn2
+  graphite2.x86_64 0:1.3.10-1.amzn2.0.2
+  groff-base.x86_64 0:1.22.2-8.amzn2.0.2
+  gsm.x86_64 0:1.0.13-11.amzn2.0.2
+  gtk-update-icon-cache.x86_64 0:3.22.26-4.amzn2
+  gtk2.x86_64 0:2.24.31-1.amzn2.0.2
+  guava.noarch 0:13.0-6.amzn2
+  gzip.x86_64 0:1.5-10.amzn2
+  hamcrest.noarch 0:1.3-6.1.amzn2
+  harfbuzz.x86_64 0:1.3.2-1.amzn2.0.2
+  hicolor-icon-theme.noarch 0:0.12-7.amzn2
+  hsqldb.noarch 1:1.8.1.3-14.amzn2
+  httpcomponents-client.noarch 0:4.2.5-5.amzn2
+  httpcomponents-core.noarch 0:4.2.4-6.amzn2
+  hwdata.x86_64 0:0.252-8.8.amzn2
+  icc-profiles-openicc.noarch 0:1.3.1-5.amzn2
+  isorelax.noarch 1:0-0.15.release20050331.amzn2
+  jai-imageio-core.noarch 0:1.2-0.14.20100217cvs.amzn2
+  jakarta-commons-httpclient.noarch 1:3.1-16.amzn2
+  jakarta-oro.noarch 0:2.0.8-16.1.amzn2
+  jasper-libs.x86_64 0:1.900.1-33.amzn2
+  jaxen.noarch 0:1.1.3-11.1.amzn2
+  jbigkit-libs.x86_64 0:2.0-11.amzn2.0.2
+  jboss-ejb-3.1-api.noarch 0:1.0.2-10.amzn2
+  jboss-el-2.2-api.noarch 0:1.0.1-0.7.20120212git2fabd8.amzn2
+  jboss-interceptors-1.1-api.noarch 0:1.0.2-0.9.20120319git49a904.amzn2
+  jboss-jaxrpc-1.1-api.noarch 0:1.0.1-7.amzn2
+  jboss-servlet-3.0-api.noarch 0:1.0.1-9.amzn2
+  jboss-transaction-1.1-api.noarch 0:1.0.1-8.amzn2
+  jdom.noarch 0:1.1.3-6.1.amzn2
+  jline.noarch 0:1.0-8.amzn2
+  jsch.noarch 0:0.1.50-5.amzn2
+  jsoup.noarch 0:1.6.1-10.amzn2
+  junit.noarch 0:4.11-8.1.amzn2.0.1
+  jzlib.noarch 0:1.1.1-6.amzn2
+  kmod.x86_64 0:25-3.amzn2.0.2
+  kmod-libs.x86_64 0:25-3.amzn2.0.2
+  libICE.x86_64 0:1.0.9-9.amzn2.0.2
+  libSM.x86_64 0:1.2.2-2.amzn2.0.2
+  libX11.x86_64 0:1.6.5-1.amzn2.0.2
+  libX11-common.noarch 0:1.6.5-1.amzn2.0.2
+  libXau.x86_64 0:1.0.8-2.1.amzn2.0.2
+  libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2
+  libXcursor.x86_64 0:1.1.14-8.amzn2.0.2
+  libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2
+  libXext.x86_64 0:1.3.3-3.amzn2.0.2
+  libXfixes.x86_64 0:5.0.3-1.amzn2.0.2
+  libXfont.x86_64 0:1.5.2-1.amzn2.0.2
+  libXft.x86_64 0:2.3.2-2.amzn2.0.2
+  libXi.x86_64 0:1.7.9-1.amzn2.0.2
+  libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2
+  libXrandr.x86_64 0:1.5.1-2.amzn2.0.2
+  libXrender.x86_64 0:0.9.10-1.amzn2.0.2
+  libXtst.x86_64 0:1.2.3-1.amzn2.0.2
+  libXv.x86_64 0:1.0.11-1.amzn2.0.2
+  libXxf86dga.x86_64 0:1.1.4-2.1.amzn2.0.2
+  libXxf86misc.x86_64 0:1.0.3-7.1.amzn2.0.2
+  libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2
+  libasyncns.x86_64 0:0.8-7.amzn2.0.2
+  libcap-ng.x86_64 0:0.7.5-4.amzn2.0.2
+  libdmx.x86_64 0:1.1.3-3.amzn2.0.2
+  libdrm.x86_64 0:2.4.83-2.amzn2.0.2
+  libfdisk.x86_64 0:2.30.2-2.amzn2.0.4
+  libfontenc.x86_64 0:1.1.3-3.amzn2.0.2
+  libglvnd.x86_64 1:1.0.0-1.amzn2.0.2
+  libglvnd-egl.x86_64 1:1.0.0-1.amzn2.0.2
+  libglvnd-glx.x86_64 1:1.0.0-1.amzn2.0.2
+  libjpeg-turbo.x86_64 0:1.2.90-5.amzn2.0.2
+  libogg.x86_64 2:1.3.0-7.amzn2.0.2
+  libpciaccess.x86_64 0:0.14-1.amzn2
+  libpng.x86_64 2:1.5.13-7.amzn2.0.2
+  libpwquality.x86_64 0:1.2.3-5.amzn2
+  libsemanage.x86_64 0:2.5-11.amzn2
+  libsmartcols.x86_64 0:2.30.2-2.amzn2.0.4
+  libsndfile.x86_64 0:1.0.25-10.amzn2.0.2
+  libthai.x86_64 0:0.1.14-9.amzn2.0.2
+  libtiff.x86_64 0:4.0.3-27.amzn2.0.2
+  libutempter.x86_64 0:1.1.6-4.amzn2.0.2
+  libvorbis.x86_64 1:1.3.3-8.amzn2.0.2
+  libwayland-client.x86_64 0:1.14.0-2.amzn2.0.1
+  libwayland-server.x86_64 0:1.14.0-2.amzn2.0.1
+  libxcb.x86_64 0:1.12-1.amzn2.0.2
+  libxshmfence.x86_64 0:1.2-1.amzn2.0.2
+  libxslt.x86_64 0:1.1.28-5.amzn2.0.2
+  lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2
+  log4j.noarch 0:1.2.17-16.amzn2
+  lz4.x86_64 0:1.7.5-2.amzn2.0.1
+  maven.noarch 0:3.0.5-17.amzn2
+  maven-artifact.noarch 0:2.2.1-47.amzn2
+  maven-artifact-manager.noarch 0:2.2.1-47.amzn2
+  maven-doxia-core.noarch 0:1.4-5.amzn2
+  maven-doxia-logging-api.noarch 0:1.4-5.amzn2
+  maven-doxia-module-apt.noarch 0:1.4-5.amzn2
+  maven-doxia-module-fml.noarch 0:1.4-5.amzn2
+  maven-doxia-module-fo.noarch 0:1.4-5.amzn2
+  maven-doxia-module-xdoc.noarch 0:1.4-5.amzn2
+  maven-doxia-module-xhtml.noarch 0:1.4-5.amzn2
+  maven-doxia-sink-api.noarch 0:1.4-5.amzn2
+  maven-doxia-sitetools.noarch 0:1.4-3.amzn2
+  maven-model.noarch 0:2.2.1-47.amzn2
+  maven-plugin-registry.noarch 0:2.2.1-47.amzn2
+  maven-profile.noarch 0:2.2.1-47.amzn2
+  maven-project.noarch 0:2.2.1-47.amzn2
+  maven-reporting-api.noarch 1:3.0-5.amzn2
+  maven-reporting-impl.noarch 0:2.2-8.amzn2
+  maven-settings.noarch 0:2.2.1-47.amzn2
+  maven-wagon.noarch 0:2.4-3.amzn2
+  mesa-libEGL.x86_64 0:17.2.3-8.20171019.amzn2.0.4
+  mesa-libGL.x86_64 0:17.2.3-8.20171019.amzn2.0.4
+  mesa-libgbm.x86_64 0:17.2.3-8.20171019.amzn2.0.4
+  mesa-libglapi.x86_64 0:17.2.3-8.20171019.amzn2.0.4
+  mozjs17.x86_64 0:17.0.0-20.amzn2.0.1
+  msv-msv.noarch 1:2013.5.1-7.amzn2
+  msv-xsdlib.noarch 1:2013.5.1-7.amzn2
+  nekohtml.noarch 0:1.9.14-13.amzn2
+  objectweb-asm.noarch 0:3.3.1-9.amzn2
+  pam.x86_64 0:1.1.8-22.amzn2
+  pango.x86_64 0:1.40.4-1.amzn2.0.2
+  pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2
+  perl.x86_64 4:5.16.3-292.amzn2.0.2
+  perl-Carp.noarch 0:1.26-244.amzn2
+  perl-Encode.x86_64 0:2.51-7.amzn2.0.2
+  perl-Exporter.noarch 0:5.68-3.amzn2
+  perl-File-Path.noarch 0:2.09-2.amzn2
+  perl-File-Temp.noarch 0:0.23.01-3.amzn2
+  perl-Filter.x86_64 0:1.49-3.amzn2.0.2
+  perl-Getopt-Long.noarch 0:2.40-3.amzn2
+  perl-HTTP-Tiny.noarch 0:0.033-3.amzn2
+  perl-PathTools.x86_64 0:3.40-5.amzn2.0.2
+  perl-Pod-Escapes.noarch 1:1.04-292.amzn2.0.2
+  perl-Pod-Perldoc.noarch 0:3.20-4.amzn2
+  perl-Pod-Simple.noarch 1:3.28-4.amzn2
+  perl-Pod-Usage.noarch 0:1.63-3.amzn2
+  perl-Scalar-List-Utils.x86_64 0:1.27-248.amzn2.0.2
+  perl-Socket.x86_64 0:2.010-4.amzn2.0.2
+  perl-Storable.x86_64 0:2.45-3.amzn2.0.2
+  perl-Text-ParseWords.noarch 0:3.29-4.amzn2
+  perl-Time-HiRes.x86_64 4:1.9725-3.amzn2.0.2
+  perl-Time-Local.noarch 0:1.2300-2.amzn2
+  perl-constant.noarch 0:1.27-2.amzn2.0.1
+  perl-libs.x86_64 4:5.16.3-292.amzn2.0.2
+  perl-macros.x86_64 4:5.16.3-292.amzn2.0.2
+  perl-parent.noarch 1:0.225-244.amzn2.0.1
+  perl-podlators.noarch 0:2.5.1-3.amzn2.0.1
+  perl-threads.x86_64 0:1.87-4.amzn2.0.2
+  perl-threads-shared.x86_64 0:1.43-6.amzn2.0.2
+  pixman.x86_64 0:0.34.0-1.amzn2.0.2
+  pkgconfig.x86_64 1:0.27.1-4.amzn2.0.2
+  plexus-cipher.noarch 0:1.7-5.amzn2
+  plexus-classworlds.noarch 0:2.4.2-8.amzn2
+  plexus-component-api.noarch 0:1.0-0.16.alpha15.amzn2
+  plexus-containers-component-annotations.noarch 0:1.5.5-14.amzn2
+  plexus-containers-container-default.noarch 0:1.5.5-14.amzn2
+  plexus-i18n.noarch 0:1.0-0.6.b10.4.amzn2
+  plexus-interactivity.noarch 0:1.0-0.14.alpha6.amzn2
+  plexus-interpolation.noarch 0:1.15-8.amzn2
+  plexus-sec-dispatcher.noarch 0:1.4-13.amzn2
+  plexus-utils.noarch 0:3.0.9-9.amzn2
+  plexus-velocity.noarch 0:1.1.8-16.amzn2
+  polkit.x86_64 0:0.112-14.amzn2
+  polkit-pkla-compat.x86_64 0:0.1-4.amzn2.0.2
+  psmisc.x86_64 0:22.20-15.amzn2.0.2
+  pulseaudio-libs.x86_64 0:10.0-3.amzn2.0.2
+  python-javapackages.noarch 0:3.4.1-11.amzn2
+  python-lxml.x86_64 0:3.2.1-4.amzn2.0.2
+  qdox.noarch 0:1.12.1-10.amzn2
+  qrencode-libs.x86_64 0:3.4.1-3.amzn2.0.2
+  regexp.noarch 0:1.5-13.amzn2
+  relaxngDatatype.noarch 0:1.0-11.amzn2
+  rhino.noarch 0:1.7R5-1.amzn2
+  sac.noarch 0:1.3-17.amzn2
+  shadow-utils.x86_64 2:4.1.5.1-24.amzn2.0.2
+  sisu-inject-bean.noarch 0:2.3.0-11.amzn2
+  sisu-inject-plexus.noarch 0:2.3.0-11.amzn2
+  slf4j.noarch 0:1.7.4-4.amzn2
+  stix-fonts.noarch 0:1.1.0-5.amzn2
+  systemd.x86_64 0:219-57.amzn2.0.7
+  systemd-libs.x86_64 0:219-57.amzn2.0.7
+  systemd-sysv.x86_64 0:219-57.amzn2.0.7
+  tcp_wrappers-libs.x86_64 0:7.6-77.amzn2.0.2
+  tomcat-servlet-3.0-api.noarch 0:7.0.76-8.amzn2
+  ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2
+  tzdata-java.noarch 0:2018e-3.amzn2
+  ustr.x86_64 0:1.0.4-16.amzn2.0.3
+  util-linux.x86_64 0:2.30.2-2.amzn2.0.4
+  velocity.noarch 0:1.7-10.1.amzn2
+  ws-jaxme.noarch 0:0.5.2-10.amzn2
+  xalan-j2.noarch 0:2.7.1-23.1.amzn2
+  xbean.noarch 0:3.13-6.amzn2
+  xerces-j2.noarch 0:2.11.0-17.amzn2
+  xml-commons-apis.noarch 0:1.4.01-16.amzn2
+  xml-commons-resolver.noarch 0:1.2-15.amzn2
+  xmlgraphics-commons.noarch 0:1.5-3.amzn2
+  xorg-x11-font-utils.x86_64 1:7.5-20.amzn2.0.2
+  xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2
+  xorg-x11-utils.x86_64 0:7.5-22.amzn2.0.1
+  xpp3.noarch 0:1.1.3.8-11.amzn2
+
+Complete!
+bash-4.2#     ls
+adm    db     games   kerberos  local  log   nis  preserve  spool  yp
+cache  empty  gopher  lib       lock   mail  opt  run       tmp
+bash-4.2# java -version
+openjdk version "1.8.0_191"
+OpenJDK Runtime Environment (build 1.8.0_191-b12)
+OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
+bash-4.2# python -version
+Unknown option: -e
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+bash-4.2# python --version
+Python 2.7.14
+bash-4.2# ls
+adm    db     games   kerberos  local  log   nis  preserve  spool  yp
+cache  empty  gopher  lib       lock   mail  opt  run       tmp
+bash-4.2# which tomcat
+bash: which: command not found
+bash-4.2# vi raja
+bash-4.2# who -r
+bash-4.2# init 3
+Couldn't find an alternative telinit implementation to spawn.
+bash-4.2# init 5
+Couldn't find an alternative telinit implementation to spawn.
+bash-4.2# service apache status
+bash: service: command not found
+bash-4.2# systemctl status apache
+Failed to get D-Bus connection: Operation not permitted
+bash-4.2# ps -ef
+bash: ps: command not found
+bash-4.2# cd
+bash-4.2# pwd
+/root
+bash-4.2# cd /
+bash-4.2# pwd
+/
+bash-4.2# ls
+bin   dev  home  lib64  media  opt   root  sbin  sys  usr
+boot  etc  lib   local  mnt    proc  run   srv   tmp  var
+bash-4.2# init 5
+Couldn't find an alternative telinit implementation to spawn.
+bash-4.2# init 5 --privilage
+Couldn't find an alternative telinit implementation to spawn.
+bash-4.2# bash
+bash-4.2# hostname
+bash: hostname: command not found
+bash-4.2# cat /etc/bash
+cat: /etc/bash: No such file or directory
+bash-4.2# cd /etc
+bash-4.2# ls
+DIR_COLORS               group           motd               rpm
+DIR_COLORS.256color      group-          mtab               rsyslog.d
+DIR_COLORS.lightbgcolor  gshadow         nsswitch.conf      sasl2
+GREP_COLORS              gshadow-        nsswitch.conf.bak  securetty
+X11                      gss             openldap           security
+adjtime                  host.conf       opt                selinux
+aliases                  hostname        os-release         services
+alternatives             hosts           pam.d              shadow
+ant.conf                 hosts.allow     passwd             shadow-
+ant.d                    hosts.deny      passwd-            shells
+asound.conf              image-id        pkcs11             skel
+bash_completion.d        init.d          pki                ssl
+bashrc                   inputrc         pm                 subgid
+binfmt.d                 issue           polkit-1           subuid
+chkconfig.d              issue.net       popt.d             sysconfig
+cloud                    java            prelink.conf.d     sysctl.d
+csh.cshrc                jvm             printcap           system-release
+csh.login                jvm-commmon     profile            system-release-cpe
+dbus-1                   krb5.conf       profile.d          systemd
+default                  krb5.conf.d     protocols          terminfo
+depmod.d                 ld.so.cache     pulse              tmpfiles.d
+dracut.conf.d            ld.so.conf      python             udev
+egl                      ld.so.conf.d    rc.d               update-motd.d
+environment              libaudit.conf   rc.local           vconsole.conf
+exports                  locale.conf     rc0.d              virc
+filesystems              localtime       rc1.d              xdg
+fonts                    login.defs      rc2.d              xinetd.d
+fstab                    logrotate.d     rc3.d              yum
+gconf                    m2.conf         rc4.d              yum.conf
+gcrypt                   machine-id      rc5.d              yum.repos.d
+glvnd                    maven           rc6.d
+gnupg                    modprobe.d      resolv.conf
+groff                    modules-load.d  rpc
+bash-4.2# cat bashrc
+# /etc/bashrc
+
+# System wide functions and aliases
+# Environment stuff goes in /etc/profile
+
+# It's NOT a good idea to change this file unless you know what you
+# are doing. It's much better to create a custom.sh shell script in
+# /etc/profile.d/ to make custom changes to your environment, as this
+# will prevent the need for merging in future updates.
+
+# are we an interactive shell?
+if [ "$PS1" ]; then
+  if [ -z "$PROMPT_COMMAND" ]; then
+    case $TERM in
+    xterm*|vte*)
+      if [ -e /etc/sysconfig/bash-prompt-xterm ]; then
+          PROMPT_COMMAND=/etc/sysconfig/bash-prompt-xterm
+      elif [ "${VTE_VERSION:-0}" -ge 3405 ]; then
+          PROMPT_COMMAND="__vte_prompt_command"
+      else
+          PROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
+      fi
+      ;;
+    screen*)
+      if [ -e /etc/sysconfig/bash-prompt-screen ]; then
+          PROMPT_COMMAND=/etc/sysconfig/bash-prompt-screen
+      else
+          PROMPT_COMMAND='printf "\033k%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
+      fi
+      ;;
+    *)
+      [ -e /etc/sysconfig/bash-prompt-default ] && PROMPT_COMMAND=/etc/sysconfig/bash-prompt-default
+      ;;
+    esac
+  fi
+  # Turn on parallel history
+  shopt -s histappend
+  history -a
+  # Turn on checkwinsize
+  shopt -s checkwinsize
+  [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
+  # You might want to have e.g. tty in prompt (e.g. more virtual machines)
+  # and console windows
+  # If you want to do so, just add e.g.
+  # if [ "$PS1" ]; then
+  #   PS1="[\u@\h:\l \W]\\$ "
+  # fi
+  # to your custom modification shell script in /etc/profile.d/ directory
+fi
+
+if ! shopt -q login_shell ; then # We're not a login shell
+    # Need to redefine pathmunge, it get's undefined at the end of /etc/profile
+    pathmunge () {
+        case ":${PATH}:" in
+            *:"$1":*)
+                ;;
+            *)
+                if [ "$2" = "after" ] ; then
+                    PATH=$PATH:$1
+                else
+                    PATH=$1:$PATH
+                fi
+        esac
+    }
+
+    # By default, we want umask to get set. This sets it for non-login shell.
+    # Current threshold for system reserved uid/gids is 200
+    # You could check uidgid reservation validity in
+    # /usr/share/doc/setup-*/uidgid file
+    if [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then
+       umask 002
+    else
+       umask 022
+    fi
+
+    SHELL=/bin/bash
+    # Only display echos from profile.d scripts if we are no login shell
+    # and interactive - otherwise just process them to set envvars
+    for i in /etc/profile.d/*.sh; do
+        if [ -r "$i" ]; then
+            if [ "$PS1" ]; then
+                . "$i"
+            else
+                . "$i" >/dev/null
+            fi
+        fi
+    done
+
+    unset i
+    unset -f pathmunge
+fi
+# vim:ts=4:sw=4
+bash-4.2# ls
+DIR_COLORS               group           motd               rpm
+DIR_COLORS.256color      group-          mtab               rsyslog.d
+DIR_COLORS.lightbgcolor  gshadow         nsswitch.conf      sasl2
+GREP_COLORS              gshadow-        nsswitch.conf.bak  securetty
+X11                      gss             openldap           security
+adjtime                  host.conf       opt                selinux
+aliases                  hostname        os-release         services
+alternatives             hosts           pam.d              shadow
+ant.conf                 hosts.allow     passwd             shadow-
+ant.d                    hosts.deny      passwd-            shells
+asound.conf              image-id        pkcs11             skel
+bash_completion.d        init.d          pki                ssl
+bashrc                   inputrc         pm                 subgid
+binfmt.d                 issue           polkit-1           subuid
+chkconfig.d              issue.net       popt.d             sysconfig
+cloud                    java            prelink.conf.d     sysctl.d
+csh.cshrc                jvm             printcap           system-release
+csh.login                jvm-commmon     profile            system-release-cpe
+dbus-1                   krb5.conf       profile.d          systemd
+default                  krb5.conf.d     protocols          terminfo
+depmod.d                 ld.so.cache     pulse              tmpfiles.d
+dracut.conf.d            ld.so.conf      python             udev
+egl                      ld.so.conf.d    rc.d               update-motd.d
+environment              libaudit.conf   rc.local           vconsole.conf
+exports                  locale.conf     rc0.d              virc
+filesystems              localtime       rc1.d              xdg
+fonts                    login.defs      rc2.d              xinetd.d
+fstab                    logrotate.d     rc3.d              yum
+gconf                    m2.conf         rc4.d              yum.conf
+gcrypt                   machine-id      rc5.d              yum.repos.d
+glvnd                    maven           rc6.d
+gnupg                    modprobe.d      resolv.conf
+groff                    modules-load.d  rpc
+bash-4.2# cat host.allow
+cat: host.allow: No such file or directory
+bash-4.2# cd host
+host.conf    hostname     hosts        hosts.allow  hosts.deny
+bash-4.2# cd hostname
+bash: cd: hostname: Not a directory
+bash-4.2# cat hostname
+kernel
+bash-4.2# hostname kernel
+bash: hostname: command not found
+bash-4.2# yum install hostname
+Loaded plugins: ovl, priorities
+amzn2-core                                               | 2.4 kB     00:00
+Resolving Dependencies
+--> Running transaction check
+---> Package hostname.x86_64 0:3.13-3.amzn2.0.2 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package         Arch          Version                  Repository         Size
+================================================================================
+Installing:
+ hostname        x86_64        3.13-3.amzn2.0.2         amzn2-core         17 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 17 k
+Installed size: 19 k
+Is this ok [y/d/N]: y
+Downloading packages:
+hostname-3.13-3.amzn2.0.2.x86_64.rpm                       |  17 kB   00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : hostname-3.13-3.amzn2.0.2.x86_64                             1/1
+  Verifying  : hostname-3.13-3.amzn2.0.2.x86_64                             1/1
+
+Installed:
+  hostname.x86_64 0:3.13-3.amzn2.0.2
+
+Complete!
+bash-4.2# hostname kernel
+hostname: you must be root to change the host name
+bash-4.2# pwd
+/etc
+bash-4.2# cd /root
+bash-4.2# hostname kernel
+hostname: you must be root to change the host name
+bash-4.2# hostname
+ff1a8d530b6a
+bash-4.2# vi hostname
+bash-4.2# vi /etc/hostname
+bash-4.2# hostname kernel
+hostname: you must be root to change the host name
+bash-4.2# adduser raja
+bash-4.2# su - raja
+[raja@ff1a8d530b6a ~]$ exit
+logout
+bash-4.2# hostname
+ff1a8d530b6a
+bash-4.2# ls
+hostname
+bash-4.2# ls
+hostname
+bash-4.2# rm -rf hostname
+bash-4.2# ls
+bash-4.2# pwd
+/root
+bash-4.2# cd /etc/
+bash-4.2# ls
+DIR_COLORS               group           motd               rpm
+DIR_COLORS.256color      group-          mtab               rsyslog.d
+DIR_COLORS.lightbgcolor  gshadow         nsswitch.conf      sasl2
+GREP_COLORS              gshadow-        nsswitch.conf.bak  securetty
+X11                      gss             openldap           security
+adjtime                  host.conf       opt                selinux
+aliases                  hostname        os-release         services
+alternatives             hosts           pam.d              shadow
+ant.conf                 hosts.allow     passwd             shadow-
+ant.d                    hosts.deny      passwd-            shells
+asound.conf              image-id        pkcs11             skel
+bash_completion.d        init.d          pki                ssl
+bashrc                   inputrc         pm                 subgid
+binfmt.d                 issue           polkit-1           subuid
+chkconfig.d              issue.net       popt.d             sysconfig
+cloud                    java            prelink.conf.d     sysctl.d
+csh.cshrc                jvm             printcap           system-release
+csh.login                jvm-commmon     profile            system-release-cpe
+dbus-1                   krb5.conf       profile.d          systemd
+default                  krb5.conf.d     protocols          terminfo
+depmod.d                 ld.so.cache     pulse              tmpfiles.d
+dracut.conf.d            ld.so.conf      python             udev
+egl                      ld.so.conf.d    rc.d               update-motd.d
+environment              libaudit.conf   rc.local           vconsole.conf
+exports                  locale.conf     rc0.d              virc
+filesystems              localtime       rc1.d              xdg
+fonts                    login.defs      rc2.d              xinetd.d
+fstab                    logrotate.d     rc3.d              yum
+gconf                    m2.conf         rc4.d              yum.conf
+gcrypt                   machine-id      rc5.d              yum.repos.d
+glvnd                    maven           rc6.d
+gnupg                    modprobe.d      resolv.conf
+groff                    modules-load.d  rpc
+bash-4.2# vi hostname
+bash-4.2# exec bash
+bash-4.2# exec bashrc
+bash: exec: bashrc: not found
+bash-4.2# exec bash
+bash-4.2# hostname kernel
+hostname: you must be root to change the host name
+bash-4.2# vi /etc/hosts
+bash-4.2# /etc/init.d/hostname restart
+bash: /etc/init.d/hostname: No such file or directory
+bash-4.2# ./etc/init.d/hostname restart
+bash: ./etc/init.d/hostname: No such file or directory
+bash-4.2# cd /etc/init.d/
+bash-4.2# ls
+README
+bash-4.2# cat README
+You are looking for the traditional init scripts in /etc/rc.d/init.d,
+and they are gone?
+
+Here's an explanation on what's going on:
+
+You are running a systemd-based OS where traditional init scripts have
+been replaced by native systemd services files. Service files provide
+very similar functionality to init scripts. To make use of service
+files simply invoke "systemctl", which will output a list of all
+currently running services (and other units). Use "systemctl
+list-unit-files" to get a listing of all known unit files, including
+stopped, disabled and masked ones. Use "systemctl start
+foobar.service" and "systemctl stop foobar.service" to start or stop a
+service, respectively. For further details, please refer to
+systemctl(1).
+
+Note that traditional init scripts continue to function on a systemd
+system. An init script /etc/rc.d/init.d/foobar is implicitly mapped
+into a service unit foobar.service during system initialization.
+
+Thank you!
+
+Further reading:
+        man:systemctl(1)
+        man:systemd(1)
+        http://0pointer.de/blog/projects/systemd-for-admins-3.html
+        http://www.freedesktop.org/wiki/Software/systemd/Incompatibilities
+bash-4.2# sudo hostnamectl set-hostname kernel
+bash: sudo: command not found
+bash-4.2# hostnamectl set-hostname kernel
+Failed to create bus connection: No such file or directory
+bash-4.2# hostname
+ff1a8d530b6a
+bash-4.2# cat /etc/hosts
+127.0.0.1       localhost
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+172.17.0.3      kernel
+#ff1a8d530b6a
+bash-4.2# reboot
+Failed to talk to init daemon.
+bash-4.2#
